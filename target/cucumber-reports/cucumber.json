@@ -1,0 +1,164 @@
+[
+  {
+    "comments": [
+      {
+        "line": 1,
+        "value": "#Author: Jayesh"
+      },
+      {
+        "line": 2,
+        "value": "#Keywords Summary :"
+      },
+      {
+        "line": 3,
+        "value": "#Feature: home us pages"
+      },
+      {
+        "line": 4,
+        "value": "#Scenario: validate home page on web site"
+      },
+      {
+        "line": 5,
+        "value": "#Given:"
+      },
+      {
+        "line": 6,
+        "value": "#When:"
+      },
+      {
+        "line": 7,
+        "value": "#Then:"
+      },
+      {
+        "line": 8,
+        "value": "#And,But:"
+      }
+    ],
+    "line": 10,
+    "elements": [
+      {
+        "line": 14,
+        "name": "Open a home page",
+        "description": "",
+        "id": "validate-home-page;open-a-home-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 267313100,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Browse credaHealth web site",
+            "match": {
+              "location": "HomeStepDef.browse_credaHealth_web_site()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 71638400,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "display home page title as \"Digital Health Engagement - CredaHealth\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Digital Health Engagement - CredaHealth",
+                  "offset": 28
+                }
+              ],
+              "location": "HomeStepDef.display_home_page_title_as(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 422300,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "verify WebSite logo",
+            "match": {
+              "location": "HomeStepDef.verify_WebSite_logo()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 949191200,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "display header menu",
+            "match": {
+              "location": "HomeStepDef.display_header_menu()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 45165100,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "validate feature section text as \"Future of Healthcare Communication\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Future of Healthcare Communication",
+                  "offset": 34
+                }
+              ],
+              "location": "HomeStepDef.validate_feature_section_text_as(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 66526000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "validate feature section description as \"We help you connect fragmented communication touchpoints and create a seamless channel minimizing redundant tasks and enabling staff to focus on serving patients.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "We help you connect fragmented communication touchpoints and create a seamless channel minimizing redundant tasks and enabling staff to focus on serving patients.",
+                  "offset": 41
+                }
+              ],
+              "location": "HomeStepDef.validate_feature_section_description_as(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 82467000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "validate feature section backend image as \"https://credahealth.com/wp-content/uploads/2021/08/hero_home_01-1.jpg\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://credahealth.com/wp-content/uploads/2021/08/hero_home_01-1.jpg",
+                  "offset": 43
+                }
+              ],
+              "location": "HomeStepDef.validate_feature_section_backend_image_as(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Validate home page",
+    "description": "As a user of KYM App\r\nI should be able to see home page",
+    "id": "validate-home-page",
+    "keyword": "Feature",
+    "uri": "Home.feature"
+  }
+]

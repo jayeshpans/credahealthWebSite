@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default Suite" duration-ms="584" started-at="2023-05-15T21:39:42 IST" finished-at="2023-05-15T21:39:43 IST">
+    <groups>
+      <group name="cucumber">
+        <method signature="MyRunner.TestRunner.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:MyRunner.TestRunner@61832929]" name="feature" class="MyRunner.TestRunner"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="credahealthWebSite" duration-ms="584" started-at="2023-05-15T21:39:42 IST" finished-at="2023-05-15T21:39:43 IST">
+      <class name="MyRunner.TestRunner">
+        <test-method status="PASS" signature="initializeTest()[pri:0, instance:MyRunner.TestRunner@61832929]" name="initializeTest" is-config="true" duration-ms="8086" started-at="2023-05-15T21:39:34 IST" finished-at="2023-05-15T21:39:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeTest -->
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:MyRunner.TestRunner@61832929]" name="setUpClass" is-config="true" duration-ms="299" started-at="2023-05-15T21:39:42 IST" finished-at="2023-05-15T21:39:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:MyRunner.TestRunner@61832929]" name="feature" duration-ms="47" started-at="2023-05-15T21:39:43 IST" description="Runs Cucumber Feature" data-provider="features" finished-at="2023-05-15T21:39:43 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Validate home page]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:MyRunner.TestRunner@61832929]" name="tearDownClass" is-config="true" duration-ms="19" started-at="2023-05-15T21:39:43 IST" finished-at="2023-05-15T21:39:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+        <test-method status="PASS" signature="afterScenario()[pri:0, instance:MyRunner.TestRunner@61832929]" name="afterScenario" is-config="true" duration-ms="840" started-at="2023-05-15T21:39:43 IST" finished-at="2023-05-15T21:39:44 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterScenario -->
+      </class> <!-- MyRunner.TestRunner -->
+    </test> <!-- credahealthWebSite -->
+  </suite> <!-- Default Suite -->
+</testng-results>
