@@ -50,110 +50,62 @@ formatter.scenario({
 });
 formatter.step({
   "line": 15,
-  "name": "Browse credaHealth web site",
+  "name": "Browse google web site",
   "keyword": "Given "
 });
 formatter.step({
   "line": 16,
-  "name": "display home page title as \"Digital Health Engagement - CredaHealth\"",
+  "name": "search text as \"python\"",
   "keyword": "When "
 });
 formatter.step({
   "line": 17,
-  "name": "verify WebSite logo",
+  "name": "validate search",
   "keyword": "Then "
 });
 formatter.step({
   "line": 18,
-  "name": "display header menu",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 19,
-  "name": "validate feature section text as \"Future of Healthcare Communication\"",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 20,
-  "name": "validate feature section description as \"We help you connect fragmented communication touchpoints and create a seamless channel minimizing redundant tasks and enabling staff to focus on serving patients.\"",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 21,
-  "name": "validate feature section backend image as \"https://credahealth.com/wp-content/uploads/2021/08/hero_home_01-1.jpg\"",
+  "name": "assignment1",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "HomeStepDef.browse_credaHealth_web_site()"
+  "location": "googleStepDef.browse_google_web_site()"
 });
 formatter.result({
-  "duration": 197275800,
+  "duration": 112129800,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "Digital Health Engagement - CredaHealth",
-      "offset": 28
+      "val": "python",
+      "offset": 16
     }
   ],
-  "location": "HomeStepDef.display_home_page_title_as(String)"
+  "location": "googleStepDef.search_text_as(String)"
 });
 formatter.result({
-  "duration": 40591900,
+  "duration": 2719800,
   "status": "passed"
 });
 formatter.match({
-  "location": "HomeStepDef.verify_WebSite_logo()"
+  "location": "googleStepDef.validate_search()"
 });
 formatter.result({
-  "duration": 279000,
-  "status": "passed"
-});
-formatter.match({
-  "location": "HomeStepDef.display_header_menu()"
-});
-formatter.result({
-  "duration": 413795900,
+  "duration": 19800,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "Future of Healthcare Communication",
-      "offset": 34
+      "val": "1",
+      "offset": 10
     }
   ],
-  "location": "HomeStepDef.validate_feature_section_text_as(String)"
+  "location": "googleStepDef.assignment(int)"
 });
 formatter.result({
-  "duration": 44064100,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "We help you connect fragmented communication touchpoints and create a seamless channel minimizing redundant tasks and enabling staff to focus on serving patients.",
-      "offset": 41
-    }
-  ],
-  "location": "HomeStepDef.validate_feature_section_description_as(String)"
-});
-formatter.result({
-  "duration": 55557200,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "https://credahealth.com/wp-content/uploads/2021/08/hero_home_01-1.jpg",
-      "offset": 43
-    }
-  ],
-  "location": "HomeStepDef.validate_feature_section_backend_image_as(String)"
-});
-formatter.result({
-  "duration": 278146400,
+  "duration": 803000,
   "status": "passed"
 });
 });

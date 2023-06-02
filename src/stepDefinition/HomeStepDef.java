@@ -74,38 +74,39 @@ public class HomeStepDef extends BaseClass {
 
     @Then("^validate provider section title as \"([^\"]*)\"$")
     public void validate_provider_section_title_as(String arg1) throws Throwable {
-        // Write code here that turns the phrase above into concrete actions
-        throw new PendingException();
+        HomePage objHomePage= new HomePage(getDriver());
+        System.out.println(objHomePage.validateproviderSec());
     }
 
     @Then("^validate provider section sub title as \"([^\"]*)\"$")
     public void validate_provider_section_sub_title_as(String arg1) throws Throwable {
-        // Write code here that turns the phrase above into concrete actions
-        throw new PendingException();
+        HomePage objHomePage= new HomePage(getDriver());
+        System.out.println(objHomePage.validateproviderSubSec());
     }
 
     @Then("^validate provider description as \"([^\"]*)\"$")
     public void validate_provider_description_as(String arg1) throws Throwable {
-        // Write code here that turns the phrase above into concrete actions
-        throw new PendingException();
+        HomePage objHomePage= new HomePage(getDriver());
+        System.out.println(objHomePage.validateproviderdesc());
     }
 
-    @Then("^validate provider sec(\\d+) title as \"([^\"]*)\"$")
-    public void validate_provider_sec_title_as(int arg1, String arg2) throws Throwable {
-        // Write code here that turns the phrase above into concrete actions
-        throw new PendingException();
+    @Then("^validate provider sec1 title as \"([^\"]*)\"$")
+    public void validate_provider_sec1_title_as(String arg2) throws Throwable {
+        HomePage objHomePage= new HomePage(getDriver());
+        System.out.println(objHomePage.validateprovidersec1Title());
     }
 
-    @Then("^validate provider sec(\\d+) desc as \"([^\"]*)\"$")
-    public void validate_provider_sec_desc_as(int arg1, String arg2) throws Throwable {
-        // Write code here that turns the phrase above into concrete actions
-        throw new PendingException();
+    @Then("^validate provider sec1 desc as \"([^\"]*)\"$")
+    public void validate_provider_sec1_desc_as(String arg2) throws Throwable {
+        HomePage objHomePage= new HomePage(getDriver());
+        System.out.println(objHomePage.validateprovidersec1desc());
     }
 
-    @Then("^validate provider sec(\\d+) image as \"([^\"]*)\"$")
-    public void validate_provider_sec_image_as(int arg1, String arg2) throws Throwable {
-        // Write code here that turns the phrase above into concrete actions
-        throw new PendingException();
+    @Then("^validate provider sec1 image as \"([^\"]*)\"$")
+    public void validate_provider_sec1_image_as(String arg2) throws Throwable {
+        HomePage objHomePage= new HomePage(getDriver());
+        System.out.println(objHomePage.validateprovidersec1img());
+        System.out.println(objHomePage.validateprovidersec1imgTitle());
     }
 
     @Then("^validate patient process title as \"([^\"]*)\"$")

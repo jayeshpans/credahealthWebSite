@@ -1,7 +1,6 @@
 package pages;
 
 import lib.PageAction;
-import org.bouncycastle.jcajce.provider.asymmetric.X509;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -28,6 +27,24 @@ public class HomePage extends PageAction {
     WebElement feaDescription;
     @FindBy(xpath = "//div[@class=\"bt-content\"]/div/section/div[1]/div")
     WebElement feaBackImg;
+
+    @FindBy(xpath = "//div[@id=\"top\"]/div[2]/div/div/div/section[2]/div[2]/div/div/div/div/div/div/div/header/h2/span/span")
+    WebElement providerh1;
+
+    @FindBy(xpath = "//div[@id=\"top\"]/div[2]/div/div/div/section[2]/div[2]/div/div/div/div/div/div/div/header[2]/h2/span/span")
+    WebElement providersub;
+    @FindBy(xpath = "//div[@id=\"top\"]/div[2]/div/div/div/section[2]/div[2]/div/div/div/div/div/div/div/header[2]/div")
+    WebElement providerdesc;
+
+    @FindBy(xpath = "//div[@id=\"top\"]/div[2]/div/div/div/section[2]/div[2]/div/div/div[2]/div/div/div/div/div/div[2]/div/header/h4/span/span")
+    WebElement providersec1h4;
+
+    @FindBy(xpath = "//div[@id=\"top\"]/div[2]/div/div/div/section[2]/div[2]/div/div/div[2]/div/div/div/div/div/div[2]/div/div[2]/p")
+    WebElement providersec1desc;
+
+    @FindBy(xpath = "//div[@id=\"top\"]/div[2]/div/div/div/section[2]/div[2]/div/div/div[2]/div/div/div/div/div/div[1]/div/span/img")
+    WebElement providersec1img;
+
     public String getHomePageTitle(WebDriver driver){
             return driver.getTitle();
     }
@@ -54,5 +71,32 @@ public class HomePage extends PageAction {
 
     public String validateFeatureBackImage() {
         return feaBackImg.getAttribute("data-background_image_src");
+    }
+
+    public String validateproviderSec() {
+        return providerh1.getText();
+    }
+
+    public String validateproviderSubSec() {
+        return providersub.getText();
+    }
+
+    public String validateproviderdesc() {
+        return providerdesc.getText();
+    }
+
+    public String validateprovidersec1Title() {
+        return providersec1h4.getText();
+    }
+
+    public String validateprovidersec1desc() {
+        return providersec1desc.getText();
+    }
+
+    public String validateprovidersec1img() {
+        return providersec1img.getAttribute("src");
+    }
+    public String validateprovidersec1imgTitle() {
+        return providersec1img.getAttribute("title");
     }
 }

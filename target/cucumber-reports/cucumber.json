@@ -46,109 +46,61 @@
         "steps": [
           {
             "result": {
-              "duration": 197275800,
+              "duration": 112129800,
               "status": "passed"
             },
             "line": 15,
-            "name": "Browse credaHealth web site",
+            "name": "Browse google web site",
             "match": {
-              "location": "HomeStepDef.browse_credaHealth_web_site()"
+              "location": "googleStepDef.browse_google_web_site()"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 40591900,
+              "duration": 2719800,
               "status": "passed"
             },
             "line": 16,
-            "name": "display home page title as \"Digital Health Engagement - CredaHealth\"",
+            "name": "search text as \"python\"",
             "match": {
               "arguments": [
                 {
-                  "val": "Digital Health Engagement - CredaHealth",
-                  "offset": 28
+                  "val": "python",
+                  "offset": 16
                 }
               ],
-              "location": "HomeStepDef.display_home_page_title_as(String)"
+              "location": "googleStepDef.search_text_as(String)"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 279000,
+              "duration": 19800,
               "status": "passed"
             },
             "line": 17,
-            "name": "verify WebSite logo",
+            "name": "validate search",
             "match": {
-              "location": "HomeStepDef.verify_WebSite_logo()"
+              "location": "googleStepDef.validate_search()"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 413795900,
+              "duration": 803000,
               "status": "passed"
             },
             "line": 18,
-            "name": "display header menu",
-            "match": {
-              "location": "HomeStepDef.display_header_menu()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 44064100,
-              "status": "passed"
-            },
-            "line": 19,
-            "name": "validate feature section text as \"Future of Healthcare Communication\"",
+            "name": "assignment1",
             "match": {
               "arguments": [
                 {
-                  "val": "Future of Healthcare Communication",
-                  "offset": 34
+                  "val": "1",
+                  "offset": 10
                 }
               ],
-              "location": "HomeStepDef.validate_feature_section_text_as(String)"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 55557200,
-              "status": "passed"
-            },
-            "line": 20,
-            "name": "validate feature section description as \"We help you connect fragmented communication touchpoints and create a seamless channel minimizing redundant tasks and enabling staff to focus on serving patients.\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "We help you connect fragmented communication touchpoints and create a seamless channel minimizing redundant tasks and enabling staff to focus on serving patients.",
-                  "offset": 41
-                }
-              ],
-              "location": "HomeStepDef.validate_feature_section_description_as(String)"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 278146400,
-              "status": "passed"
-            },
-            "line": 21,
-            "name": "validate feature section backend image as \"https://credahealth.com/wp-content/uploads/2021/08/hero_home_01-1.jpg\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "https://credahealth.com/wp-content/uploads/2021/08/hero_home_01-1.jpg",
-                  "offset": 43
-                }
-              ],
-              "location": "HomeStepDef.validate_feature_section_backend_image_as(String)"
+              "location": "googleStepDef.assignment(int)"
             },
             "keyword": "Then "
           }
