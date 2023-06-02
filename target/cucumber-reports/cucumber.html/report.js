@@ -87,7 +87,7 @@ formatter.match({
   "location": "HomeStepDef.browse_credaHealth_web_site()"
 });
 formatter.result({
-  "duration": 267313100,
+  "duration": 197275800,
   "status": "passed"
 });
 formatter.match({
@@ -100,21 +100,21 @@ formatter.match({
   "location": "HomeStepDef.display_home_page_title_as(String)"
 });
 formatter.result({
-  "duration": 71638400,
+  "duration": 40591900,
   "status": "passed"
 });
 formatter.match({
   "location": "HomeStepDef.verify_WebSite_logo()"
 });
 formatter.result({
-  "duration": 422300,
+  "duration": 279000,
   "status": "passed"
 });
 formatter.match({
   "location": "HomeStepDef.display_header_menu()"
 });
 formatter.result({
-  "duration": 949191200,
+  "duration": 413795900,
   "status": "passed"
 });
 formatter.match({
@@ -127,7 +127,7 @@ formatter.match({
   "location": "HomeStepDef.validate_feature_section_text_as(String)"
 });
 formatter.result({
-  "duration": 45165100,
+  "duration": 44064100,
   "status": "passed"
 });
 formatter.match({
@@ -140,7 +140,7 @@ formatter.match({
   "location": "HomeStepDef.validate_feature_section_description_as(String)"
 });
 formatter.result({
-  "duration": 66526000,
+  "duration": 55557200,
   "status": "passed"
 });
 formatter.match({
@@ -153,7 +153,7 @@ formatter.match({
   "location": "HomeStepDef.validate_feature_section_backend_image_as(String)"
 });
 formatter.result({
-  "duration": 82467000,
+  "duration": 278146400,
   "status": "passed"
 });
 });
