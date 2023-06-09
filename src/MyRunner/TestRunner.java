@@ -20,13 +20,12 @@ import java.io.IOException;
 
 public class TestRunner extends AbstractTestNGCucumberTests {
         BaseClass objBaseClass = new BaseClass();
-
         @BeforeSuite
         public void openWebsite() throws IOException {
                 objBaseClass.initBrowser();
         }
         @AfterSuite
         public void closeSite(){
-                objBaseClass.tearDown();
+               // objBaseClass.tearDown();
         }
 }
