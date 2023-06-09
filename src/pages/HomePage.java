@@ -109,6 +109,50 @@ public class HomePage extends PageAction {
     WebElement ibdLabel;
     @FindBy(xpath = "//span[text()=\"Enroll Today\"]/parent::a")
     WebElement enrollTodayBtn;
+    @FindBy(xpath = "//div[@class=\"bt_bb_testimonial_text\"]/span")
+    WebElement conditionTxt;
+    @FindBy(xpath = "/html/body/div[2]/div[2]/div/div/div/section[9]/div[1]/div")
+    WebElement conditionImg;
+    @FindBy(xpath = "//span[text()=\"Watch Now\"]/parent::a")
+    WebElement watchNowBtn;
+    @FindBy(xpath = "//div[@id=\"above-the-fold\"]/div[@id=\"title\"]/h1/yt-formatted-string")
+    WebElement credaHealthAppFeatureTitle;
+    @FindBy(xpath = "//span[text()=\"FAQ\"]")
+    WebElement faqSec;
+    @FindBy(xpath = "//div[contains(text(),\"important for healthcare providers\")]")
+    WebElement faqFTitle;
+    @FindBy(xpath = "//div[contains(text(),\"important for healthcare providers\")]/following-sibling::div/div/p")
+    WebElement faqFDesc;
+    @FindBy(xpath = "//div[text()=\"How does your patient engagement process work?\"]")
+    WebElement engagementProcessSec;
+    @FindBy(xpath = "//div[text()=\"How does your patient engagement process work?\"]/following-sibling::div")
+    WebElement engagementProcessSecDesc;
+    @FindBy(xpath = "//div[text()=\"What types of patient engagement services do you offer?\"]")
+    WebElement faqThirdTitle;
+    @FindBy(xpath = "//div[text()=\"What types of patient engagement services do you offer?\"]/following-sibling::div")
+    WebElement faqThirdDesc;
+    @FindBy(xpath = "//div[@id=\"top\"]/div[2]/div/div/div/section[10]")
+    WebElement faqSection;
+    @FindBy(xpath = "//div[text()=\"How can patient engagement services help me improve patient outcomes and satisfaction?\"]")
+    WebElement faqForthTitle;
+    @FindBy(xpath = "//div[text()=\"How can patient engagement services help me improve patient outcomes and satisfaction?\"]/following-sibling::div")
+    WebElement faqForthDesc;
+    @FindBy(xpath = " //div[text()=\"Blogs from Creda\"]/preceding-sibling::h2")
+    WebElement healthJouryTitle;
+    @FindBy(xpath = " //div[text()=\"Blogs from Creda\"]")
+    WebElement healthJourneySubTitle;
+    @FindBy(xpath = " //a[text()=\"Importance of an Anti-Inflammatory Diet for Autoimmune Disease\"]/parent::h5/preceding-sibling::div")
+    WebElement blogOneDate;
+    @FindBy(xpath = " //a[text()=\"Importance of an Anti-Inflammatory Diet for Autoimmune Disease\"]")
+    WebElement blogOneTitle;
+    @FindBy(xpath = " //a[text()=\"Muscle Relaxation to Alleviate Depression, Anxiety and Insomnia\"]/parent::h5/preceding-sibling::div")
+    WebElement blogTwoDate;
+    @FindBy(xpath = " //a[text()=\"Muscle Relaxation to Alleviate Depression, Anxiety and Insomnia\"]")
+    WebElement blogTwoTitle;
+    @FindBy(xpath = " //a[text()=\"Caffeinated Beverages and IBD or IBS\"]/parent::h5/preceding-sibling::div")
+    WebElement blogThreedate;
+    @FindBy(xpath = " //a[text()=\"Caffeinated Beverages and IBD or IBS\"]")
+    WebElement blogThreeTitle;
     public String getHomePageTitle(WebDriver driver){
             return driver.getTitle();
     }
@@ -326,23 +370,114 @@ public class HomePage extends PageAction {
     public String getIbd() {
         return ibdLabel.getText();
     }
-
     public String getEnrollTodaytxt(String enrollTodaytxt) throws InterruptedException {
         moveToElement(driver, enrollTodayBtn);
         WaitActions objWaitActions = new WaitActions();
         objWaitActions.textToBePresentInElement(driver, enrollTodayBtn, enrollTodaytxt, 10);
         return enrollTodayBtn.getText();
     }
-
     public String getEnrollTodayTitle() {
         return enrollTodayBtn.getAttribute("title");
     }
-
     public void clickOnEnrollTodayBtn() {
         enrollTodayBtn.click();
     }
-
     public String getGetAppTitle() {
         return driver.getTitle();
+    }
+    public String validateChronicConditionTxt() {
+        return conditionTxt.getText();
+    }
+    public String validateChronicConditionImg() {
+        return conditionImg.getAttribute("data-background_image_src");
+    }
+
+    public String validateWatchNowBtn(String watchNowBtntxt) throws InterruptedException {
+        moveToElement(driver, watchNowBtn);
+        return watchNowBtn.getText();
+    }
+    public String validateWatchNowBtnTitle(String watchNowBtntxt) {
+        return watchNowBtn.getAttribute("title");
+    }
+    public void clickWatchNowBtn() {
+        watchNowBtn.click();
+    }
+
+    public String validateWatchNowVideo() {
+        return credaHealthAppFeatureTitle.getText();
+    }
+
+    public String validateFAQTitle(String faqTitle) throws InterruptedException {
+        moveToElement(driver, faqSection);
+        moveToElement(driver, faqSec);
+        WaitActions objWaitActions = new WaitActions();
+        objWaitActions.textToBePresentInElement(driver, faqSec, faqTitle, 10);
+        return faqSec.getText();
+    }
+
+    public String validateFAQTFitle(String faqFTitles) {
+        return faqFTitle.getText();
+    }
+
+    public String validateFAQTFDesc() {
+        return faqFDesc.getText();
+    }
+
+    public String validateFaqSTitle() throws InterruptedException {
+        engagementProcessSec.click();
+        Thread.sleep(500);
+        return engagementProcessSec.getText();
+    }
+
+    public String validateFaqSDesc() {
+        return engagementProcessSecDesc.getText();
+    }
+
+    public String validateFaqTTitle() {
+        faqThirdDesc.click();
+        return faqThirdTitle.getText();
+    }
+
+    public String validateFaqTdesc() {
+        return faqThirdDesc.getText();
+    }
+
+    public String validatefaqForthTitle() {
+        faqForthTitle.click();
+        return faqForthTitle.getText();
+    }
+
+
+    public String validateHealthHourneysTitle(String arg1) throws InterruptedException {
+        moveToElement(driver, healthJouryTitle);
+        return healthJouryTitle.getText();
+    }
+
+    public String validateHealthHourneysSubTitle() {
+        return healthJourneySubTitle.getText();
+    }
+
+    public String validateBlogOne() {
+        return blogOneTitle.getText();
+    }
+
+    public String validateblogTwo() {
+        return blogTwoTitle.getText();
+    }
+
+    public String validateblogThree() {
+        return blogThreeTitle.getText();
+    }
+
+    public String validateblogOnedate() {
+        return blogOneDate.getText();
+    }
+
+    public String validateblogTwodate() {
+        return blogTwoDate.getText();
+    }
+
+    public String validateblogThreedate() {
+        return blogThreedate.getText();
     }
 }

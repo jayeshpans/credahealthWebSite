@@ -276,7 +276,7 @@ public class HomeStepDef extends BaseClass {
     @Then("^validate creda app for patient descsecond \"([^\"]*)\"$")
     public void validate_creda_app_for_patient_descsecond(String patientdescSecond) throws Throwable {
         HomePage objHomePage= new HomePage(getDriver());
-        objHomePage.getPatientDesc().contains(patientdescSecond);
+        Assert.assertTrue(objHomePage.getPatientDesc().contains(patientdescSecond));
     }
 
     @Then("^validate labels for yourhealth as \"([^\"]*)\" and \"([^\"]*)\" and \"([^\"]*)\" and \"([^\"]*)\" and \"([^\"]*)\" and \"([^\"]*)\" and \"([^\"]*)\" and \"([^\"]*)\" and \"([^\"]*)\"$")
@@ -306,8 +306,201 @@ public class HomeStepDef extends BaseClass {
     }
 
     @Then("^validate get app page \"([^\"]*)\"$")
-    public void validate_get_app_page(String getGetAppTitle) throws Throwable {
+    public void validate_get_app_page(String getGetAppTitle){
         HomePage objHomePage= new HomePage(getDriver());
         Assert.assertEquals(objHomePage.getGetAppTitle(), getGetAppTitle);
+    }
+    @Then("^validate chronic condition title as \"([^\"]*)\"$")
+    public void validate_chronic_condition_title_as(String conditionTitle){
+        HomePage objHomePage= new HomePage(getDriver());
+        objHomePage.validateChronicConditionTxt();
+    }
+
+    @Then("^validate chronic condition image \"([^\"]*)\"$")
+    public void validate_chronic_condition_image(String chronicImg){
+        HomePage objHomePage= new HomePage(getDriver());
+        objHomePage.validateChronicConditionImg();
+    }
+
+    @Then("^validate watch now btn \"([^\"]*)\"$")
+    public void validate_watch_now_btn(String watchNowBtn) throws InterruptedException {
+        HomePage objHomePage= new HomePage(getDriver());
+        objHomePage.validateWatchNowBtn(watchNowBtn);
+        objHomePage.validateWatchNowBtnTitle(watchNowBtn);
+    }
+
+    @Then("^click on watch now btn$")
+    public void click_on_watch_now_btn(){
+        HomePage objHomePage= new HomePage(getDriver());
+        objHomePage.clickWatchNowBtn();
+    }
+
+    @Then("^validate watch now video title as \"([^\"]*)\"$")
+    public void validate_watch_now_video_title_as(String arg1){
+        HomePage objHomePage= new HomePage(getDriver());
+        objHomePage.validateWatchNowVideo();
+    }
+    @Then("^validate FAQ section as \"([^\"]*)\"$")
+    public void validate_FAQ_section_as(String faqTitle) throws InterruptedException {
+        HomePage objHomePage= new HomePage(getDriver());
+        objHomePage.validateFAQTitle(faqTitle);
+    }
+
+    @When("^validate faqF section as \"([^\"]*)\"$")
+    public void validate_faqF_section_as(String faqFTitle){
+        HomePage objHomePage= new HomePage(getDriver());
+        Assert.assertEquals(objHomePage.validateFAQTFitle(faqFTitle), faqFTitle);
+    }
+
+    @Then("^click on faqF section and validate desc as \"([^\"]*)\"$")
+    public void click_on_faqF_section_and_validate_desc_as(String faqFdesc){
+        HomePage objHomePage= new HomePage(getDriver());
+       // System.out.println(objHomePage.validateFAQTFDesc());
+    }
+    @Then("^validate faqS section as \"([^\"]*)\"$")
+    public void validate_faqS_section_as(String arg1) throws InterruptedException {
+        HomePage objHomePage= new HomePage(getDriver());
+        Assert.assertEquals(objHomePage.validateFaqSTitle(), arg1);
+    }
+
+    @Then("^click on faqs setion and validate desc as \"([^\"]*)\"$")
+    public void click_on_faqs_setion_and_validate_desc_as(String arg1) throws Throwable {
+        HomePage objHomePage= new HomePage(getDriver());
+       // Assert.assertTrue(objHomePage.validateFaqSDesc().contains(arg1));
+    }
+
+    @Then("^validate faqscomm as \"([^\"]*)\"$")
+    public void validate_faqscomm_as(String arg1) {
+        HomePage objHomePage= new HomePage(getDriver());
+       // Assert.assertTrue(objHomePage.validateFaqSDesc().contains(arg1));
+    }
+
+    @Then("^validte faqsEdu as \"([^\"]*)\"$")
+    public void validte_faqsEdu_as(String arg1) {
+        HomePage objHomePage= new HomePage(getDriver());
+       // Assert.assertTrue(objHomePage.validateFaqSDesc().contains(arg1));
+    }
+
+    @Then("^validate faqsMon as \"([^\"]*)\"$")
+    public void validate_faqsMon_as(String arg1) {
+        HomePage objHomePage= new HomePage(getDriver());
+      //  Assert.assertTrue(objHomePage.validateFaqSDesc().contains(arg1));
+    }
+
+    @Then("^validate faqsFeed as \"([^\"]*)\"$")
+    public void validate_faqsFeed_as(String arg1) {
+        HomePage objHomePage= new HomePage(getDriver());
+      //  Assert.assertTrue(objHomePage.validateFaqSDesc().contains(arg1));
+    }
+
+    @Then("^validate faqsFooter as \"([^\"]*)\"$")
+    public void validate_faqsFooter_as(String arg1) {
+        HomePage objHomePage= new HomePage(getDriver());
+      //  Assert.assertTrue(objHomePage.validateFaqSDesc().contains(arg1));
+    }
+
+    @Then("^validate faqT section as \"([^\"]*)\"$")
+    public void validate_faqT_section_as(String arg1) {
+        HomePage objHomePage= new HomePage(getDriver());
+        Assert.assertEquals(objHomePage.validateFaqTTitle(), arg1);
+    }
+
+    @Then("^validate faqTTitle as \"([^\"]*)\"$")
+    public void validate_faqTTitle_as(String arg1) {
+        HomePage objHomePage= new HomePage(getDriver());
+      //  Assert.assertTrue(objHomePage.validateFaqTdesc().contains(arg1));
+    }
+
+    @Then("^validate faqTPre as \"([^\"]*)\"$")
+    public void validate_faqTPre_as(String arg1) {
+        HomePage objHomePage= new HomePage(getDriver());
+       // Assert.assertTrue(objHomePage.validateFaqTdesc().contains(arg1));
+    }
+
+    @Then("^validate faqTpost as \"([^\"]*)\"$")
+    public void validate_faqTpost_as(String arg1) {
+        HomePage objHomePage= new HomePage(getDriver());
+       // Assert.assertTrue(objHomePage.validateFaqTdesc().contains(arg1));
+    }
+
+    @Then("^validate faqTchronic as \"([^\"]*)\"$")
+    public void validate_faqTchronic_as(String arg1) {
+        HomePage objHomePage= new HomePage(getDriver());
+        //Assert.assertTrue(objHomePage.validateFaqTdesc().contains(arg1));
+    }
+    @Then("^validate faqForth section as \"([^\"]*)\"$")
+    public void validate_faqForth_section_as(String arg1){
+        HomePage objHomePage= new HomePage(getDriver());
+        Assert.assertEquals(objHomePage.validatefaqForthTitle(), arg1);
+    }
+
+    @Then("^validate faqForthBetter section \"([^\"]*)\"$")
+    public void validate_faqForthBetter_section(String arg1) throws Throwable {
+        // Write code here that turns the phrase above into concrete actions
+        throw new PendingException();
+    }
+
+    @Then("^validate faqForthImprove section as \"([^\"]*)\"$")
+    public void validate_faqForthImprove_section_as(String arg1) throws Throwable {
+        // Write code here that turns the phrase above into concrete actions
+        throw new PendingException();
+    }
+
+    @Then("^validate faqForthcare section as \"([^\"]*)\"$")
+    public void validate_faqForthcare_section_as(String arg1) throws Throwable {
+        // Write code here that turns the phrase above into concrete actions
+        throw new PendingException();
+    }
+
+    @Then("^validate faqForthPatience section as \"([^\"]*)\"$")
+    public void validate_faqForthPatience_section_as(String arg1) throws Throwable {
+
+    }
+    @Then("^validate health journeys title as \"([^\"]*)\"$")
+    public void validate_health_journeys_title_as(String arg1) throws InterruptedException {
+        HomePage objHomePage= new HomePage(getDriver());
+       Assert.assertEquals(objHomePage.validateHealthHourneysTitle(arg1), arg1);
+    }
+
+    @Then("^validate health joureys subtitle as \"([^\"]*)\"$")
+    public void validate_health_joureys_subtitle_as(String arg1) {
+        HomePage objHomePage= new HomePage(getDriver());
+        Assert.assertEquals(objHomePage.validateHealthHourneysSubTitle(), arg1);
+    }
+
+    @Then("^validate blogone as \"([^\"]*)\"$")
+    public void validate_blogone_as(String arg1){
+        HomePage objHomePage= new HomePage(getDriver());
+        objHomePage.validateBlogOne();
+    }
+
+    @Then("^validate blogone date is \"([^\"]*)\"$")
+    public void validate_blogone_date_is(String arg1){
+        HomePage objHomePage= new HomePage(getDriver());
+        objHomePage.validateblogOnedate();
+    }
+
+    @Then("^validate blogTwo as \"([^\"]*)\"$")
+    public void validate_blogTwo_as(String arg1){
+        HomePage objHomePage= new HomePage(getDriver());
+        objHomePage.validateblogTwo();
+    }
+
+    @Then("^validate blogTwo date as \"([^\"]*)\"$")
+    public void validate_blogTwo_date_as(String arg1) {
+        HomePage objHomePage= new HomePage(getDriver());
+        objHomePage.validateblogTwodate();
+    }
+
+    @Then("^validate blogThree as \"([^\"]*)\"$")
+    public void validate_blogThree_as(String arg1){
+        HomePage objHomePage= new HomePage(getDriver());
+        objHomePage.validateblogThree();
+    }
+
+    @Then("^validate blogThree date as \"([^\"]*)\"$")
+    public void validate_blogThree_date_as(String arg1) throws Throwable {
+        HomePage objHomePage= new HomePage(getDriver());
+        objHomePage.validateblogThreedate();
     }
 }
