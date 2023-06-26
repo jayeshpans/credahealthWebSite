@@ -58,383 +58,11 @@ formatter.step({
   "name": "display home page title as \"Digital Health Engagement - CredaHealth\"",
   "keyword": "When "
 });
-formatter.step({
-  "line": 17,
-  "name": "verify WebSite logo",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 18,
-  "name": "display header menu",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 19,
-  "name": "validate feature section text as \"Future of Healthcare Communication\"",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 20,
-  "name": "validate feature section description as \"We help you connect fragmented communication touchpoints and create a seamless channel minimizing redundant tasks and enabling staff to focus on serving patients.\"",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 21,
-  "name": "validate feature section backend image as \"https://credahealth.com/wp-content/uploads/2021/08/hero_home_01-1.jpg\"",
-  "keyword": "Then "
-});
-formatter.step({
-  "comments": [
-    {
-      "line": 23,
-      "value": "#    Then validate provider section title as \"For Providers\""
-    },
-    {
-      "line": 24,
-      "value": "#    Then validate provider section sub title as \"Patient Engagement Service\""
-    },
-    {
-      "line": 25,
-      "value": "#    Then validate provider description as \"Managing the full scope of a patient\u0027s journey: Delivering happier staff, healthier patients, and more profitable organizations\""
-    },
-    {
-      "line": 26,
-      "value": "#"
-    },
-    {
-      "line": 27,
-      "value": "#    Then scroll to secEmail"
-    },
-    {
-      "line": 28,
-      "value": "#    Then validate provider secemail title as \"Deliver Email, Voice, and Text Message Reminders\""
-    },
-    {
-      "line": 29,
-      "value": "#    Then validate provider secemail desc as \"Patient engagement services tremendously benefit healthcare providers and organizations. By empowering patients to take a more active role in their care, providers can reduce the burden on staff, streamline care delivery, and increase patient satisfaction. This leads to improved patient retention, increased referrals, and a more profitable organization.\""
-    },
-    {
-      "line": 30,
-      "value": "#    Then validate provider secemail image as \"https://credahealth.com/wp-content/uploads/2023/04/uncel-on-mobile.jpg\" and \"uncel on mobile\""
-    },
-    {
-      "line": 31,
-      "value": "#"
-    },
-    {
-      "line": 32,
-      "value": "#    Then validate provider secReduce title as \"Reduce No-shows with Automated Patient Reminders\""
-    },
-    {
-      "line": 33,
-      "value": "#    Then validate provider secReduce desc as \"No-shows can be a significant problem for healthcare providers, leading to missed appointments, wasted resources decreased patient satisfaction. Automated patient reminders can be an effective way to reduce the number of no-shows in healthcare practices. Using automated patient reminders, providers can increase appointment attendance rates and improve practice efficiency.\""
-    },
-    {
-      "line": 34,
-      "value": "#    Then validate provider secReduce image as \"https://credahealth.com/wp-content/uploads/2023/04/doctor-writing-medical-reports-while-talking-patient.jpeg\""
-    },
-    {
-      "line": 35,
-      "value": "#"
-    },
-    {
-      "line": 36,
-      "value": "#    Then validate provider secQuality title as \"Improve Both Patient Care Quality and Patient Experience\""
-    },
-    {
-      "line": 37,
-      "value": "#    Then validate provider secQuality desc as \"Care coordination involves working collaboratively across healthcare settings and providers to ensure patients receive the right care at the right time. Educate patients about their conditions, treatment options, and preventive measures to help them achieve better outcomes and reduce healthcare costs.\""
-    },
-    {
-      "line": 38,
-      "value": "#    Then validate provider secQualityu image as \"https://credahealth.com/wp-content/uploads/2023/04/f30c4ee8-f0d8-4ba5-8797-2bd5e23cdfff.jpeg\""
-    },
-    {
-      "line": 39,
-      "value": "#"
-    },
-    {
-      "line": 40,
-      "value": "#    Then validate request for free demo title \"Request a Free Demo\""
-    },
-    {
-      "line": 41,
-      "value": "#    Then click on request for free demo button"
-    },
-    {
-      "line": 42,
-      "value": "#    And validate contact us page \"Contact Us - CredaHealth\""
-    },
-    {
-      "line": 43,
-      "value": "#    And Back to home page"
-    },
-    {
-      "line": 44,
-      "value": "#"
-    },
-    {
-      "line": 45,
-      "value": "#    Then scroll to patient section"
-    },
-    {
-      "line": 46,
-      "value": "#    Then validate patient process title as \"Why You Need To Automate Patient Processes\""
-    },
-    {
-      "line": 47,
-      "value": "#    Then validate patient process subtitle as \"Due to the busy nature of your medical practice, your staff may often struggle to keep track of patient appointments, follow-up visits, and follow-up communications.\""
-    },
-    {
-      "line": 48,
-      "value": "#    Then validate patient process subtitlesecond as \"You may’ve noticed that some of your patients are slipping through the cracks and are concerned they’re not receiving the care they need. To address this issue, you need to implement an automated communication system.\""
-    },
-    {
-      "line": 49,
-      "value": "#    Then validate patient process desc as \"Creda’s Patient engagement service allows patients to schedule appointments and receive automated reminders and personalized communication on pre-visit prep instructions and post-visit care that send follow-up messages to patients on time. With these systems in place, you can streamline your patient processes and ensure that your patients receive the care they need while freeing up your time to focus on providing quality medical care.\""
-    },
-    {
-      "line": 50,
-      "value": "#    Then display patient process img as \"https://credahealth.com/wp-content/uploads/2021/08/hero_image_01.png\""
-    },
-    {
-      "line": 51,
-      "value": "#"
-    },
-    {
-      "line": 52,
-      "value": "#    Then validate communicate section title as \"Ways We Communicate With Your Patients\""
-    },
-    {
-      "line": 53,
-      "value": "#    Then validate communicate section subtext as \"Transform the way you interact with and educate your patients\""
-    },
-    {
-      "line": 54,
-      "value": "#"
-    },
-    {
-      "line": 55,
-      "value": "#    Then validate supporting journey section title as \"Supporting Patient Journey\""
-    },
-    {
-      "line": 56,
-      "value": "#"
-    },
-    {
-      "line": 57,
-      "value": "#    Then validate engagement title as \"Creda Health\u0027s Patient Engagement Platform effectively reduces patient anxiety and improves preparedness through education\""
-    },
-    {
-      "line": 58,
-      "value": "#    Then validate engagement writer name as \"- Clinic Admin\""
-    },
-    {
-      "line": 59,
-      "value": "#"
-    },
-    {
-      "line": 60,
-      "value": "#    Then validate wondering section title as \"Wondering if Creda is Fit for you\""
-    },
-    {
-      "line": 61,
-      "value": "#    Then validate wondering section subtext as \"Learn How our flexible platform brings value to different types of the healthcare organization.\""
-    },
-    {
-      "line": 62,
-      "value": "#"
-    },
-    {
-      "line": 63,
-      "value": "#    Then validate See Who We Help btn \"See Who We Help\""
-    },
-    {
-      "line": 64,
-      "value": "#    And click on See Who We Help btn"
-    },
-    {
-      "line": 65,
-      "value": "#    And validate clinics page \"Clinics - CredaHealth\""
-    },
-    {
-      "line": 66,
-      "value": "#    And Back to home page"
-    },
-    {
-      "line": 67,
-      "value": "#"
-    },
-    {
-      "line": 68,
-      "value": "#    Then validate creda app for patient title \"The Creda App For Patients\""
-    },
-    {
-      "line": 69,
-      "value": "#    And validate creda app for patient desc \"Whether you are recently diagnosed or you’ve been living with a chronic condition for some time, Creda Health is your one-stop destination for staying on top of your health.\""
-    },
-    {
-      "line": 70,
-      "value": "#    And validate creda app for patient descsecond \"Our condition-specific care models analyse your symptoms, medications, vitals, labs, nutrition and lifestyle elements, and monitor your disease progression and treatment effectiveness. We send you reminders, alerts, warnings, articles, actions to take and things to talk to your doctor – all to help you stay on top of your health.\""
-    },
-    {
-      "line": 71,
-      "value": "#    And validate labels for yourhealth as \"IBS\" and \"Lupus\" and \"High Cholesterol\" and \"Diabetes\" and \"Hypothyroidism\" and \"Prediabetes\" and \"PCOS\" and \"Obesity\" and \"IBD\""
-    },
-    {
-      "line": 72,
-      "value": "#"
-    },
-    {
-      "line": 73,
-      "value": "#    Then validate enroll today btn as \"Enroll Today\""
-    },
-    {
-      "line": 74,
-      "value": "#    And click on enroll today btn"
-    },
-    {
-      "line": 75,
-      "value": "#    And validate get app page \"Get The App - CredaHealth\""
-    },
-    {
-      "line": 76,
-      "value": "#    And Back to home page"
-    },
-    {
-      "line": 77,
-      "value": "#"
-    },
-    {
-      "line": 78,
-      "value": "#    Then validate chronic condition title as \"We are on a mission to ease the lives of people dealing with chronic conditions. Chronic Condition Management App\""
-    },
-    {
-      "line": 79,
-      "value": "#    And validate chronic condition image \"https://credahealth.com/wp-content/uploads/2021/08/background_07.jpg\""
-    },
-    {
-      "line": 80,
-      "value": "#    And validate watch now btn \"Watch Now\""
-    },
-    {
-      "line": 81,
-      "value": "#    And click on watch now btn"
-    },
-    {
-      "line": 82,
-      "value": "#    And validate watch now video title as \"Creda Health App Features\""
-    },
-    {
-      "line": 83,
-      "value": "#    And Back to home page"
-    }
-  ],
-  "line": 85,
-  "name": "validate FAQ section as \"FAQ\"",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 86,
-  "name": "validate faqF section as \"What is patient engagement, and why is it important for healthcare providers?\"",
-  "keyword": "When "
-});
-formatter.step({
-  "comments": [
-    {
-      "line": 87,
-      "value": "#    Then click on faqF section and validate desc as \"Patient engagement guides and supports patients through the healthcare system to help them actively participate in their care.#This involves providing patients with information, resources, and support to help them make informed decisions about their health.#Patient engagement is important for healthcare providers because it can lead to improved patient outcomes and satisfaction.#When patients are supported and empowered to take an active role in their healthcare, they are more likely to adhere to treatment plans, manage chronic conditions, and make lifestyle changes that improve their health.\"#Patient engagement can help healthcare providers reduce healthcare costs by preventing unnecessary hospitalizations and emergency room visits.#By providing patients with the information and support they need to manage their health, healthcare providers can help prevent complications and identify potential health issues before they become more serious.\""
-    }
-  ],
-  "line": 89,
-  "name": "validate faqS section as \"How does your patient engagement process work?\"",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 90,
-  "name": "click on faqs setion and validate desc as \"Patient engagement is a collaborative process between healthcare providers and patients that involves patients in decision-making, self-care, and health management.#This process can involve several steps, such as:\"",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 91,
-  "name": "validate faqscomm as \"Communication: Healthcare providers should establish clear and effective communication with patients, involving them in the decision-making process and explaining their health condition, treatment options, and any potential risks and benefits.\"",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 92,
-  "name": "validte faqsEdu as \"Education: Healthcare providers should provide patients with the necessary education and online resources to make informed decisions about their health.\"",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 93,
-  "name": "validate faqsMon as \"Monitoring patient progress: Healthcare providers can monitor patient progress to ensure that patients adhere to their treatment plans and progress toward their health goals.\"",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 94,
-  "name": "validate faqsFeed as \"Feedback: Healthcare providers should gather patient feedback on their experiences and adjust their approach to improve Patient engagement and outcomes.\"",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 95,
-  "name": "validate faqsFooter as \"Healthcare providers should use technology to engage patients in their care. Implement platforms that support telemedicine visits, remote monitoring, and mobile health applications that give patients real-time access to their health information.\"",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 97,
-  "name": "validate faqT section as \"What types of patient engagement services do you offer?\"",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 98,
-  "name": "validate faqTTitle as \"Here’s a brief overview of each of the services we offer:\"",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 99,
-  "name": "validate faqTPre as \"Pre-visit Prep: This service helps patients prepare for their upcoming appointments by providing information about their condition, what to expect during their visit, and how to prepare for any necessary tests or procedures. Pre-visit prep can help patients feel more confident and informed about their care, leading to better patient experiences.\"",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 100,
-  "name": "validate faqTpost as \"Post-Visit Care: This service provides patients with follow-up care after their visit, such as reminders to take their medications, follow-up appointments, and access to educational resources. Post-visit care can help ensure that patients adhere to their treatment plans and manage their health effectively, leading to improved health outcomes.\"",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 101,
-  "name": "validate faqTchronic as \"Chronic Condition Management App: This service provides patients with a mobile application to monitor or manage their chronic condition. The app includes medication reminders, health metrics and symptom tracking, and access to educational resources. By providing patients with tools to manage their condition outside the clinical setting, healthcare providers can help improve Patient outcomes and reduce healthcare costs.\"",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 103,
-  "name": "validate faqForth section as \"How can patient engagement services help me improve patient outcomes and satisfaction?\"",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 104,
-  "name": "validate faqForthBetter section \"Better adherence to treatment plans: When patients are engaged in their healthcare, they are more likely to adhere to their treatment plans, including taking medications as prescribed, attending follow-up appointments, and making lifestyle changes leading to reduced healthcare costs.\"",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 105,
-  "name": "validate faqForthImprove section as \"Improved communication with healthcare providers: Multi-channel communication allows patients to access healthcare information and communicate with their healthcare providers through various channels, such as phone, email, or text. This way, patients feel more connected to their healthcare providers and engaged in their care, improving patient satisfaction and outcomes.\"",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 106,
-  "name": "validate faqForthcare section as \"Improved Care Coordination: Patient engagement services can help improve care coordination by providing patients with information and support to navigate the healthcare system. For example, healthcare providers can use secure messaging to communicate with patients about their care, send appointment reminders, and provide follow-up care instructions. This can help reduce the risk of miscommunication and improve patient outcomes. It will also help prevent unnecessary hospitalizations and emergency room visits and ensure patients receive timely and appropriate care.\"",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 107,
-  "name": "validate faqForthPatience section as \"Increased Patient Satisfaction: Patient engagement services can lead to increased patient satisfaction by providing patients with a more personalized and supportive healthcare experience. When patients feel more involved in their care, they are more likely to feel satisfied with the care they receive, leading to better Patient retention and loyalty.\"",
-  "keyword": "Then "
-});
 formatter.match({
   "location": "HomeStepDef.browse_credaHealth_web_site()"
 });
 formatter.result({
-  "duration": 85965300,
+  "duration": 114210600,
   "status": "passed"
 });
 formatter.match({
@@ -447,305 +75,1251 @@ formatter.match({
   "location": "HomeStepDef.display_home_page_title_as(String)"
 });
 formatter.result({
-  "duration": 37054000,
+  "duration": 41896200,
   "status": "passed"
 });
-formatter.match({
-  "location": "HomeStepDef.verify_WebSite_logo()"
-});
-formatter.result({
-  "duration": 1250800,
-  "status": "passed"
-});
-formatter.match({
-  "location": "HomeStepDef.display_header_menu()"
-});
-formatter.result({
-  "duration": 358434500,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
+formatter.uri("Providers.feature");
+formatter.feature({
+  "comments": [
     {
-      "val": "Future of Healthcare Communication",
-      "offset": 34
+      "line": 1,
+      "value": "#Author: Jayesh"
+    },
+    {
+      "line": 2,
+      "value": "#Keywords Summary :"
+    },
+    {
+      "line": 3,
+      "value": "#Feature: providers us pages"
+    },
+    {
+      "line": 4,
+      "value": "#Scenario: validate providers page on web site"
+    },
+    {
+      "line": 5,
+      "value": "#Given:"
+    },
+    {
+      "line": 6,
+      "value": "#When:"
+    },
+    {
+      "line": 7,
+      "value": "#Then:"
+    },
+    {
+      "line": 8,
+      "value": "#And,But:"
     }
   ],
-  "location": "HomeStepDef.validate_feature_section_text_as(String)"
+  "line": 10,
+  "name": "Validate providers page",
+  "description": "As a user of KYM App\r\nI should be able to see provider page",
+  "id": "validate-providers-page",
+  "keyword": "Feature"
 });
-formatter.result({
-  "duration": 43117200,
-  "status": "passed"
+formatter.scenario({
+  "line": 14,
+  "name": "Open a provider page and validate it\u0027s text",
+  "description": "",
+  "id": "validate-providers-page;open-a-provider-page-and-validate-it\u0027s-text",
+  "type": "scenario",
+  "keyword": "Scenario"
 });
-formatter.match({
-  "arguments": [
+formatter.step({
+  "line": 15,
+  "name": "click on provider menu",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 16,
+  "name": "validate clinics page \"Clinics - CredaHealth\"",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 17,
+  "name": "validate Patient Communication section as \"Powerful Patient Communication at Scale\"",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 18,
+  "name": "validate Patient Communication section img as \"https://credahealth.com/wp-content/uploads/2023/04/B2B-CREDA-1.png\"",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 20,
+  "name": "validate patient engagement section as \"Automate patient engagement so you can focus on patient care\"",
+  "keyword": "Then "
+});
+formatter.step({
+  "comments": [
     {
-      "val": "We help you connect fragmented communication touchpoints and create a seamless channel minimizing redundant tasks and enabling staff to focus on serving patients.",
-      "offset": 41
+      "line": 21,
+      "value": "# Then validate patient engagement menus as \"Colonoscopy\" and \"Sigmoidoscopy\" and \"Upper Endoscopy\" and \"Hemorrhoid\""
     }
   ],
-  "location": "HomeStepDef.validate_feature_section_description_as(String)"
+  "line": 23,
+  "name": "validate awareness section as \"Lack of Awareness Impact on Delays and Cancellation\"",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 24,
+  "name": "validate awareness descone as \"Apprx. 30% of patient no- shows cost the healthcare industry $150 billion a year.\"",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 25,
+  "name": "validate awareness dessec as \"No-shows and late cancellations can have a greater impact on GI practices than in other medical specialties due to the prep time required for the GI procedures. For a primary care physician, each missed appointment equals roughly $150-$200 in lost revenue. For surgeons, this is closer to $500.\"",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 26,
+  "name": "validate awareness descThrid as \"Automatically triggering the right communication at the right time, Creda Health’s Patient Engagement Platform guides your patients through a premium care experience.\"",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 27,
+  "name": "validate awareness img as \"https://credahealth.com/wp-content/uploads/2023/04/Untitled-design-49-640x537.png\"",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 29,
+  "name": "validate reinforced education title as \"Studies show the impact of reinforced education by telephone or short message service (SMS) leads to:\"",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 30,
+  "name": "validate reinforced education secone as \"Reduction in same- day cancellations\"",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 31,
+  "name": "validate reinforced education secsecond as \"Reduction in no- shows\"",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 33,
+  "name": "validate end to end patient title as \"End-to-end patient engagement platform made for the enterprise.\"",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 34,
+  "name": "validate end to end patient img as \"https://credahealth.com/wp-content/uploads/2021/09/What-Are-the-Possible-Complications-of-Crohns-Disease.jpg\"",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 35,
+  "name": "click on more details button",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 36,
+  "name": "validate contact us page \"Contact Us - CredaHealth\"",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 37,
+  "name": "Back to home pageLogo",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 39,
+  "name": "validate interact with section as \"Let us transform the way you interact with and educate your patients\"",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 40,
+  "name": "validate comprehensive section as \"Comprehensive platform of solutions\"",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 41,
+  "name": "validate comprehensive subsection as \"Design patient engagement strategy.\"",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 43,
+  "name": "validate Customizable section as \"Customizable content\"",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 44,
+  "name": "validate Customizable subsection as \"Proven modules tailored to your patient needs.\"",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 46,
+  "name": "validate Scalable section as \"Scalable platform\"",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 47,
+  "name": "validate Scalable subsection as \"Handle a growing no. of users. Quickly and easily provision additional computing and storage resources on demand.\"",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 49,
+  "name": "validate Actionable section as \"Actionable reporting\"",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 50,
+  "name": "validate Actionable subsection as \"Identify areas for improvement and make data-driven decisions to optimize patient satisfaction.\"",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 52,
+  "name": "validate Wondering section \"Wondering if Creda is Fit for you\"",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 53,
+  "name": "validate Wondering sub section \"Learn How our flexible platform brings value to different types of the healthcare organization.\"",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 54,
+  "name": "click on See Who We Help button title as \"See Who We Help\"",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 55,
+  "name": "validate contact us page \"Contact Us - CredaHealth\"",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 56,
+  "name": "Back to home pageLogo",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 58,
+  "name": "validate question title section as \"Do your patients have questions about their procedures?\"",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 59,
+  "name": "validate question descriptionone as \"Our educational materials explain patient’s GI condition and how it can be managed.\"",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 60,
+  "name": "validate question descriptiontwo as  \"Well-informed patient can significantly reduce your costs due to last minute cancellations.\"",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 61,
+  "name": "validate question descriptionthree as  \"We aim for easing the process involved in prepping \u0026 to achieve a successful procedure.\"",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 63,
+  "name": "validate case study title as \"Case Study\"",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 64,
+  "name": "validate case study description as \"The “Center for Advanced GI” is a Group Gastroenterology Practice in Central Florida specializing in Gastrointestinal, Diseases and liver disease. The clinic provides GI Consultations and Diagnostic Procedures for the Upper and Lower Gastrointestinal. Tract and the liver, such as Colonoscopy, Colon Screening, Upper Endoscopy, Capsule Endoscopy, Destruction of Internal Hemorrhoids, and Liver Biopsy.\"",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 66,
+  "name": "validate implement engagement title as \"Our Ready to Implement Engagement Modules\"",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 67,
+  "name": "validate implement engagement desc as \"At Creda, we are changing patient-centered care outside of traditional settings by empowering your patients with the right information at the right time. We provide patient friendly and timely instructions and reminders.\"",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 69,
+  "name": "validate preprocedure title as \"PRE- PROCEDURE PREP\"",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 70,
+  "name": "validate preprocedure desc as \"Improve the patient experience and ensure that patients are well-informed and prepared for their procedure with clear day-wise instructions.\"",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 71,
+  "name": "click on enqurire now demo button and title is \"Enquire For Demo\"",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 72,
+  "name": "validate contact us page \"Contact Us - CredaHealth\"",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 73,
+  "name": "Back to home pageLogo",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 75,
+  "name": "validate postprocedure title as \"POST- PROCEDURE CARE\"",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 76,
+  "name": "validate postprocedure desc as \"Designed to provide patients with the necessary information and support to ensure a smooth recovery and minimize the risk of complications following their procedure.\"",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 77,
+  "name": "click on enqurire now demo button and title is \"Enquire For Demo\"",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 78,
+  "name": "validate contact us page \"Contact Us - CredaHealth\"",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 79,
+  "name": "Back to home pageLogo",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 81,
+  "name": "validate healthcare landscape section title as \"We work hard to fill the gaps in your healthcare landscape.\"",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 82,
+  "name": "validate healthcare landscape sub title as \"90% Rattings\"",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 83,
+  "name": "validate healthcare landscape secone desc as \"90% of patients surveyed said they were pleased with our educational emails about their procedure.\"",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 84,
+  "name": "validate healthcare landscape secsecond as \"90% of clinic staff surveyed said they were pleased with the patient turnaround and their preparedness.\"",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 86,
+  "name": "validate work systems title as \"See How We Work With your Systems\"",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 87,
+  "name": "validate work system desc as \"Looking to get started? Take the first steps towards discovering just how we can amplify the value of your existing technology.\"",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 88,
+  "name": "click on Talk To Experts btn and validate title as \"Talk To Experts\"",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 89,
+  "name": "validate contact us page \"Contact Us - CredaHealth\"",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 90,
+  "name": "Back to home pageLogo",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 91,
+  "name": "click on Become a Partner btn and validate title as \"Become a Partner\"",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 92,
+  "name": "validate contact us page \"Contact Us - CredaHealth\"",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 93,
+  "name": "Back to home pageLogo",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 95,
+  "name": "validate creda clinice title as \"Creda for Clinics\"",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 96,
+  "name": "validate creda clinice sub title as \"Creda Health’s “Patient Engagement solution” provides GI clinics with a comprehensive solution for engaging patients throughout their healthcare journey.\"",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 97,
+  "name": "validate creda clinics desc one as \"Creda offers a suite of services that include patient education, reminder notifications, and personalized communication modules. The ultimate goal is to improve patient outcomes by helping patients become more involved in their own care and treatment, leading to better adherence to treatment plans, improved health outcomes, reduced healthcare costs.\"",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 98,
+  "name": "validate creda clinics desc two as \"Creda also provides analytics and reports that allow healthcare organizations to track patient engagement and monitor their progress. These services help clinics build better relationships with their patients, leading to increased trust and satisfaction.\"",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 99,
+  "name": "Click on contact us btn and validate text as \"Contact Us\"",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 100,
+  "name": "validate contact us page \"Contact Us - CredaHealth\"",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 101,
+  "name": "Back to home pageLogo",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "ProviderStepDef.click_on_provider_menu()"
 });
 formatter.result({
-  "duration": 202736400,
+  "duration": 2914237200,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "https://credahealth.com/wp-content/uploads/2021/08/hero_home_01-1.jpg",
-      "offset": 43
-    }
-  ],
-  "location": "HomeStepDef.validate_feature_section_backend_image_as(String)"
-});
-formatter.result({
-  "duration": 53880700,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "FAQ",
-      "offset": 25
-    }
-  ],
-  "location": "HomeStepDef.validate_FAQ_section_as(String)"
-});
-formatter.result({
-  "duration": 1447167800,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "What is patient engagement, and why is it important for healthcare providers?",
-      "offset": 26
-    }
-  ],
-  "location": "HomeStepDef.validate_faqF_section_as(String)"
-});
-formatter.result({
-  "duration": 38760100,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "How does your patient engagement process work?",
-      "offset": 26
-    }
-  ],
-  "location": "HomeStepDef.validate_faqS_section_as(String)"
-});
-formatter.result({
-  "duration": 627239600,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "Patient engagement is a collaborative process between healthcare providers and patients that involves patients in decision-making, self-care, and health management.#This process can involve several steps, such as:",
-      "offset": 43
-    }
-  ],
-  "location": "HomeStepDef.click_on_faqs_setion_and_validate_desc_as(String)"
-});
-formatter.result({
-  "duration": 688800,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "Communication: Healthcare providers should establish clear and effective communication with patients, involving them in the decision-making process and explaining their health condition, treatment options, and any potential risks and benefits.",
-      "offset": 22
-    }
-  ],
-  "location": "HomeStepDef.validate_faqscomm_as(String)"
-});
-formatter.result({
-  "duration": 403000,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "Education: Healthcare providers should provide patients with the necessary education and online resources to make informed decisions about their health.",
-      "offset": 20
-    }
-  ],
-  "location": "HomeStepDef.validte_faqsEdu_as(String)"
-});
-formatter.result({
-  "duration": 453800,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "Monitoring patient progress: Healthcare providers can monitor patient progress to ensure that patients adhere to their treatment plans and progress toward their health goals.",
-      "offset": 21
-    }
-  ],
-  "location": "HomeStepDef.validate_faqsMon_as(String)"
-});
-formatter.result({
-  "duration": 331200,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "Feedback: Healthcare providers should gather patient feedback on their experiences and adjust their approach to improve Patient engagement and outcomes.",
-      "offset": 22
-    }
-  ],
-  "location": "HomeStepDef.validate_faqsFeed_as(String)"
-});
-formatter.result({
-  "duration": 282900,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "Healthcare providers should use technology to engage patients in their care. Implement platforms that support telemedicine visits, remote monitoring, and mobile health applications that give patients real-time access to their health information.",
-      "offset": 24
-    }
-  ],
-  "location": "HomeStepDef.validate_faqsFooter_as(String)"
-});
-formatter.result({
-  "duration": 305200,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "What types of patient engagement services do you offer?",
-      "offset": 26
-    }
-  ],
-  "location": "HomeStepDef.validate_faqT_section_as(String)"
-});
-formatter.result({
-  "duration": 106990100,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "Here’s a brief overview of each of the services we offer:",
+      "val": "Clinics - CredaHealth",
       "offset": 23
     }
   ],
-  "location": "HomeStepDef.validate_faqTTitle_as(String)"
+  "location": "HomeStepDef.validate_clinics_page(String)"
 });
 formatter.result({
-  "duration": 891500,
+  "duration": 19219800,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "Pre-visit Prep: This service helps patients prepare for their upcoming appointments by providing information about their condition, what to expect during their visit, and how to prepare for any necessary tests or procedures. Pre-visit prep can help patients feel more confident and informed about their care, leading to better patient experiences.",
-      "offset": 21
+      "val": "Powerful Patient Communication at Scale",
+      "offset": 43
     }
   ],
-  "location": "HomeStepDef.validate_faqTPre_as(String)"
+  "location": "ProviderStepDef.validate_Patient_Communication_section_as(String)"
 });
 formatter.result({
-  "duration": 349300,
+  "duration": 53241800,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "Post-Visit Care: This service provides patients with follow-up care after their visit, such as reminders to take their medications, follow-up appointments, and access to educational resources. Post-visit care can help ensure that patients adhere to their treatment plans and manage their health effectively, leading to improved health outcomes.",
-      "offset": 22
+      "val": "https://credahealth.com/wp-content/uploads/2023/04/B2B-CREDA-1.png",
+      "offset": 47
     }
   ],
-  "location": "HomeStepDef.validate_faqTpost_as(String)"
+  "location": "ProviderStepDef.validate_Patient_Communication_section_img_as(String)"
 });
 formatter.result({
-  "duration": 424300,
+  "duration": 70393400,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "Chronic Condition Management App: This service provides patients with a mobile application to monitor or manage their chronic condition. The app includes medication reminders, health metrics and symptom tracking, and access to educational resources. By providing patients with tools to manage their condition outside the clinical setting, healthcare providers can help improve Patient outcomes and reduce healthcare costs.",
-      "offset": 25
+      "val": "Automate patient engagement so you can focus on patient care",
+      "offset": 40
     }
   ],
-  "location": "HomeStepDef.validate_faqTchronic_as(String)"
+  "location": "ProviderStepDef.validate_patient_engagement_section_as(String)"
 });
 formatter.result({
-  "duration": 343000,
+  "duration": 756873800,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "How can patient engagement services help me improve patient outcomes and satisfaction?",
+      "val": "Lack of Awareness Impact on Delays and Cancellation",
+      "offset": 31
+    }
+  ],
+  "location": "ProviderStepDef.validate_awareness_section_as(String)"
+});
+formatter.result({
+  "duration": 724762800,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Apprx. 30% of patient no- shows cost the healthcare industry $150 billion a year.",
+      "offset": 31
+    }
+  ],
+  "location": "ProviderStepDef.validate_awareness_descone_as(String)"
+});
+formatter.result({
+  "duration": 32268400,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "No-shows and late cancellations can have a greater impact on GI practices than in other medical specialties due to the prep time required for the GI procedures. For a primary care physician, each missed appointment equals roughly $150-$200 in lost revenue. For surgeons, this is closer to $500.",
       "offset": 30
     }
   ],
-  "location": "HomeStepDef.validate_faqForth_section_as(String)"
+  "location": "ProviderStepDef.validate_awareness_dessec_as(String)"
 });
 formatter.result({
-  "duration": 106454700,
+  "duration": 29612500,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "Better adherence to treatment plans: When patients are engaged in their healthcare, they are more likely to adhere to their treatment plans, including taking medications as prescribed, attending follow-up appointments, and making lifestyle changes leading to reduced healthcare costs.",
+      "val": "Automatically triggering the right communication at the right time, Creda Health’s Patient Engagement Platform guides your patients through a premium care experience.",
       "offset": 33
     }
   ],
-  "location": "HomeStepDef.validate_faqForthBetter_section(String)"
+  "location": "ProviderStepDef.validate_awareness_descThrid_as(String)"
 });
 formatter.result({
-  "duration": 1248000,
-  "error_message": "cucumber.api.PendingException: TODO: implement me\r\n\tat stepDefinition.HomeStepDef.validate_faqForthBetter_section(HomeStepDef.java:440)\r\n\tat ✽.Then validate faqForthBetter section \"Better adherence to treatment plans: When patients are engaged in their healthcare, they are more likely to adhere to their treatment plans, including taking medications as prescribed, attending follow-up appointments, and making lifestyle changes leading to reduced healthcare costs.\"(Home.feature:104)\r\n",
-  "status": "pending"
+  "duration": 30932600,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "Improved communication with healthcare providers: Multi-channel communication allows patients to access healthcare information and communicate with their healthcare providers through various channels, such as phone, email, or text. This way, patients feel more connected to their healthcare providers and engaged in their care, improving patient satisfaction and outcomes.",
-      "offset": 37
+      "val": "https://credahealth.com/wp-content/uploads/2023/04/Untitled-design-49-640x537.png",
+      "offset": 27
     }
   ],
-  "location": "HomeStepDef.validate_faqForthImprove_section_as(String)"
+  "location": "ProviderStepDef.validate_awareness_img_as(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 47959900,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "Improved Care Coordination: Patient engagement services can help improve care coordination by providing patients with information and support to navigate the healthcare system. For example, healthcare providers can use secure messaging to communicate with patients about their care, send appointment reminders, and provide follow-up care instructions. This can help reduce the risk of miscommunication and improve patient outcomes. It will also help prevent unnecessary hospitalizations and emergency room visits and ensure patients receive timely and appropriate care.",
-      "offset": 34
+      "val": "Studies show the impact of reinforced education by telephone or short message service (SMS) leads to:",
+      "offset": 40
     }
   ],
-  "location": "HomeStepDef.validate_faqForthcare_section_as(String)"
+  "location": "ProviderStepDef.validate_reinforced_education_title_as(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 1047326000,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "Increased Patient Satisfaction: Patient engagement services can lead to increased patient satisfaction by providing patients with a more personalized and supportive healthcare experience. When patients feel more involved in their care, they are more likely to feel satisfied with the care they receive, leading to better Patient retention and loyalty.",
+      "val": "Reduction in same- day cancellations",
+      "offset": 41
+    }
+  ],
+  "location": "ProviderStepDef.validate_reinforced_education_secone_as(String)"
+});
+formatter.result({
+  "duration": 754107200,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Reduction in no- shows",
+      "offset": 44
+    }
+  ],
+  "location": "ProviderStepDef.validate_reinforced_education_secsecond_as(String)"
+});
+formatter.result({
+  "duration": 35384700,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "End-to-end patient engagement platform made for the enterprise.",
       "offset": 38
     }
   ],
-  "location": "HomeStepDef.validate_faqForthPatience_section_as(String)"
+  "location": "ProviderStepDef.validate_end_to_end_patient_title_as(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 686425900,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "https://credahealth.com/wp-content/uploads/2021/09/What-Are-the-Possible-Complications-of-Crohns-Disease.jpg",
+      "offset": 36
+    }
+  ],
+  "location": "ProviderStepDef.validate_end_to_end_patient_img_as(String)"
+});
+formatter.result({
+  "duration": 49274700,
+  "status": "passed"
+});
+formatter.match({
+  "location": "ProviderStepDef.click_on_more_details_button()"
+});
+formatter.result({
+  "duration": 3362540400,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Contact Us - CredaHealth",
+      "offset": 26
+    }
+  ],
+  "location": "HomeStepDef.validate_contact_us_page(String)"
+});
+formatter.result({
+  "duration": 12369100,
+  "status": "passed"
+});
+formatter.match({
+  "location": "ProviderStepDef.back_to_home_pageLogo()"
+});
+formatter.result({
+  "duration": 5285250600,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Let us transform the way you interact with and educate your patients",
+      "offset": 35
+    }
+  ],
+  "location": "ProviderStepDef.validate_interact_with_section_as(String)"
+});
+formatter.result({
+  "duration": 773206000,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Comprehensive platform of solutions",
+      "offset": 35
+    }
+  ],
+  "location": "ProviderStepDef.validate_comprehensive_section_as(String)"
+});
+formatter.result({
+  "duration": 770913100,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Design patient engagement strategy.",
+      "offset": 38
+    }
+  ],
+  "location": "ProviderStepDef.validate_comprehensive_subsection_as(String)"
+});
+formatter.result({
+  "duration": 34134200,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Customizable content",
+      "offset": 34
+    }
+  ],
+  "location": "ProviderStepDef.validate_Customizable_section_as(String)"
+});
+formatter.result({
+  "duration": 34376300,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Proven modules tailored to your patient needs.",
+      "offset": 37
+    }
+  ],
+  "location": "ProviderStepDef.validate_Customizable_subsection_as(String)"
+});
+formatter.result({
+  "duration": 29727200,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Scalable platform",
+      "offset": 30
+    }
+  ],
+  "location": "ProviderStepDef.validate_Scalable_section_as(String)"
+});
+formatter.result({
+  "duration": 34496700,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Handle a growing no. of users. Quickly and easily provision additional computing and storage resources on demand.",
+      "offset": 33
+    }
+  ],
+  "location": "ProviderStepDef.validate_Scalable_subsection_as(String)"
+});
+formatter.result({
+  "duration": 45758400,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Actionable reporting",
+      "offset": 32
+    }
+  ],
+  "location": "ProviderStepDef.validate_Actionable_section_as(String)"
+});
+formatter.result({
+  "duration": 43737100,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Identify areas for improvement and make data-driven decisions to optimize patient satisfaction.",
+      "offset": 35
+    }
+  ],
+  "location": "ProviderStepDef.validate_Actionable_subsection_as(String)"
+});
+formatter.result({
+  "duration": 42319800,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Wondering if Creda is Fit for you",
+      "offset": 28
+    }
+  ],
+  "location": "ProviderStepDef.validate_Wondering_section(String)"
+});
+formatter.result({
+  "duration": 708400400,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Learn How our flexible platform brings value to different types of the healthcare organization.",
+      "offset": 32
+    }
+  ],
+  "location": "ProviderStepDef.validate_Wondering_sub_section(String)"
+});
+formatter.result({
+  "duration": 35328300,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "See Who We Help",
+      "offset": 42
+    }
+  ],
+  "location": "ProviderStepDef.click_on_See_Who_We_Help_button_title_as(String)"
+});
+formatter.result({
+  "duration": 843081700,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Contact Us - CredaHealth",
+      "offset": 26
+    }
+  ],
+  "location": "HomeStepDef.validate_contact_us_page(String)"
+});
+formatter.result({
+  "duration": 14099600,
+  "status": "passed"
+});
+formatter.match({
+  "location": "ProviderStepDef.back_to_home_pageLogo()"
+});
+formatter.result({
+  "duration": 5264761200,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Do your patients have questions about their procedures?",
+      "offset": 36
+    }
+  ],
+  "location": "ProviderStepDef.validate_question_title_section_as(String)"
+});
+formatter.result({
+  "duration": 810285400,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Our educational materials explain patient’s GI condition and how it can be managed.",
+      "offset": 37
+    }
+  ],
+  "location": "ProviderStepDef.validate_question_descriptionone_as(String)"
+});
+formatter.result({
+  "duration": 56487300,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Well-informed patient can significantly reduce your costs due to last minute cancellations.",
+      "offset": 38
+    }
+  ],
+  "location": "ProviderStepDef.validate_question_descriptiontwo_as(String)"
+});
+formatter.result({
+  "duration": 29233100,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "We aim for easing the process involved in prepping \u0026 to achieve a successful procedure.",
+      "offset": 40
+    }
+  ],
+  "location": "ProviderStepDef.validate_question_descriptionthree_as(String)"
+});
+formatter.result({
+  "duration": 29624800,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Case Study",
+      "offset": 30
+    }
+  ],
+  "location": "ProviderStepDef.validate_case_study_title_as(String)"
+});
+formatter.result({
+  "duration": 758793400,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "The “Center for Advanced GI” is a Group Gastroenterology Practice in Central Florida specializing in Gastrointestinal, Diseases and liver disease. The clinic provides GI Consultations and Diagnostic Procedures for the Upper and Lower Gastrointestinal. Tract and the liver, such as Colonoscopy, Colon Screening, Upper Endoscopy, Capsule Endoscopy, Destruction of Internal Hemorrhoids, and Liver Biopsy.",
+      "offset": 36
+    }
+  ],
+  "location": "ProviderStepDef.validate_case_study_description_as(String)"
+});
+formatter.result({
+  "duration": 1352800,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Our Ready to Implement Engagement Modules",
+      "offset": 40
+    }
+  ],
+  "location": "ProviderStepDef.validate_implement_engagement_title_as(String)"
+});
+formatter.result({
+  "duration": 796766600,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "At Creda, we are changing patient-centered care outside of traditional settings by empowering your patients with the right information at the right time. We provide patient friendly and timely instructions and reminders.",
+      "offset": 39
+    }
+  ],
+  "location": "ProviderStepDef.validate_implement_engagement_desc_as(String)"
+});
+formatter.result({
+  "duration": 85558400,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "PRE- PROCEDURE PREP",
+      "offset": 32
+    }
+  ],
+  "location": "ProviderStepDef.validate_preprocedure_title_as(String)"
+});
+formatter.result({
+  "duration": 741044800,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Improve the patient experience and ensure that patients are well-informed and prepared for their procedure with clear day-wise instructions.",
+      "offset": 31
+    }
+  ],
+  "location": "ProviderStepDef.validate_preprocedure_desc_as(String)"
+});
+formatter.result({
+  "duration": 48147600,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Enquire For Demo",
+      "offset": 48
+    }
+  ],
+  "location": "ProviderStepDef.click_on_enqurire_now_demo_button_and_title_is(String)"
+});
+formatter.result({
+  "duration": 1619857900,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Contact Us - CredaHealth",
+      "offset": 26
+    }
+  ],
+  "location": "HomeStepDef.validate_contact_us_page(String)"
+});
+formatter.result({
+  "duration": 6205600,
+  "status": "passed"
+});
+formatter.match({
+  "location": "ProviderStepDef.back_to_home_pageLogo()"
+});
+formatter.result({
+  "duration": 5275069500,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "POST- PROCEDURE CARE",
+      "offset": 33
+    }
+  ],
+  "location": "ProviderStepDef.validate_postprocedure_title_as(String)"
+});
+formatter.result({
+  "duration": 51847800,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Designed to provide patients with the necessary information and support to ensure a smooth recovery and minimize the risk of complications following their procedure.",
+      "offset": 32
+    }
+  ],
+  "location": "ProviderStepDef.validate_postprocedure_desc_as(String)"
+});
+formatter.result({
+  "duration": 32155800,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Enquire For Demo",
+      "offset": 48
+    }
+  ],
+  "location": "ProviderStepDef.click_on_enqurire_now_demo_button_and_title_is(String)"
+});
+formatter.result({
+  "duration": 1602363200,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Contact Us - CredaHealth",
+      "offset": 26
+    }
+  ],
+  "location": "HomeStepDef.validate_contact_us_page(String)"
+});
+formatter.result({
+  "duration": 12727600,
+  "status": "passed"
+});
+formatter.match({
+  "location": "ProviderStepDef.back_to_home_pageLogo()"
+});
+formatter.result({
+  "duration": 5277498900,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "We work hard to fill the gaps in your healthcare landscape.",
+      "offset": 48
+    }
+  ],
+  "location": "ProviderStepDef.validate_healthcare_landscape_section_title_as(String)"
+});
+formatter.result({
+  "duration": 769275600,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "90% Rattings",
+      "offset": 44
+    }
+  ],
+  "location": "ProviderStepDef.validate_healthcare_landscape_sub_title_as(String)"
+});
+formatter.result({
+  "duration": 35697300,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "90% of patients surveyed said they were pleased with our educational emails about their procedure.",
+      "offset": 46
+    }
+  ],
+  "location": "ProviderStepDef.validate_healthcare_landscape_secone_desc_as(String)"
+});
+formatter.result({
+  "duration": 348300,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "90% of clinic staff surveyed said they were pleased with the patient turnaround and their preparedness.",
+      "offset": 44
+    }
+  ],
+  "location": "ProviderStepDef.validate_healthcare_landscape_secsecond_as(String)"
+});
+formatter.result({
+  "duration": 300100,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "See How We Work With your Systems",
+      "offset": 32
+    }
+  ],
+  "location": "ProviderStepDef.validate_work_systems_title_as(String)"
+});
+formatter.result({
+  "duration": 9815404500,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Looking to get started? Take the first steps towards discovering just how we can amplify the value of your existing technology.",
+      "offset": 30
+    }
+  ],
+  "location": "ProviderStepDef.validate_work_system_desc_as(String)"
+});
+formatter.result({
+  "duration": 29888400,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Talk To Experts",
+      "offset": 52
+    }
+  ],
+  "location": "ProviderStepDef.click_on_Talk_To_Experts_btn_and_validate_title_as(String)"
+});
+formatter.result({
+  "duration": 881760100,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Contact Us - CredaHealth",
+      "offset": 26
+    }
+  ],
+  "location": "HomeStepDef.validate_contact_us_page(String)"
+});
+formatter.result({
+  "duration": 14030000,
+  "status": "passed"
+});
+formatter.match({
+  "location": "ProviderStepDef.back_to_home_pageLogo()"
+});
+formatter.result({
+  "duration": 5222309100,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Become a Partner",
+      "offset": 53
+    }
+  ],
+  "location": "ProviderStepDef.click_on_Become_a_Partner_btn_and_validate_title_as(String)"
+});
+formatter.result({
+  "duration": 936014200,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Contact Us - CredaHealth",
+      "offset": 26
+    }
+  ],
+  "location": "HomeStepDef.validate_contact_us_page(String)"
+});
+formatter.result({
+  "duration": 16959600,
+  "status": "passed"
+});
+formatter.match({
+  "location": "ProviderStepDef.back_to_home_pageLogo()"
+});
+formatter.result({
+  "duration": 5234736700,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Creda for Clinics",
+      "offset": 33
+    }
+  ],
+  "location": "ProviderStepDef.validate_creda_clinice_title_as(String)"
+});
+formatter.result({
+  "duration": 709525500,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Creda Health’s “Patient Engagement solution” provides GI clinics with a comprehensive solution for engaging patients throughout their healthcare journey.",
+      "offset": 37
+    }
+  ],
+  "location": "ProviderStepDef.validate_creda_clinice_sub_title_as(String)"
+});
+formatter.result({
+  "duration": 29732000,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Creda offers a suite of services that include patient education, reminder notifications, and personalized communication modules. The ultimate goal is to improve patient outcomes by helping patients become more involved in their own care and treatment, leading to better adherence to treatment plans, improved health outcomes, reduced healthcare costs.",
+      "offset": 36
+    }
+  ],
+  "location": "ProviderStepDef.validate_creda_clinics_desc_one_as(String)"
+});
+formatter.result({
+  "duration": 31553400,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Creda also provides analytics and reports that allow healthcare organizations to track patient engagement and monitor their progress. These services help clinics build better relationships with their patients, leading to increased trust and satisfaction.",
+      "offset": 36
+    }
+  ],
+  "location": "ProviderStepDef.validate_creda_clinics_desc_two_as(String)"
+});
+formatter.result({
+  "duration": 30509800,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Contact Us",
+      "offset": 46
+    }
+  ],
+  "location": "ProviderStepDef.click_on_contact_us_btn_and_validate_text_as(String)"
+});
+formatter.result({
+  "duration": 854520000,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Contact Us - CredaHealth",
+      "offset": 26
+    }
+  ],
+  "location": "HomeStepDef.validate_contact_us_page(String)"
+});
+formatter.result({
+  "duration": 14605000,
+  "status": "passed"
+});
+formatter.match({
+  "location": "ProviderStepDef.back_to_home_pageLogo()"
+});
+formatter.result({
+  "duration": 5233085500,
+  "status": "passed"
 });
 });
