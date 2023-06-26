@@ -62,7 +62,7 @@ formatter.match({
   "location": "HomeStepDef.browse_credaHealth_web_site()"
 });
 formatter.result({
-  "duration": 114210600,
+  "duration": 119406400,
   "status": "passed"
 });
 formatter.match({
@@ -75,7 +75,69 @@ formatter.match({
   "location": "HomeStepDef.display_home_page_title_as(String)"
 });
 formatter.result({
-  "duration": 41896200,
+  "duration": 44298900,
+  "status": "passed"
+});
+formatter.uri("Individual.feature");
+formatter.feature({
+  "comments": [
+    {
+      "line": 1,
+      "value": "#Author: Jayesh"
+    },
+    {
+      "line": 2,
+      "value": "#Keywords Summary :"
+    },
+    {
+      "line": 3,
+      "value": "#Feature: providers us pages"
+    },
+    {
+      "line": 4,
+      "value": "#Scenario: validate individual page on web site"
+    },
+    {
+      "line": 5,
+      "value": "#Given:"
+    },
+    {
+      "line": 6,
+      "value": "#When:"
+    },
+    {
+      "line": 7,
+      "value": "#Then:"
+    },
+    {
+      "line": 8,
+      "value": "#And,But:"
+    }
+  ],
+  "line": 10,
+  "name": "Validate individual page",
+  "description": "As a user of KYM App\r\nI should be able to see individual page",
+  "id": "validate-individual-page",
+  "keyword": "Feature"
+});
+formatter.scenario({
+  "line": 14,
+  "name": "Open a individual page and validate it\u0027s text",
+  "description": "",
+  "id": "validate-individual-page;open-a-individual-page-and-validate-it\u0027s-text",
+  "type": "scenario",
+  "keyword": "Scenario"
+});
+formatter.step({
+  "line": 15,
+  "name": "click on individual menu",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "IndividualStepDef.click_on_individual_menu()"
+});
+formatter.result({
+  "duration": 1131971600,
   "status": "passed"
 });
 formatter.uri("Providers.feature");
@@ -483,7 +545,7 @@ formatter.match({
   "location": "ProviderStepDef.click_on_provider_menu()"
 });
 formatter.result({
-  "duration": 2914237200,
+  "duration": 2594725500,
   "status": "passed"
 });
 formatter.match({
@@ -496,7 +558,7 @@ formatter.match({
   "location": "HomeStepDef.validate_clinics_page(String)"
 });
 formatter.result({
-  "duration": 19219800,
+  "duration": 18766200,
   "status": "passed"
 });
 formatter.match({
@@ -509,7 +571,7 @@ formatter.match({
   "location": "ProviderStepDef.validate_Patient_Communication_section_as(String)"
 });
 formatter.result({
-  "duration": 53241800,
+  "duration": 58725200,
   "status": "passed"
 });
 formatter.match({
@@ -522,7 +584,7 @@ formatter.match({
   "location": "ProviderStepDef.validate_Patient_Communication_section_img_as(String)"
 });
 formatter.result({
-  "duration": 70393400,
+  "duration": 45823200,
   "status": "passed"
 });
 formatter.match({
@@ -535,7 +597,7 @@ formatter.match({
   "location": "ProviderStepDef.validate_patient_engagement_section_as(String)"
 });
 formatter.result({
-  "duration": 756873800,
+  "duration": 787126000,
   "status": "passed"
 });
 formatter.match({
@@ -548,7 +610,7 @@ formatter.match({
   "location": "ProviderStepDef.validate_awareness_section_as(String)"
 });
 formatter.result({
-  "duration": 724762800,
+  "duration": 712572500,
   "status": "passed"
 });
 formatter.match({
@@ -561,7 +623,7 @@ formatter.match({
   "location": "ProviderStepDef.validate_awareness_descone_as(String)"
 });
 formatter.result({
-  "duration": 32268400,
+  "duration": 29891700,
   "status": "passed"
 });
 formatter.match({
@@ -574,7 +636,7 @@ formatter.match({
   "location": "ProviderStepDef.validate_awareness_dessec_as(String)"
 });
 formatter.result({
-  "duration": 29612500,
+  "duration": 29363000,
   "status": "passed"
 });
 formatter.match({
@@ -587,7 +649,7 @@ formatter.match({
   "location": "ProviderStepDef.validate_awareness_descThrid_as(String)"
 });
 formatter.result({
-  "duration": 30932600,
+  "duration": 30906900,
   "status": "passed"
 });
 formatter.match({
@@ -600,7 +662,7 @@ formatter.match({
   "location": "ProviderStepDef.validate_awareness_img_as(String)"
 });
 formatter.result({
-  "duration": 47959900,
+  "duration": 46550400,
   "status": "passed"
 });
 formatter.match({
@@ -613,7 +675,7 @@ formatter.match({
   "location": "ProviderStepDef.validate_reinforced_education_title_as(String)"
 });
 formatter.result({
-  "duration": 1047326000,
+  "duration": 712806200,
   "status": "passed"
 });
 formatter.match({
@@ -626,7 +688,7 @@ formatter.match({
   "location": "ProviderStepDef.validate_reinforced_education_secone_as(String)"
 });
 formatter.result({
-  "duration": 754107200,
+  "duration": 697200300,
   "status": "passed"
 });
 formatter.match({
@@ -639,7 +701,7 @@ formatter.match({
   "location": "ProviderStepDef.validate_reinforced_education_secsecond_as(String)"
 });
 formatter.result({
-  "duration": 35384700,
+  "duration": 33622200,
   "status": "passed"
 });
 formatter.match({
@@ -652,7 +714,7 @@ formatter.match({
   "location": "ProviderStepDef.validate_end_to_end_patient_title_as(String)"
 });
 formatter.result({
-  "duration": 686425900,
+  "duration": 698346700,
   "status": "passed"
 });
 formatter.match({
@@ -665,14 +727,14 @@ formatter.match({
   "location": "ProviderStepDef.validate_end_to_end_patient_img_as(String)"
 });
 formatter.result({
-  "duration": 49274700,
+  "duration": 33794200,
   "status": "passed"
 });
 formatter.match({
   "location": "ProviderStepDef.click_on_more_details_button()"
 });
 formatter.result({
-  "duration": 3362540400,
+  "duration": 2507901700,
   "status": "passed"
 });
 formatter.match({
@@ -685,14 +747,14 @@ formatter.match({
   "location": "HomeStepDef.validate_contact_us_page(String)"
 });
 formatter.result({
-  "duration": 12369100,
+  "duration": 9866600,
   "status": "passed"
 });
 formatter.match({
   "location": "ProviderStepDef.back_to_home_pageLogo()"
 });
 formatter.result({
-  "duration": 5285250600,
+  "duration": 5256737600,
   "status": "passed"
 });
 formatter.match({
@@ -705,7 +767,7 @@ formatter.match({
   "location": "ProviderStepDef.validate_interact_with_section_as(String)"
 });
 formatter.result({
-  "duration": 773206000,
+  "duration": 716935400,
   "status": "passed"
 });
 formatter.match({
@@ -718,7 +780,7 @@ formatter.match({
   "location": "ProviderStepDef.validate_comprehensive_section_as(String)"
 });
 formatter.result({
-  "duration": 770913100,
+  "duration": 739686800,
   "status": "passed"
 });
 formatter.match({
@@ -731,7 +793,7 @@ formatter.match({
   "location": "ProviderStepDef.validate_comprehensive_subsection_as(String)"
 });
 formatter.result({
-  "duration": 34134200,
+  "duration": 31971600,
   "status": "passed"
 });
 formatter.match({
@@ -744,7 +806,7 @@ formatter.match({
   "location": "ProviderStepDef.validate_Customizable_section_as(String)"
 });
 formatter.result({
-  "duration": 34376300,
+  "duration": 32272600,
   "status": "passed"
 });
 formatter.match({
@@ -757,7 +819,7 @@ formatter.match({
   "location": "ProviderStepDef.validate_Customizable_subsection_as(String)"
 });
 formatter.result({
-  "duration": 29727200,
+  "duration": 29807000,
   "status": "passed"
 });
 formatter.match({
@@ -770,7 +832,7 @@ formatter.match({
   "location": "ProviderStepDef.validate_Scalable_section_as(String)"
 });
 formatter.result({
-  "duration": 34496700,
+  "duration": 31685700,
   "status": "passed"
 });
 formatter.match({
@@ -783,7 +845,7 @@ formatter.match({
   "location": "ProviderStepDef.validate_Scalable_subsection_as(String)"
 });
 formatter.result({
-  "duration": 45758400,
+  "duration": 35308400,
   "status": "passed"
 });
 formatter.match({
@@ -796,7 +858,7 @@ formatter.match({
   "location": "ProviderStepDef.validate_Actionable_section_as(String)"
 });
 formatter.result({
-  "duration": 43737100,
+  "duration": 29731800,
   "status": "passed"
 });
 formatter.match({
@@ -809,7 +871,7 @@ formatter.match({
   "location": "ProviderStepDef.validate_Actionable_subsection_as(String)"
 });
 formatter.result({
-  "duration": 42319800,
+  "duration": 30295600,
   "status": "passed"
 });
 formatter.match({
@@ -822,7 +884,7 @@ formatter.match({
   "location": "ProviderStepDef.validate_Wondering_section(String)"
 });
 formatter.result({
-  "duration": 708400400,
+  "duration": 728489600,
   "status": "passed"
 });
 formatter.match({
@@ -835,7 +897,7 @@ formatter.match({
   "location": "ProviderStepDef.validate_Wondering_sub_section(String)"
 });
 formatter.result({
-  "duration": 35328300,
+  "duration": 33911700,
   "status": "passed"
 });
 formatter.match({
@@ -848,7 +910,7 @@ formatter.match({
   "location": "ProviderStepDef.click_on_See_Who_We_Help_button_title_as(String)"
 });
 formatter.result({
-  "duration": 843081700,
+  "duration": 710126800,
   "status": "passed"
 });
 formatter.match({
@@ -861,14 +923,14 @@ formatter.match({
   "location": "HomeStepDef.validate_contact_us_page(String)"
 });
 formatter.result({
-  "duration": 14099600,
+  "duration": 14161400,
   "status": "passed"
 });
 formatter.match({
   "location": "ProviderStepDef.back_to_home_pageLogo()"
 });
 formatter.result({
-  "duration": 5264761200,
+  "duration": 5429573200,
   "status": "passed"
 });
 formatter.match({
@@ -881,7 +943,7 @@ formatter.match({
   "location": "ProviderStepDef.validate_question_title_section_as(String)"
 });
 formatter.result({
-  "duration": 810285400,
+  "duration": 756810500,
   "status": "passed"
 });
 formatter.match({
@@ -894,7 +956,7 @@ formatter.match({
   "location": "ProviderStepDef.validate_question_descriptionone_as(String)"
 });
 formatter.result({
-  "duration": 56487300,
+  "duration": 35228600,
   "status": "passed"
 });
 formatter.match({
@@ -907,7 +969,7 @@ formatter.match({
   "location": "ProviderStepDef.validate_question_descriptiontwo_as(String)"
 });
 formatter.result({
-  "duration": 29233100,
+  "duration": 28953600,
   "status": "passed"
 });
 formatter.match({
@@ -920,7 +982,7 @@ formatter.match({
   "location": "ProviderStepDef.validate_question_descriptionthree_as(String)"
 });
 formatter.result({
-  "duration": 29624800,
+  "duration": 32148200,
   "status": "passed"
 });
 formatter.match({
@@ -933,7 +995,7 @@ formatter.match({
   "location": "ProviderStepDef.validate_case_study_title_as(String)"
 });
 formatter.result({
-  "duration": 758793400,
+  "duration": 703615500,
   "status": "passed"
 });
 formatter.match({
@@ -946,7 +1008,7 @@ formatter.match({
   "location": "ProviderStepDef.validate_case_study_description_as(String)"
 });
 formatter.result({
-  "duration": 1352800,
+  "duration": 753900,
   "status": "passed"
 });
 formatter.match({
@@ -959,7 +1021,7 @@ formatter.match({
   "location": "ProviderStepDef.validate_implement_engagement_title_as(String)"
 });
 formatter.result({
-  "duration": 796766600,
+  "duration": 751396800,
   "status": "passed"
 });
 formatter.match({
@@ -972,7 +1034,7 @@ formatter.match({
   "location": "ProviderStepDef.validate_implement_engagement_desc_as(String)"
 });
 formatter.result({
-  "duration": 85558400,
+  "duration": 32829000,
   "status": "passed"
 });
 formatter.match({
@@ -985,7 +1047,7 @@ formatter.match({
   "location": "ProviderStepDef.validate_preprocedure_title_as(String)"
 });
 formatter.result({
-  "duration": 741044800,
+  "duration": 733671800,
   "status": "passed"
 });
 formatter.match({
@@ -998,7 +1060,7 @@ formatter.match({
   "location": "ProviderStepDef.validate_preprocedure_desc_as(String)"
 });
 formatter.result({
-  "duration": 48147600,
+  "duration": 59695800,
   "status": "passed"
 });
 formatter.match({
@@ -1011,7 +1073,7 @@ formatter.match({
   "location": "ProviderStepDef.click_on_enqurire_now_demo_button_and_title_is(String)"
 });
 formatter.result({
-  "duration": 1619857900,
+  "duration": 1405772700,
   "status": "passed"
 });
 formatter.match({
@@ -1024,14 +1086,14 @@ formatter.match({
   "location": "HomeStepDef.validate_contact_us_page(String)"
 });
 formatter.result({
-  "duration": 6205600,
+  "duration": 6718900,
   "status": "passed"
 });
 formatter.match({
   "location": "ProviderStepDef.back_to_home_pageLogo()"
 });
 formatter.result({
-  "duration": 5275069500,
+  "duration": 5225476200,
   "status": "passed"
 });
 formatter.match({
@@ -1044,7 +1106,7 @@ formatter.match({
   "location": "ProviderStepDef.validate_postprocedure_title_as(String)"
 });
 formatter.result({
-  "duration": 51847800,
+  "duration": 56321900,
   "status": "passed"
 });
 formatter.match({
@@ -1057,7 +1119,7 @@ formatter.match({
   "location": "ProviderStepDef.validate_postprocedure_desc_as(String)"
 });
 formatter.result({
-  "duration": 32155800,
+  "duration": 27767800,
   "status": "passed"
 });
 formatter.match({
@@ -1070,7 +1132,7 @@ formatter.match({
   "location": "ProviderStepDef.click_on_enqurire_now_demo_button_and_title_is(String)"
 });
 formatter.result({
-  "duration": 1602363200,
+  "duration": 1596103800,
   "status": "passed"
 });
 formatter.match({
@@ -1083,14 +1145,14 @@ formatter.match({
   "location": "HomeStepDef.validate_contact_us_page(String)"
 });
 formatter.result({
-  "duration": 12727600,
+  "duration": 17349500,
   "status": "passed"
 });
 formatter.match({
   "location": "ProviderStepDef.back_to_home_pageLogo()"
 });
 formatter.result({
-  "duration": 5277498900,
+  "duration": 5235523500,
   "status": "passed"
 });
 formatter.match({
@@ -1103,7 +1165,7 @@ formatter.match({
   "location": "ProviderStepDef.validate_healthcare_landscape_section_title_as(String)"
 });
 formatter.result({
-  "duration": 769275600,
+  "duration": 786894300,
   "status": "passed"
 });
 formatter.match({
@@ -1116,7 +1178,7 @@ formatter.match({
   "location": "ProviderStepDef.validate_healthcare_landscape_sub_title_as(String)"
 });
 formatter.result({
-  "duration": 35697300,
+  "duration": 45261400,
   "status": "passed"
 });
 formatter.match({
@@ -1129,7 +1191,7 @@ formatter.match({
   "location": "ProviderStepDef.validate_healthcare_landscape_secone_desc_as(String)"
 });
 formatter.result({
-  "duration": 348300,
+  "duration": 332300,
   "status": "passed"
 });
 formatter.match({
@@ -1142,7 +1204,7 @@ formatter.match({
   "location": "ProviderStepDef.validate_healthcare_landscape_secsecond_as(String)"
 });
 formatter.result({
-  "duration": 300100,
+  "duration": 277000,
   "status": "passed"
 });
 formatter.match({
@@ -1155,7 +1217,7 @@ formatter.match({
   "location": "ProviderStepDef.validate_work_systems_title_as(String)"
 });
 formatter.result({
-  "duration": 9815404500,
+  "duration": 727786300,
   "status": "passed"
 });
 formatter.match({
@@ -1168,7 +1230,7 @@ formatter.match({
   "location": "ProviderStepDef.validate_work_system_desc_as(String)"
 });
 formatter.result({
-  "duration": 29888400,
+  "duration": 37615300,
   "status": "passed"
 });
 formatter.match({
@@ -1181,7 +1243,7 @@ formatter.match({
   "location": "ProviderStepDef.click_on_Talk_To_Experts_btn_and_validate_title_as(String)"
 });
 formatter.result({
-  "duration": 881760100,
+  "duration": 877515600,
   "status": "passed"
 });
 formatter.match({
@@ -1194,14 +1256,14 @@ formatter.match({
   "location": "HomeStepDef.validate_contact_us_page(String)"
 });
 formatter.result({
-  "duration": 14030000,
+  "duration": 13056500,
   "status": "passed"
 });
 formatter.match({
   "location": "ProviderStepDef.back_to_home_pageLogo()"
 });
 formatter.result({
-  "duration": 5222309100,
+  "duration": 5271219000,
   "status": "passed"
 });
 formatter.match({
@@ -1214,7 +1276,7 @@ formatter.match({
   "location": "ProviderStepDef.click_on_Become_a_Partner_btn_and_validate_title_as(String)"
 });
 formatter.result({
-  "duration": 936014200,
+  "duration": 951247700,
   "status": "passed"
 });
 formatter.match({
@@ -1227,14 +1289,14 @@ formatter.match({
   "location": "HomeStepDef.validate_contact_us_page(String)"
 });
 formatter.result({
-  "duration": 16959600,
+  "duration": 14793200,
   "status": "passed"
 });
 formatter.match({
   "location": "ProviderStepDef.back_to_home_pageLogo()"
 });
 formatter.result({
-  "duration": 5234736700,
+  "duration": 5214819700,
   "status": "passed"
 });
 formatter.match({
@@ -1247,7 +1309,7 @@ formatter.match({
   "location": "ProviderStepDef.validate_creda_clinice_title_as(String)"
 });
 formatter.result({
-  "duration": 709525500,
+  "duration": 758974700,
   "status": "passed"
 });
 formatter.match({
@@ -1260,7 +1322,7 @@ formatter.match({
   "location": "ProviderStepDef.validate_creda_clinice_sub_title_as(String)"
 });
 formatter.result({
-  "duration": 29732000,
+  "duration": 48996900,
   "status": "passed"
 });
 formatter.match({
@@ -1273,7 +1335,7 @@ formatter.match({
   "location": "ProviderStepDef.validate_creda_clinics_desc_one_as(String)"
 });
 formatter.result({
-  "duration": 31553400,
+  "duration": 31400400,
   "status": "passed"
 });
 formatter.match({
@@ -1286,7 +1348,7 @@ formatter.match({
   "location": "ProviderStepDef.validate_creda_clinics_desc_two_as(String)"
 });
 formatter.result({
-  "duration": 30509800,
+  "duration": 27951500,
   "status": "passed"
 });
 formatter.match({
@@ -1299,7 +1361,7 @@ formatter.match({
   "location": "ProviderStepDef.click_on_contact_us_btn_and_validate_text_as(String)"
 });
 formatter.result({
-  "duration": 854520000,
+  "duration": 916654800,
   "status": "passed"
 });
 formatter.match({
@@ -1312,14 +1374,14 @@ formatter.match({
   "location": "HomeStepDef.validate_contact_us_page(String)"
 });
 formatter.result({
-  "duration": 14605000,
+  "duration": 14982100,
   "status": "passed"
 });
 formatter.match({
   "location": "ProviderStepDef.back_to_home_pageLogo()"
 });
 formatter.result({
-  "duration": 5233085500,
+  "duration": 5231883600,
   "status": "passed"
 });
 });
