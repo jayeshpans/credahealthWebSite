@@ -94,55 +94,192 @@ public class ChroniccareStepDef extends BaseClass {
     public void validate_chronic_care_pages_title_as(String arg1) {
         ChronicCarePage objChronicCarePage = new ChronicCarePage(getDriver());
         Assert.assertEquals(objChronicCarePage.validatecaretitle(), arg1);
-        System.out.println(objChronicCarePage.validatecaretitle());
     }
     @Then("^validate journey section title as \"([^\"]*)\"$")
-    public void validate_journey_section_title_as(String arg1) {
-
+    public void validate_journey_section_title_as(String arg1) throws InterruptedException {
+        ChronicCarePage objChronicCarePage = new ChronicCarePage(getDriver());
+        Assert.assertEquals(objChronicCarePage.journeyTitle(), arg1);
     }
 
     @Then("^validate journey section desc as \"([^\"]*)\"$")
     public void validate_journey_section_desc_as(String arg1) {
-
+        ChronicCarePage objChronicCarePage = new ChronicCarePage(getDriver());
+        objChronicCarePage.journeyDesc();
     }
 
     @Then("^validate approach section as \"([^\"]*)\"$")
-    public void validate_approach_section_as(String arg1) {
-
+    public void validate_approach_section_as(String arg1) throws InterruptedException {
+        ChronicCarePage objChronicCarePage = new ChronicCarePage(getDriver());
+        objChronicCarePage.approachTitle();
     }
 
     @Then("^validate approach sub section desc as \"([^\"]*)\"$")
     public void validate_approach_sub_section_desc_as(String arg1) {
-
+        ChronicCarePage objChronicCarePage = new ChronicCarePage(getDriver());
+        objChronicCarePage.approachSubDescOne();
     }
 
     @Then("^validate approach sub desc as \"([^\"]*)\"$")
     public void validate_approach_sub_desc_as(String arg1) {
-
+        ChronicCarePage objChronicCarePage = new ChronicCarePage(getDriver());
+        objChronicCarePage.approachSubDesctwo();
     }
 
     @Then("^validate collaborative section title as \"([^\"]*)\"$")
-    public void validate_collaborative_section_title_as(String arg1) {
-
+    public void validate_collaborative_section_title_as(String arg1) throws InterruptedException {
+        ChronicCarePage objChronicCarePage = new ChronicCarePage(getDriver());
+        objChronicCarePage.collaborativeTitle();
     }
 
     @Then("^validate collaborative section sub title as \"([^\"]*)\"$")
     public void validate_collaborative_section_sub_title_as(String arg1) {
-
+        ChronicCarePage objChronicCarePage = new ChronicCarePage(getDriver());
+        objChronicCarePage.collaborativeSubTitle();
     }
 
     @Then("^validate collaborative section desc as \"([^\"]*)\"$")
     public void validate_collaborative_section_desc_as(String arg1) {
-
+        ChronicCarePage objChronicCarePage = new ChronicCarePage(getDriver());
+        objChronicCarePage.collaborativedesc();
     }
 
     @Then("^validate progress section title as \"([^\"]*)\"$")
-    public void validate_progress_section_title_as(String arg1) {
-
+    public void validate_progress_section_title_as(String arg1) throws InterruptedException {
+        ChronicCarePage objChronicCarePage = new ChronicCarePage(getDriver());
+        objChronicCarePage.ProgressTitle();
     }
 
     @Then("^validate progress section desc as \"([^\"]*)\"$")
     public void validate_progress_section_desc_as(String arg1) {
+        ChronicCarePage objChronicCarePage = new ChronicCarePage(getDriver());
+        objChronicCarePage.Progressdesc();
+    }
+    @Then("^validate what we care title as \"([^\"]*)\"$")
+    public void validate_what_we_care_title_as(String arg1) throws InterruptedException {
+        ChronicCarePage objChronicCarePage = new ChronicCarePage(getDriver());
+        objChronicCarePage.getWhatWeCareTitle();
+    }
 
+    @Then("^validate what we care sub title as \"([^\"]*)\"$")
+    public void validate_what_we_care_sub_title_as(String arg1) {
+        ChronicCarePage objChronicCarePage = new ChronicCarePage(getDriver());
+        objChronicCarePage.getWhatWeCareSubTitle();
+    }
+
+    @Then("^validate Lupus section as \"([^\"]*)\"$")
+    public void validate_Lupus_section_as(String arg1) throws InterruptedException {
+        ChronicCarePage objChronicCarePage = new ChronicCarePage(getDriver());
+        objChronicCarePage.getLupusTitle();
+    }
+
+    @Then("^click on Enroll Today for Free button for lupus section and title as \"([^\"]*)\"$")
+    public void click_on_Enroll_Today_for_Free_button_for_lupus_section_and_title_as(String arg1) {
+        ChronicCarePage objChronicCarePage = new ChronicCarePage(getDriver());
+        objChronicCarePage.getEnrollTodayBtnTitle();
+        objChronicCarePage.clickEnrollTodayBtn();
+    }
+
+    @Then("^validate IBD section as \"([^\"]*)\"$")
+    public void validate_IBD_section_as(String arg1){
+        ChronicCarePage objChronicCarePage = new ChronicCarePage(getDriver());
+        objChronicCarePage.getIBDTitle();
+    }
+
+    @Then("^click on Enroll Today for Free button for IBD section and title as \"([^\"]*)\"$")
+    public void click_on_Enroll_Today_for_Free_button_for_IBD_section_and_title_as(String arg1) {
+        ChronicCarePage objChronicCarePage = new ChronicCarePage(getDriver());
+        objChronicCarePage.getIBDEnrollTodayBtnTitle();
+        objChronicCarePage.clickIBDEnrollTodayBtn();
+    }
+
+    @Then("^validate IBS section as \"([^\"]*)\"$")
+    public void validate_IBS_section_as(String arg1) {
+        ChronicCarePage objChronicCarePage = new ChronicCarePage(getDriver());
+        objChronicCarePage.getIBSTitle();
+    }
+
+    @Then("^click on Enroll Today for Free button for IBS section and title as \"([^\"]*)\"$")
+    public void click_on_Enroll_Today_for_Free_button_for_IBS_section_and_title_as(String arg1) {
+        ChronicCarePage objChronicCarePage = new ChronicCarePage(getDriver());
+        objChronicCarePage.getIBSEnrollTodayBtnTitle();
+        objChronicCarePage.clickIBSEnrollTodayBtn();
+    }
+
+    @Then("^validate diabetesone section as \"([^\"]*)\"$")
+    public void validate_diabetesone_section_as(String arg1) {
+        ChronicCarePage objChronicCarePage = new ChronicCarePage(getDriver());
+        objChronicCarePage.getdiabesoneTitle();
+    }
+
+    @Then("^click on Enroll Today for Free button for diabetesone section and title as \"([^\"]*)\"$")
+    public void click_on_Enroll_Today_for_Free_button_for_diabetesone_section_and_title_as(String arg1) {
+        ChronicCarePage objChronicCarePage = new ChronicCarePage(getDriver());
+        objChronicCarePage.getDiabesonenErollTodayBtnTitle();
+        objChronicCarePage.clickDiabesoneEnrollTodayBtn();
+    }
+
+    @Then("^validate diabetestwo section as \"([^\"]*)\"$")
+    public void validate_diabetestwo_section_as(String arg1) {
+        ChronicCarePage objChronicCarePage = new ChronicCarePage(getDriver());
+        objChronicCarePage.getdiabestwoTitle();
+    }
+
+    @Then("^click on Enroll Today for Free button for diabetestwo section and title as \"([^\"]*)\"$")
+    public void click_on_Enroll_Today_for_Free_button_for_diabetestwo_section_and_title_as(String arg1) {
+        ChronicCarePage objChronicCarePage = new ChronicCarePage(getDriver());
+        objChronicCarePage.getDiabesTwoErollTodayBtnTitle();
+        objChronicCarePage.clickDiabesTwoEnrollTodayBtn();
+    }
+
+    @Then("^validate hypertension section as \"([^\"]*)\"$")
+    public void validate_hypertension_section_as(String arg1) throws Throwable {
+        ChronicCarePage objChronicCarePage = new ChronicCarePage(getDriver());
+        objChronicCarePage.getHypertensionTitle();
+    }
+
+    @Then("^click on Enroll Today for Free button for hypertension section and title as \"([^\"]*)\"$")
+    public void click_on_Enroll_Today_for_Free_button_for_hypertension_section_and_title_as(String arg1) {
+        ChronicCarePage objChronicCarePage = new ChronicCarePage(getDriver());
+        objChronicCarePage.getHypertensionErollTodayBtnTitle();
+        objChronicCarePage.clickHypertensionEnrollTodayBtn();
+    }
+
+    @Then("^validate prediabetes section as \"([^\"]*)\"$")
+    public void validate_prediabetes_section_as(String arg1) {
+        ChronicCarePage objChronicCarePage = new ChronicCarePage(getDriver());
+        objChronicCarePage.getPrediabesTitle();
+    }
+
+    @Then("^click on Enroll Today for Free button for prediabetes section and title as \"([^\"]*)\"$")
+    public void click_on_Enroll_Today_for_Free_button_for_prediabetes_section_and_title_as(String arg1) {
+        ChronicCarePage objChronicCarePage = new ChronicCarePage(getDriver());
+        objChronicCarePage.getPrediabesErollTodayBtnTitle();
+        objChronicCarePage.clickPrediabesEnrollTodayBtn();
+    }
+
+    @Then("^validate overweight section as \"([^\"]*)\"$")
+    public void validate_overweight_section_as(String arg1) throws Throwable {
+        ChronicCarePage objChronicCarePage = new ChronicCarePage(getDriver());
+        objChronicCarePage.getOverweightTitle();
+    }
+
+    @Then("^click on Enroll Today for Free button for overweight section and title as \"([^\"]*)\"$")
+    public void click_on_Enroll_Today_for_Free_button_for_overweight_section_and_title_as(String arg1){
+        ChronicCarePage objChronicCarePage = new ChronicCarePage(getDriver());
+        objChronicCarePage.getOverweightErollTodayBtnTitle();
+        objChronicCarePage.clickOverweightEnrollTodayBtn();
+    }
+
+    @Then("^validate cholesterol section as \"([^\"]*)\"$")
+    public void validate_cholesterol_section_as(String arg1) {
+        ChronicCarePage objChronicCarePage = new ChronicCarePage(getDriver());
+        objChronicCarePage.getCholesterolTitle();
+    }
+
+    @Then("^click on Enroll Today for Free button for cholesterol section and title as \"([^\"]*)\"$")
+    public void click_on_Enroll_Today_for_Free_button_for_cholesterol_section_and_title_as(String arg1) {
+        ChronicCarePage objChronicCarePage = new ChronicCarePage(getDriver());
+        objChronicCarePage.getCholesterolErollTodayBtnTitle();
+        objChronicCarePage.clickCholesterolEnrollTodayBtn();
     }
 }

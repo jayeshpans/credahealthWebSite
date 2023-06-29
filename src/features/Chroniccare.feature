@@ -49,4 +49,50 @@ Feature: Validate chronic care page
     Then validate progress section title as "Evaluating Your Progress/Putting Together The Big Picture"
     Then validate progress section desc as "Through regular check-ins and health related questionnaires on your symptoms and disease we ensure that you stay on top of any onset of complications or disease progression. Weekly health reports that include metrics on your medication adherence, symptoms, food with macro and micro nutrients, vitals, and exercise along with a care team reviewing all of this in the backend, we enable you, your physician, and us to connect the dots so that you can take proactive steps to prevent complications."
 
+    Then validate what we care title as "What We Care For"
+    Then validate what we care sub title as "Making professional therapy accessible"
 
+    Then validate Lupus section as "Lupus"
+    Then click on Enroll Today for Free button for lupus section and title as "Enroll Today for Free"
+    Then validate get the app page as "Get The App - CredaHealth"
+    Then back to home page
+
+    Then validate IBD section as "IBD"
+    Then click on Enroll Today for Free button for IBD section and title as "Enroll Today for Free"
+    Then validate get the app page as "Get The App - CredaHealth"
+    Then back to home page
+
+    Then validate IBS section as "IBS"
+    Then click on Enroll Today for Free button for IBS section and title as "Enroll Today for Free"
+    Then validate get the app page as "Get The App - CredaHealth"
+    Then back to home page
+
+    Then validate diabetesone section as "Diabetes Type 1"
+    Then click on Enroll Today for Free button for diabetesone section and title as "Enroll Today for Free"
+    Then validate get the app page as "Get The App - CredaHealth"
+    Then back to home page
+
+    Then validate diabetestwo section as "Diabetes Type 2"
+    Then click on Enroll Today for Free button for diabetestwo section and title as "Enroll Today for Free"
+    Then validate get the app page as "Get The App - CredaHealth"
+    Then back to home page
+
+    Then validate hypertension section as "Hypertension"
+    Then click on Enroll Today for Free button for hypertension section and title as "Enroll Today for Free"
+    Then validate get the app page as "Get The App - CredaHealth"
+    Then back to home page
+
+    Then validate prediabetes section as "Prediabetes"
+    Then click on Enroll Today for Free button for prediabetes section and title as "Enroll Today for Free"
+    Then validate get the app page as "Get The App - CredaHealth"
+    Then back to home page
+
+    Then validate overweight section as "Overweight / Obesity"
+    Then click on Enroll Today for Free button for overweight section and title as "Enroll Today for Free"
+    Then validate get the app page as "Get The App - CredaHealth"
+    Then back to home page
+
+    Then validate cholesterol section as "High Cholesterol"
+    Then click on Enroll Today for Free button for cholesterol section and title as "Enroll Today for Free"
+    Then validate get the app page as "Get The App - CredaHealth"
+    Then back to home page

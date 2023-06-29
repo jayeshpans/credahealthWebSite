@@ -128,11 +128,109 @@ formatter.step({
   "name": "validate wholesome desc as \"With our holistic approach combining science and technology, we help you live your best life, keeping your condition in check with a seamless continuum of care and real, measurable results.\"",
   "keyword": "Then "
 });
+formatter.step({
+  "line": 35,
+  "name": "validate journey section title as \"Understanding You And Your Journey:\"",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 36,
+  "name": "validate journey section desc as \"We understand your health profile, including all the modifiable risk factors you may ave that can increase your risk of health problems and complications.\"",
+  "keyword": "Then "
+});
+formatter.step({
+  "comments": [
+    {
+      "line": 37,
+      "value": "#    Then validte journey background image as \"\""
+    }
+  ],
+  "line": 39,
+  "name": "validate approach section as \"Personalizing The Approach To You\"",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 40,
+  "name": "validate approach sub section desc as \"We customize the app features to guide you to achieve your health goals.\"",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 41,
+  "name": "validate approach sub desc as \"You can start tracking vitals, medications, food, and exercise along with access to content like articles, factsheets and videos personalized to your concerns.\"",
+  "keyword": "Then "
+});
+formatter.step({
+  "comments": [
+    {
+      "line": 42,
+      "value": "#    Then validate approach background image as \"\""
+    }
+  ],
+  "line": 44,
+  "name": "validate collaborative section title as \"Building Continuous, Coordinated, Collaborative Care\"",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 45,
+  "name": "validate collaborative section sub title as \"You are assigned a care team comprising of nutrition and health experts who help you set realistic and achievable health goals.\"",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 46,
+  "name": "validate collaborative section desc as \"They customize their support to your health needs, hand hold you, and tweak your program as they become more familiar with your lifestyle through continuous communication andmonitoring all the metrics you track in the app. The digital health assistant also provides mindful nudges and insights into your health and habits.\"",
+  "keyword": "Then "
+});
+formatter.step({
+  "comments": [
+    {
+      "line": 47,
+      "value": "#    Then validate collaboractive background image as \"\""
+    }
+  ],
+  "line": 49,
+  "name": "validate progress section title as \"Evaluating Your Progress/Putting Together The Big Picture\"",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 50,
+  "name": "validate progress section desc as \"Through regular check-ins and health related questionnaires on your symptoms and disease we ensure that you stay on top of any onset of complications or disease progression. Weekly health reports that include metrics on your medication adherence, symptoms, food with macro and micro nutrients, vitals, and exercise along with a care team reviewing all of this in the backend, we enable you, your physician, and us to connect the dots so that you can take proactive steps to prevent complications.\"",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 52,
+  "name": "validate what we care title as \"What We Care For\"",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 53,
+  "name": "validate what we care sub title as \"Making professional therapy accessible\"",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 54,
+  "name": "validate Lupus section as \"Lupus\"",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 55,
+  "name": "click on Enroll Today for Free button for lupus section and title as \"Enroll Today for Free\"",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 56,
+  "name": "validate get the app page as \"Get The App - CredaHealth\"",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 57,
+  "name": "back to home page",
+  "keyword": "Then "
+});
 formatter.match({
   "location": "ChroniccareStepDef.click_on_chronic_care_menu()"
 });
 formatter.result({
-  "duration": 2353400200,
+  "duration": 2196218700,
   "status": "passed"
 });
 formatter.match({
@@ -145,7 +243,7 @@ formatter.match({
   "location": "IndividualStepDef.validate_chronic_care_page_title_as(String)"
 });
 formatter.result({
-  "duration": 14337400,
+  "duration": 13051800,
   "status": "passed"
 });
 formatter.match({
@@ -158,7 +256,7 @@ formatter.match({
   "location": "ChroniccareStepDef.validate_chronic_care_pages_title_as(String)"
 });
 formatter.result({
-  "duration": 143348800,
+  "duration": 82448900,
   "status": "passed"
 });
 formatter.match({
@@ -171,7 +269,7 @@ formatter.match({
   "location": "ChroniccareStepDef.validate_chronic_care_sub_title_as(String)"
 });
 formatter.result({
-  "duration": 38694900,
+  "duration": 42616000,
   "status": "passed"
 });
 formatter.match({
@@ -184,7 +282,7 @@ formatter.match({
   "location": "ChroniccareStepDef.validate_download_app_button_and_display_title_as(String)"
 });
 formatter.result({
-  "duration": 1650386300,
+  "duration": 1986016500,
   "status": "passed"
 });
 formatter.match({
@@ -197,14 +295,14 @@ formatter.match({
   "location": "ChroniccareStepDef.validate_get_the_app_page_as(String)"
 });
 formatter.result({
-  "duration": 48310800,
+  "duration": 52847500,
   "status": "passed"
 });
 formatter.match({
   "location": "ChroniccareStepDef.back_to_home_page()"
 });
 formatter.result({
-  "duration": 295712600,
+  "duration": 272785200,
   "status": "passed"
 });
 formatter.match({
@@ -217,7 +315,7 @@ formatter.match({
   "location": "ChroniccareStepDef.validate_condition_sec_title_as(String)"
 });
 formatter.result({
-  "duration": 747501300,
+  "duration": 806622400,
   "status": "passed"
 });
 formatter.match({
@@ -230,7 +328,7 @@ formatter.match({
   "location": "ChroniccareStepDef.validate_condition_sec_sub_title_as(String)"
 });
 formatter.result({
-  "duration": 42446500,
+  "duration": 31098600,
   "status": "passed"
 });
 formatter.match({
@@ -243,7 +341,7 @@ formatter.match({
   "location": "ChroniccareStepDef.validate_condition_sec_quote_as(String)"
 });
 formatter.result({
-  "duration": 48007900,
+  "duration": 29672000,
   "status": "passed"
 });
 formatter.match({
@@ -256,7 +354,7 @@ formatter.match({
   "location": "ChroniccareStepDef.valdate_big_pic_title_as(String)"
 });
 formatter.result({
-  "duration": 50429400,
+  "duration": 31154900,
   "status": "passed"
 });
 formatter.match({
@@ -269,7 +367,7 @@ formatter.match({
   "location": "ChroniccareStepDef.validate_big_pic_desc_as(String)"
 });
 formatter.result({
-  "duration": 46573000,
+  "duration": 31843300,
   "status": "passed"
 });
 formatter.match({
@@ -282,7 +380,7 @@ formatter.match({
   "location": "ChroniccareStepDef.validate_real_export_title_as(String)"
 });
 formatter.result({
-  "duration": 40325600,
+  "duration": 29129800,
   "status": "passed"
 });
 formatter.match({
@@ -295,7 +393,7 @@ formatter.match({
   "location": "ChroniccareStepDef.validate_real_export_desc_as(String)"
 });
 formatter.result({
-  "duration": 44848000,
+  "duration": 31031400,
   "status": "passed"
 });
 formatter.match({
@@ -308,7 +406,7 @@ formatter.match({
   "location": "ChroniccareStepDef.validate_wholesome_title_as(String)"
 });
 formatter.result({
-  "duration": 46346000,
+  "duration": 774614300,
   "status": "passed"
 });
 formatter.match({
@@ -321,7 +419,209 @@ formatter.match({
   "location": "ChroniccareStepDef.validate_wholesome_desc_as(String)"
 });
 formatter.result({
-  "duration": 46221800,
+  "duration": 76305000,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Understanding You And Your Journey:",
+      "offset": 35
+    }
+  ],
+  "location": "ChroniccareStepDef.validate_journey_section_title_as(String)"
+});
+formatter.result({
+  "duration": 751457800,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "We understand your health profile, including all the modifiable risk factors you may ave that can increase your risk of health problems and complications.",
+      "offset": 34
+    }
+  ],
+  "location": "ChroniccareStepDef.validate_journey_section_desc_as(String)"
+});
+formatter.result({
+  "duration": 46090200,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Personalizing The Approach To You",
+      "offset": 30
+    }
+  ],
+  "location": "ChroniccareStepDef.validate_approach_section_as(String)"
+});
+formatter.result({
+  "duration": 711896200,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "We customize the app features to guide you to achieve your health goals.",
+      "offset": 39
+    }
+  ],
+  "location": "ChroniccareStepDef.validate_approach_sub_section_desc_as(String)"
+});
+formatter.result({
+  "duration": 35255900,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "You can start tracking vitals, medications, food, and exercise along with access to content like articles, factsheets and videos personalized to your concerns.",
+      "offset": 31
+    }
+  ],
+  "location": "ChroniccareStepDef.validate_approach_sub_desc_as(String)"
+});
+formatter.result({
+  "duration": 26717300,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Building Continuous, Coordinated, Collaborative Care",
+      "offset": 41
+    }
+  ],
+  "location": "ChroniccareStepDef.validate_collaborative_section_title_as(String)"
+});
+formatter.result({
+  "duration": 714918500,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "You are assigned a care team comprising of nutrition and health experts who help you set realistic and achievable health goals.",
+      "offset": 45
+    }
+  ],
+  "location": "ChroniccareStepDef.validate_collaborative_section_sub_title_as(String)"
+});
+formatter.result({
+  "duration": 35704400,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "They customize their support to your health needs, hand hold you, and tweak your program as they become more familiar with your lifestyle through continuous communication andmonitoring all the metrics you track in the app. The digital health assistant also provides mindful nudges and insights into your health and habits.",
+      "offset": 40
+    }
+  ],
+  "location": "ChroniccareStepDef.validate_collaborative_section_desc_as(String)"
+});
+formatter.result({
+  "duration": 25287300,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Evaluating Your Progress/Putting Together The Big Picture",
+      "offset": 36
+    }
+  ],
+  "location": "ChroniccareStepDef.validate_progress_section_title_as(String)"
+});
+formatter.result({
+  "duration": 690919400,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Through regular check-ins and health related questionnaires on your symptoms and disease we ensure that you stay on top of any onset of complications or disease progression. Weekly health reports that include metrics on your medication adherence, symptoms, food with macro and micro nutrients, vitals, and exercise along with a care team reviewing all of this in the backend, we enable you, your physician, and us to connect the dots so that you can take proactive steps to prevent complications.",
+      "offset": 35
+    }
+  ],
+  "location": "ChroniccareStepDef.validate_progress_section_desc_as(String)"
+});
+formatter.result({
+  "duration": 33366000,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "What We Care For",
+      "offset": 32
+    }
+  ],
+  "location": "ChroniccareStepDef.validate_what_we_care_title_as(String)"
+});
+formatter.result({
+  "duration": 704047500,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Making professional therapy accessible",
+      "offset": 36
+    }
+  ],
+  "location": "ChroniccareStepDef.validate_what_we_care_sub_title_as(String)"
+});
+formatter.result({
+  "duration": 33184200,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Lupus",
+      "offset": 27
+    }
+  ],
+  "location": "ChroniccareStepDef.validate_Lupus_section_as(String)"
+});
+formatter.result({
+  "duration": 703620800,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Enroll Today for Free",
+      "offset": 70
+    }
+  ],
+  "location": "ChroniccareStepDef.click_on_Enroll_Today_for_Free_button_for_lupus_section_and_title_as(String)"
+});
+formatter.result({
+  "duration": 858028400,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Get The App - CredaHealth",
+      "offset": 30
+    }
+  ],
+  "location": "ChroniccareStepDef.validate_get_the_app_page_as(String)"
+});
+formatter.result({
+  "duration": 34829300,
+  "status": "passed"
+});
+formatter.match({
+  "location": "ChroniccareStepDef.back_to_home_page()"
+});
+formatter.result({
+  "duration": 217635700,
   "status": "passed"
 });
 });
