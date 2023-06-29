@@ -11,11 +11,11 @@
       },
       {
         "line": 3,
-        "value": "#Feature: home us pages"
+        "value": "#Feature: chronic care us pages"
       },
       {
         "line": 4,
-        "value": "#Scenario: validate home page on web site"
+        "value": "#Scenario: validate chronic care page on web site"
       },
       {
         "line": 5,
@@ -38,252 +38,30 @@
     "elements": [
       {
         "line": 14,
-        "name": "Open a home page",
+        "name": "Open a chronic care page and validate it\u0027s text",
         "description": "",
-        "id": "validate-home-page;open-a-home-page",
+        "id": "validate-chronic-care-page;open-a-chronic-care-page-and-validate-it\u0027s-text",
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 114565700,
+              "duration": 2353400200,
               "status": "passed"
             },
             "line": 15,
-            "name": "Browse credaHealth web site",
+            "name": "click on chronic care menu",
             "match": {
-              "location": "HomeStepDef.browse_credaHealth_web_site()"
+              "location": "ChroniccareStepDef.click_on_chronic_care_menu()"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 47909000,
+              "duration": 14337400,
               "status": "passed"
             },
             "line": 16,
-            "name": "display home page title as \"Digital Health Engagement - CredaHealth\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "Digital Health Engagement - CredaHealth",
-                  "offset": 28
-                }
-              ],
-              "location": "HomeStepDef.display_home_page_title_as(String)"
-            },
-            "keyword": "When "
-          }
-        ]
-      }
-    ],
-    "name": "Validate home page",
-    "description": "As a user of KYM App\r\nI should be able to see home page",
-    "id": "validate-home-page",
-    "keyword": "Feature",
-    "uri": "Home.feature"
-  },
-  {
-    "comments": [
-      {
-        "line": 1,
-        "value": "#Author: Jayesh"
-      },
-      {
-        "line": 2,
-        "value": "#Keywords Summary :"
-      },
-      {
-        "line": 3,
-        "value": "#Feature: providers us pages"
-      },
-      {
-        "line": 4,
-        "value": "#Scenario: validate individual page on web site"
-      },
-      {
-        "line": 5,
-        "value": "#Given:"
-      },
-      {
-        "line": 6,
-        "value": "#When:"
-      },
-      {
-        "line": 7,
-        "value": "#Then:"
-      },
-      {
-        "line": 8,
-        "value": "#And,But:"
-      }
-    ],
-    "line": 10,
-    "elements": [
-      {
-        "line": 14,
-        "name": "Open a individual page and validate it\u0027s text",
-        "description": "",
-        "id": "validate-individual-page;open-a-individual-page-and-validate-it\u0027s-text",
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 1371723400,
-              "status": "passed"
-            },
-            "line": 15,
-            "name": "click on individual menu",
-            "match": {
-              "location": "IndividualStepDef.click_on_individual_menu()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 9902000,
-              "status": "passed"
-            },
-            "line": 16,
-            "name": "validate page title as \"Individual - CredaHealth\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "Individual - CredaHealth",
-                  "offset": 24
-                }
-              ],
-              "location": "IndividualStepDef.validate_page_title_as(String)"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 49046400,
-              "status": "passed"
-            },
-            "line": 17,
-            "name": "display individual page title as \"Creda App\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "Creda App",
-                  "offset": 34
-                }
-              ],
-              "location": "IndividualStepDef.display_individual_page_title_as(String)"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 56097800,
-              "status": "passed"
-            },
-            "line": 18,
-            "name": "display individual page sub title as \"Partner in Chronic Care\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "Partner in Chronic Care",
-                  "offset": 38
-                }
-              ],
-              "location": "IndividualStepDef.display_individual_page_sub_title_as(String)"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 62386700,
-              "status": "passed"
-            },
-            "line": 19,
-            "name": "display credahelps section title as \"How Creda Helps\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "How Creda Helps",
-                  "offset": 37
-                }
-              ],
-              "location": "IndividualStepDef.display_credahelps_section_title_as(String)"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 32839800,
-              "status": "passed"
-            },
-            "line": 20,
-            "name": "display credahealps section description as \"Reliable, comprehensive information about your health condition with expert guidance to address potential complications early on.\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "Reliable, comprehensive information about your health condition with expert guidance to address potential complications early on.",
-                  "offset": 44
-                }
-              ],
-              "location": "IndividualStepDef.display_credahealps_section_description_as(String)"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 216600,
-              "status": "passed"
-            },
-            "line": 22,
-            "name": "hover chronic care section",
-            "match": {
-              "location": "IndividualStepDef.hover_chronic_care_section()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 30004600,
-              "status": "passed"
-            },
-            "line": 23,
-            "name": "validate chronic care title as \"Chronic Care\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "Chronic Care",
-                  "offset": 32
-                }
-              ],
-              "location": "IndividualStepDef.validate_chronic_care_title_as(String)"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 1697059800,
-              "status": "passed"
-            },
-            "line": 24,
-            "name": "click on learn more button and validate title as \"LEARN MORE\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "LEARN MORE",
-                  "offset": 50
-                }
-              ],
-              "location": "IndividualStepDef.click_on_learn_more_button_and_validate_title_as(String)"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 9053700,
-              "status": "passed"
-            },
-            "line": 25,
             "name": "validate chronic care page title as \"Chronic Care - CredaHealth\"",
             "match": {
               "arguments": [
@@ -294,135 +72,261 @@
               ],
               "location": "IndividualStepDef.validate_chronic_care_page_title_as(String)"
             },
-            "keyword": "Then "
-          }
-        ]
-      }
-    ],
-    "name": "Validate individual page",
-    "description": "As a user of KYM App\r\nI should be able to see individual page",
-    "id": "validate-individual-page",
-    "keyword": "Feature",
-    "uri": "Individual.feature"
-  },
-  {
-    "comments": [
-      {
-        "line": 1,
-        "value": "#Author: Jayesh"
-      },
-      {
-        "line": 2,
-        "value": "#Keywords Summary :"
-      },
-      {
-        "line": 3,
-        "value": "#Feature: providers us pages"
-      },
-      {
-        "line": 4,
-        "value": "#Scenario: validate providers page on web site"
-      },
-      {
-        "line": 5,
-        "value": "#Given:"
-      },
-      {
-        "line": 6,
-        "value": "#When:"
-      },
-      {
-        "line": 7,
-        "value": "#Then:"
-      },
-      {
-        "line": 8,
-        "value": "#And,But:"
-      }
-    ],
-    "line": 10,
-    "elements": [
-      {
-        "line": 14,
-        "name": "Open a provider page and validate it\u0027s text",
-        "description": "",
-        "id": "validate-providers-page;open-a-provider-page-and-validate-it\u0027s-text",
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 2722563300,
-              "status": "passed"
-            },
-            "line": 15,
-            "name": "click on provider menu",
-            "match": {
-              "location": "ProviderStepDef.click_on_provider_menu()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 11667700,
-              "status": "passed"
-            },
-            "line": 16,
-            "name": "validate clinics page \"Clinics - CredaHealth\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "Clinics - CredaHealth",
-                  "offset": 23
-                }
-              ],
-              "location": "HomeStepDef.validate_clinics_page(String)"
-            },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 46608600,
+              "duration": 143348800,
               "status": "passed"
             },
             "line": 17,
-            "name": "validate Patient Communication section as \"Powerful Patient Communication at Scale\"",
+            "name": "validate chronic care pages title as \"Creda App\"",
             "match": {
               "arguments": [
                 {
-                  "val": "Powerful Patient Communication at Scale",
-                  "offset": 43
+                  "val": "Creda App",
+                  "offset": 38
                 }
               ],
-              "location": "ProviderStepDef.validate_Patient_Communication_section_as(String)"
+              "location": "ChroniccareStepDef.validate_chronic_care_pages_title_as(String)"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 69306900,
+              "duration": 38694900,
               "status": "passed"
             },
             "line": 18,
-            "name": "validate Patient Communication section img as \"https://credahealth.com/wp-content/uploads/2023/04/B2B-CREDA-1.png\"",
+            "name": "validate chronic care sub title as \"Take Back Your Life\"",
             "match": {
               "arguments": [
                 {
-                  "val": "https://credahealth.com/wp-content/uploads/2023/04/B2B-CREDA-1.png",
-                  "offset": 47
+                  "val": "Take Back Your Life",
+                  "offset": 36
                 }
               ],
-              "location": "ProviderStepDef.validate_Patient_Communication_section_img_as(String)"
+              "location": "ChroniccareStepDef.validate_chronic_care_sub_title_as(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1650386300,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "validate download app button and display title as \"Download App\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Download App",
+                  "offset": 51
+                }
+              ],
+              "location": "ChroniccareStepDef.validate_download_app_button_and_display_title_as(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 48310800,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "validate get the app page as \"Get The App - CredaHealth\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Get The App - CredaHealth",
+                  "offset": 30
+                }
+              ],
+              "location": "ChroniccareStepDef.validate_get_the_app_page_as(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 295712600,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "back to home page",
+            "match": {
+              "location": "ChroniccareStepDef.back_to_home_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 747501300,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "validate condition sec title as \"Chronic Condition Management\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Chronic Condition Management",
+                  "offset": 33
+                }
+              ],
+              "location": "ChroniccareStepDef.validate_condition_sec_title_as(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 42446500,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "validate condition sec sub title as \"Track vitals, diet, medications and symptoms easily on the go. Got questions? Your Creda Care Crew is waiting with answers.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Track vitals, diet, medications and symptoms easily on the go. Got questions? Your Creda Care Crew is waiting with answers.",
+                  "offset": 37
+                }
+              ],
+              "location": "ChroniccareStepDef.validate_condition_sec_sub_title_as(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 48007900,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "validate condition sec quote as \"The measure of who we are is what we do with what we have.”\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "The measure of who we are is what we do with what we have.”",
+                  "offset": 33
+                }
+              ],
+              "location": "ChroniccareStepDef.validate_condition_sec_quote_as(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 50429400,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "valdate big pic title as \"The Big Picture\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "The Big Picture",
+                  "offset": 26
+                }
+              ],
+              "location": "ChroniccareStepDef.valdate_big_pic_title_as(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 46573000,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "validate big pic desc as \"You deserve personalized care that is realistic, simplified, and holistic. At Creda, we offer next-level communication between patient and provider for a healthier you. Take control of your health and manage your condition like never before. It’s easier than ever to get started.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "You deserve personalized care that is realistic, simplified, and holistic. At Creda, we offer next-level communication between patient and provider for a healthier you. Take control of your health and manage your condition like never before. It’s easier than ever to get started.",
+                  "offset": 26
+                }
+              ],
+              "location": "ChroniccareStepDef.validate_big_pic_desc_as(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 40325600,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "validate real export title as \"Real Support from Real Experts\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Real Support from Real Experts",
+                  "offset": 31
+                }
+              ],
+              "location": "ChroniccareStepDef.validate_real_export_title_as(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 44848000,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "validate real export desc as \"Living with a chronic disease is overwhelming and   emotionally draining. Who has time to track symptoms and vitals, remember to take medications, plan diet and exercise, and take proactive steps to prevent progression? Well, we do. We make it easier to tackle day-to-day challenges. Learn the foundational behaviors critical for good health.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Living with a chronic disease is overwhelming and   emotionally draining. Who has time to track symptoms and vitals, remember to take medications, plan diet and exercise, and take proactive steps to prevent progression? Well, we do. We make it easier to tackle day-to-day challenges. Learn the foundational behaviors critical for good health.",
+                  "offset": 30
+                }
+              ],
+              "location": "ChroniccareStepDef.validate_real_export_desc_as(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 46346000,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "validate wholesome title as \"Savor a Wholesome Solution\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Savor a Wholesome Solution",
+                  "offset": 29
+                }
+              ],
+              "location": "ChroniccareStepDef.validate_wholesome_title_as(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 46221800,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "validate wholesome desc as \"With our holistic approach combining science and technology, we help you live your best life, keeping your condition in check with a seamless continuum of care and real, measurable results.\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "With our holistic approach combining science and technology, we help you live your best life, keeping your condition in check with a seamless continuum of care and real, measurable results.",
+                  "offset": 28
+                }
+              ],
+              "location": "ChroniccareStepDef.validate_wholesome_desc_as(String)"
             },
             "keyword": "Then "
           }
         ]
       }
     ],
-    "name": "Validate providers page",
-    "description": "As a user of KYM App\r\nI should be able to see provider page",
-    "id": "validate-providers-page",
+    "name": "Validate chronic care page",
+    "description": "As a user of KYM App\r\nI should be able to see chronic care page",
+    "id": "validate-chronic-care-page",
     "keyword": "Feature",
-    "uri": "Providers.feature"
+    "uri": "src/features/Chroniccare.feature"
   }
 ]
