@@ -4,6 +4,7 @@ import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import lib.BaseClass;
 import net.bytebuddy.implementation.auxiliary.MethodCallProxy;
+import org.apache.velocity.runtime.parser.node.ASTAssignment;
 import org.testng.Assert;
 import pages.ChronicCarePage;
 
@@ -169,117 +170,117 @@ public class ChroniccareStepDef extends BaseClass {
     @Then("^validate Lupus section as \"([^\"]*)\"$")
     public void validate_Lupus_section_as(String arg1) throws InterruptedException {
         ChronicCarePage objChronicCarePage = new ChronicCarePage(getDriver());
-        objChronicCarePage.getLupusTitle();
+        Assert.assertEquals(objChronicCarePage.getLupusTitle(), arg1);
     }
 
     @Then("^click on Enroll Today for Free button for lupus section and title as \"([^\"]*)\"$")
     public void click_on_Enroll_Today_for_Free_button_for_lupus_section_and_title_as(String arg1) {
         ChronicCarePage objChronicCarePage = new ChronicCarePage(getDriver());
-        objChronicCarePage.getEnrollTodayBtnTitle();
+        Assert.assertEquals(objChronicCarePage.getEnrollTodayBtnTitle(), arg1);
         objChronicCarePage.clickEnrollTodayBtn();
     }
 
     @Then("^validate IBD section as \"([^\"]*)\"$")
     public void validate_IBD_section_as(String arg1){
         ChronicCarePage objChronicCarePage = new ChronicCarePage(getDriver());
-        objChronicCarePage.getIBDTitle();
+        Assert.assertEquals(objChronicCarePage.getIBDTitle(), arg1);
     }
 
     @Then("^click on Enroll Today for Free button for IBD section and title as \"([^\"]*)\"$")
     public void click_on_Enroll_Today_for_Free_button_for_IBD_section_and_title_as(String arg1) {
         ChronicCarePage objChronicCarePage = new ChronicCarePage(getDriver());
-        objChronicCarePage.getIBDEnrollTodayBtnTitle();
+        Assert.assertEquals(objChronicCarePage.getIBDEnrollTodayBtnTitle(), arg1);
         objChronicCarePage.clickIBDEnrollTodayBtn();
     }
 
     @Then("^validate IBS section as \"([^\"]*)\"$")
     public void validate_IBS_section_as(String arg1) {
         ChronicCarePage objChronicCarePage = new ChronicCarePage(getDriver());
-        objChronicCarePage.getIBSTitle();
+        Assert.assertEquals(objChronicCarePage.getIBSTitle(), arg1);
     }
 
     @Then("^click on Enroll Today for Free button for IBS section and title as \"([^\"]*)\"$")
     public void click_on_Enroll_Today_for_Free_button_for_IBS_section_and_title_as(String arg1) {
         ChronicCarePage objChronicCarePage = new ChronicCarePage(getDriver());
-        objChronicCarePage.getIBSEnrollTodayBtnTitle();
+        Assert.assertEquals(objChronicCarePage.getIBSEnrollTodayBtnTitle(), arg1);
         objChronicCarePage.clickIBSEnrollTodayBtn();
     }
 
     @Then("^validate diabetesone section as \"([^\"]*)\"$")
-    public void validate_diabetesone_section_as(String arg1) {
+    public void validate_diabetesone_section_as(String arg1) throws InterruptedException {
         ChronicCarePage objChronicCarePage = new ChronicCarePage(getDriver());
-        objChronicCarePage.getdiabesoneTitle();
+        Assert.assertEquals(objChronicCarePage.getdiabesoneTitle(), arg1);
     }
 
     @Then("^click on Enroll Today for Free button for diabetesone section and title as \"([^\"]*)\"$")
     public void click_on_Enroll_Today_for_Free_button_for_diabetesone_section_and_title_as(String arg1) {
         ChronicCarePage objChronicCarePage = new ChronicCarePage(getDriver());
-        objChronicCarePage.getDiabesonenErollTodayBtnTitle();
+        Assert.assertEquals(objChronicCarePage.getDiabesonenErollTodayBtnTitle(), arg1);
         objChronicCarePage.clickDiabesoneEnrollTodayBtn();
     }
 
     @Then("^validate diabetestwo section as \"([^\"]*)\"$")
     public void validate_diabetestwo_section_as(String arg1) {
         ChronicCarePage objChronicCarePage = new ChronicCarePage(getDriver());
-        objChronicCarePage.getdiabestwoTitle();
+        Assert.assertEquals(objChronicCarePage.getdiabestwoTitle(), arg1);
     }
 
     @Then("^click on Enroll Today for Free button for diabetestwo section and title as \"([^\"]*)\"$")
     public void click_on_Enroll_Today_for_Free_button_for_diabetestwo_section_and_title_as(String arg1) {
         ChronicCarePage objChronicCarePage = new ChronicCarePage(getDriver());
-        objChronicCarePage.getDiabesTwoErollTodayBtnTitle();
+        Assert.assertEquals(objChronicCarePage.getDiabesTwoErollTodayBtnTitle(), arg1);
         objChronicCarePage.clickDiabesTwoEnrollTodayBtn();
     }
 
     @Then("^validate hypertension section as \"([^\"]*)\"$")
     public void validate_hypertension_section_as(String arg1) throws Throwable {
         ChronicCarePage objChronicCarePage = new ChronicCarePage(getDriver());
-        objChronicCarePage.getHypertensionTitle();
+        Assert.assertEquals(objChronicCarePage.getHypertensionTitle(), arg1);
     }
 
     @Then("^click on Enroll Today for Free button for hypertension section and title as \"([^\"]*)\"$")
     public void click_on_Enroll_Today_for_Free_button_for_hypertension_section_and_title_as(String arg1) {
         ChronicCarePage objChronicCarePage = new ChronicCarePage(getDriver());
-        objChronicCarePage.getHypertensionErollTodayBtnTitle();
+        Assert.assertEquals(objChronicCarePage.getHypertensionErollTodayBtnTitle(), arg1);
         objChronicCarePage.clickHypertensionEnrollTodayBtn();
     }
 
     @Then("^validate prediabetes section as \"([^\"]*)\"$")
-    public void validate_prediabetes_section_as(String arg1) {
+    public void validate_prediabetes_section_as(String arg1) throws InterruptedException {
         ChronicCarePage objChronicCarePage = new ChronicCarePage(getDriver());
-        objChronicCarePage.getPrediabesTitle();
+        Assert.assertEquals(objChronicCarePage.getPrediabesTitle(), arg1);
     }
 
     @Then("^click on Enroll Today for Free button for prediabetes section and title as \"([^\"]*)\"$")
     public void click_on_Enroll_Today_for_Free_button_for_prediabetes_section_and_title_as(String arg1) {
         ChronicCarePage objChronicCarePage = new ChronicCarePage(getDriver());
-        objChronicCarePage.getPrediabesErollTodayBtnTitle();
+        Assert.assertEquals(objChronicCarePage.getPrediabesErollTodayBtnTitle(), arg1);
         objChronicCarePage.clickPrediabesEnrollTodayBtn();
     }
 
     @Then("^validate overweight section as \"([^\"]*)\"$")
     public void validate_overweight_section_as(String arg1) throws Throwable {
         ChronicCarePage objChronicCarePage = new ChronicCarePage(getDriver());
-        objChronicCarePage.getOverweightTitle();
+        Assert.assertEquals(objChronicCarePage.getOverweightTitle(), arg1);
     }
 
     @Then("^click on Enroll Today for Free button for overweight section and title as \"([^\"]*)\"$")
     public void click_on_Enroll_Today_for_Free_button_for_overweight_section_and_title_as(String arg1){
         ChronicCarePage objChronicCarePage = new ChronicCarePage(getDriver());
-        objChronicCarePage.getOverweightErollTodayBtnTitle();
+        Assert.assertEquals(objChronicCarePage.getOverweightErollTodayBtnTitle(), arg1);
         objChronicCarePage.clickOverweightEnrollTodayBtn();
     }
 
     @Then("^validate cholesterol section as \"([^\"]*)\"$")
     public void validate_cholesterol_section_as(String arg1) {
         ChronicCarePage objChronicCarePage = new ChronicCarePage(getDriver());
-        objChronicCarePage.getCholesterolTitle();
+        Assert.assertEquals(objChronicCarePage.getCholesterolTitle(), arg1);
     }
 
     @Then("^click on Enroll Today for Free button for cholesterol section and title as \"([^\"]*)\"$")
     public void click_on_Enroll_Today_for_Free_button_for_cholesterol_section_and_title_as(String arg1) {
         ChronicCarePage objChronicCarePage = new ChronicCarePage(getDriver());
-        objChronicCarePage.getCholesterolErollTodayBtnTitle();
+        Assert.assertEquals(objChronicCarePage.getCholesterolErollTodayBtnTitle(), arg1);
         objChronicCarePage.clickCholesterolEnrollTodayBtn();
     }
 }

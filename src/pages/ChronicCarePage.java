@@ -69,6 +69,38 @@ public class ChronicCarePage extends PageAction {
     WebElement lupusTitle;
     @FindBy(xpath = "//span[text()=\"Lupus\"]/parent::span/parent::h4/parent::header/following-sibling::div[3]/a")
     WebElement lupusEnrollBtn;
+    @FindBy(xpath = "//span[text()=\" IBD \"]")
+    WebElement ibdTitle;
+    @FindBy(xpath = "//span[text()=\" IBD \"]/parent::span/parent::h4/parent::header/following-sibling::div[3]/a")
+    WebElement ibdEnrollBtn;
+    @FindBy(xpath = "//span[text()=\" IBS\"]")
+    WebElement ibsTitle;
+    @FindBy(xpath = "//span[text()=\" IBS\"]/parent::span/parent::h4/parent::header/following-sibling::div[4]/a")
+    WebElement ibsEnrollBtn;
+    @FindBy(xpath = "//span[text()=\" Diabetes Type 1\"]")
+    WebElement diabetes1Title;
+    @FindBy(xpath = "//span[text()=\" Diabetes Type 1\"]/parent::span/parent::h4/parent::header/following-sibling::div[6]/a")
+    WebElement diabetes1EnrollBtn;
+    @FindBy(xpath = "//span[text()=\" Diabetes Type 2\"]")
+    WebElement diabetes2Title;
+    @FindBy(xpath = "//span[text()=\" Diabetes Type 2\"]/parent::span/parent::h4/parent::header/following-sibling::div[5]/a")
+    WebElement diabetes2EnrollBtn;
+    @FindBy(xpath = "//span[text()=\"Hypertension\"]")
+    WebElement hypertensionTitle;
+    @FindBy(xpath = "//span[text()=\"Hypertension\"]/parent::span/parent::h4/parent::header/following-sibling::div[5]/a")
+    WebElement hypertensionEnrollBtn;
+    @FindBy(xpath = "//span[text()=\"Prediabetes\"]")
+    WebElement prediabetesTitle;
+    @FindBy(xpath = "//span[text()=\"Prediabetes\"]/parent::span/parent::h4/parent::header/following-sibling::div[2]/a")
+    WebElement prediabetesEnrollBtn;
+    @FindBy(xpath = "//span[text()=\"Overweight / Obesity\"]")
+    WebElement overweightTitle;
+    @FindBy(xpath = "//span[text()=\"Overweight / Obesity\"]/parent::span/parent::h4/parent::header/following-sibling::div[4]/a")
+    WebElement overweightEnrollBtn;
+    @FindBy(xpath = "//span[text()=\"High Cholesterol\"]")
+    WebElement cholesterolTitle;
+    @FindBy(xpath = "//span[text()=\"High Cholesterol\"]/parent::span/parent::h4/parent::header/following-sibling::div[4]/a")
+    WebElement cholesterolEnrollBtn;
     public String getobjChronicCarePageTitle() {
         return "Chronic Care - CredaHealth";
     }
@@ -188,75 +220,118 @@ public class ChronicCarePage extends PageAction {
         lupusEnrollBtn.click();
     }
 
-    public void getIBDTitle() {
+    public String getIBDTitle() {
+        Actions action = new Actions(driver);
+        action.moveToElement(ibdTitle).build().perform();
+        return ibdTitle.getText();
     }
 
-    public void getIBDEnrollTodayBtnTitle() {
+    public String getIBDEnrollTodayBtnTitle() {
+        return ibdEnrollBtn.getAttribute("title");
     }
 
     public void clickIBDEnrollTodayBtn() {
+        ibdEnrollBtn.click();
     }
 
-    public void getIBSTitle() {
+    public String getIBSTitle() {
+        Actions action = new Actions(driver);
+        action.moveToElement(ibsTitle).build().perform();
+        return ibsTitle.getText();
     }
 
-    public void getIBSEnrollTodayBtnTitle() {
+    public String getIBSEnrollTodayBtnTitle() {
+        return ibsEnrollBtn.getAttribute("title");
     }
 
     public void clickIBSEnrollTodayBtn() {
+        ibsEnrollBtn.click();
     }
 
-    public void getdiabesoneTitle() {
+    public String getdiabesoneTitle() throws InterruptedException {
+        moveToElement(driver, diabetes1Title);
+        Actions action = new Actions(driver);
+        action.moveToElement(diabetes1Title).build().perform();
+        return diabetes1Title.getText();
     }
 
-    public void getDiabesonenErollTodayBtnTitle() {
+    public String getDiabesonenErollTodayBtnTitle() {
+        return diabetes1EnrollBtn.getAttribute("title");
     }
 
     public void clickDiabesoneEnrollTodayBtn() {
+        diabetes1EnrollBtn.click();
     }
 
-    public void getdiabestwoTitle() {
+    public String getdiabestwoTitle() {
+        Actions action = new Actions(driver);
+        action.moveToElement(diabetes2Title).build().perform();
+        return diabetes2Title.getText();
     }
 
-    public void getDiabesTwoErollTodayBtnTitle() {
+    public String getDiabesTwoErollTodayBtnTitle() {
+        return diabetes2EnrollBtn.getAttribute("title");
     }
 
     public void clickDiabesTwoEnrollTodayBtn() {
+        diabetes2EnrollBtn.click();
     }
 
-    public void getHypertensionTitle() {
+    public String getHypertensionTitle() {
+        Actions action = new Actions(driver);
+        action.moveToElement(hypertensionTitle).build().perform();
+        return hypertensionTitle.getText();
     }
 
-    public void getHypertensionErollTodayBtnTitle() {
+    public String getHypertensionErollTodayBtnTitle() {
+        return hypertensionEnrollBtn.getAttribute("title");
     }
 
     public void clickHypertensionEnrollTodayBtn() {
+        hypertensionEnrollBtn.click();
     }
 
-    public void getPrediabesTitle() {
+    public String getPrediabesTitle() throws InterruptedException {
+        moveToElement(driver, prediabetesTitle);
+        Actions action = new Actions(driver);
+        action.moveToElement(prediabetesTitle).build().perform();
+        return prediabetesTitle.getText();
+
     }
 
-    public void getPrediabesErollTodayBtnTitle() {
+    public String getPrediabesErollTodayBtnTitle() {
+        return prediabetesEnrollBtn.getAttribute("title");
     }
 
     public void clickPrediabesEnrollTodayBtn() {
+        prediabetesEnrollBtn.click();
     }
 
-    public void getOverweightTitle() {
+    public String  getOverweightTitle() {
+        Actions action = new Actions(driver);
+        action.moveToElement(overweightTitle).build().perform();
+        return overweightTitle.getText();
     }
 
-    public void getOverweightErollTodayBtnTitle() {
+    public String getOverweightErollTodayBtnTitle() {
+        return overweightEnrollBtn.getAttribute("title");
     }
 
     public void clickOverweightEnrollTodayBtn() {
+        overweightEnrollBtn.click();
     }
 
-    public void getCholesterolTitle() {
+    public String getCholesterolTitle() {
+        Actions action = new Actions(driver);
+        action.moveToElement(cholesterolTitle).build().perform();
+        return cholesterolTitle.getText();
     }
 
-    public void getCholesterolErollTodayBtnTitle() {
+    public String getCholesterolErollTodayBtnTitle() {
+        return cholesterolEnrollBtn.getAttribute("title");
     }
 
     public void clickCholesterolEnrollTodayBtn() {
+        cholesterolEnrollBtn.click();
     }
 }
