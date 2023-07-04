@@ -1,4 +1,4 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("Home.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("src/features/Chroniccare.feature");
 formatter.feature({
   "comments": [
     {
@@ -11,11 +11,11 @@ formatter.feature({
     },
     {
       "line": 3,
-      "value": "#Feature: home us pages"
+      "value": "#Feature: chronic care us pages"
     },
     {
       "line": 4,
-      "value": "#Scenario: validate home page on web site"
+      "value": "#Scenario: validate chronic care page on web site"
     },
     {
       "line": 5,
@@ -35,1291 +35,1121 @@ formatter.feature({
     }
   ],
   "line": 10,
-  "name": "Validate home page",
-  "description": "As a user of KYM App\r\nI should be able to see home page",
-  "id": "validate-home-page",
+  "name": "Validate chronic care page",
+  "description": "As a user of KYM App\r\nI should be able to see chronic care page",
+  "id": "validate-chronic-care-page",
   "keyword": "Feature"
 });
 formatter.scenario({
   "line": 14,
-  "name": "Open a home page",
+  "name": "Open a chronic care page and validate it\u0027s text",
   "description": "",
-  "id": "validate-home-page;open-a-home-page",
+  "id": "validate-chronic-care-page;open-a-chronic-care-page-and-validate-it\u0027s-text",
   "type": "scenario",
   "keyword": "Scenario"
 });
 formatter.step({
   "line": 15,
-  "name": "Browse credaHealth web site",
+  "name": "click on chronic care menu",
   "keyword": "Given "
 });
 formatter.step({
   "line": 16,
-  "name": "display home page title as \"Digital Health Engagement - CredaHealth\"",
-  "keyword": "When "
-});
-formatter.match({
-  "location": "HomeStepDef.browse_credaHealth_web_site()"
-});
-formatter.result({
-  "duration": 114210600,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "Digital Health Engagement - CredaHealth",
-      "offset": 28
-    }
-  ],
-  "location": "HomeStepDef.display_home_page_title_as(String)"
-});
-formatter.result({
-  "duration": 41896200,
-  "status": "passed"
-});
-formatter.uri("Providers.feature");
-formatter.feature({
-  "comments": [
-    {
-      "line": 1,
-      "value": "#Author: Jayesh"
-    },
-    {
-      "line": 2,
-      "value": "#Keywords Summary :"
-    },
-    {
-      "line": 3,
-      "value": "#Feature: providers us pages"
-    },
-    {
-      "line": 4,
-      "value": "#Scenario: validate providers page on web site"
-    },
-    {
-      "line": 5,
-      "value": "#Given:"
-    },
-    {
-      "line": 6,
-      "value": "#When:"
-    },
-    {
-      "line": 7,
-      "value": "#Then:"
-    },
-    {
-      "line": 8,
-      "value": "#And,But:"
-    }
-  ],
-  "line": 10,
-  "name": "Validate providers page",
-  "description": "As a user of KYM App\r\nI should be able to see provider page",
-  "id": "validate-providers-page",
-  "keyword": "Feature"
-});
-formatter.scenario({
-  "line": 14,
-  "name": "Open a provider page and validate it\u0027s text",
-  "description": "",
-  "id": "validate-providers-page;open-a-provider-page-and-validate-it\u0027s-text",
-  "type": "scenario",
-  "keyword": "Scenario"
-});
-formatter.step({
-  "line": 15,
-  "name": "click on provider menu",
-  "keyword": "Given "
-});
-formatter.step({
-  "line": 16,
-  "name": "validate clinics page \"Clinics - CredaHealth\"",
+  "name": "validate chronic care page title as \"Chronic Care - CredaHealth\"",
   "keyword": "When "
 });
 formatter.step({
   "line": 17,
-  "name": "validate Patient Communication section as \"Powerful Patient Communication at Scale\"",
+  "name": "validate chronic care pages title as \"Creda App\"",
   "keyword": "Then "
 });
 formatter.step({
   "line": 18,
-  "name": "validate Patient Communication section img as \"https://credahealth.com/wp-content/uploads/2023/04/B2B-CREDA-1.png\"",
+  "name": "validate chronic care sub title as \"Take Back Your Life\"",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 19,
+  "name": "validate download app button and display title as \"Download App\"",
   "keyword": "Then "
 });
 formatter.step({
   "line": 20,
-  "name": "validate patient engagement section as \"Automate patient engagement so you can focus on patient care\"",
+  "name": "validate get the app page as \"Get The App - CredaHealth\"",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 21,
+  "name": "back to home page",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 22,
+  "name": "validate condition sec title as \"Chronic Condition Management\"",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 23,
+  "name": "validate condition sec sub title as \"Track vitals, diet, medications and symptoms easily on the go. Got questions? Your Creda Care Crew is waiting with answers.\"",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 24,
+  "name": "validate condition sec quote as \"The measure of who we are is what we do with what we have.”\"",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 26,
+  "name": "valdate big pic title as \"The Big Picture\"",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 27,
+  "name": "validate big pic desc as \"You deserve personalized care that is realistic, simplified, and holistic. At Creda, we offer next-level communication between patient and provider for a healthier you. Take control of your health and manage your condition like never before. It’s easier than ever to get started.\"",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 29,
+  "name": "validate real export title as \"Real Support from Real Experts\"",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 30,
+  "name": "validate real export desc as \"Living with a chronic disease is overwhelming and   emotionally draining. Who has time to track symptoms and vitals, remember to take medications, plan diet and exercise, and take proactive steps to prevent progression? Well, we do. We make it easier to tackle day-to-day challenges. Learn the foundational behaviors critical for good health.\"",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 32,
+  "name": "validate wholesome title as \"Savor a Wholesome Solution\"",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 33,
+  "name": "validate wholesome desc as \"With our holistic approach combining science and technology, we help you live your best life, keeping your condition in check with a seamless continuum of care and real, measurable results.\"",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 35,
+  "name": "validate journey section title as \"Understanding You And Your Journey:\"",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 36,
+  "name": "validate journey section desc as \"We understand your health profile, including all the modifiable risk factors you may ave that can increase your risk of health problems and complications.\"",
   "keyword": "Then "
 });
 formatter.step({
   "comments": [
     {
-      "line": 21,
-      "value": "# Then validate patient engagement menus as \"Colonoscopy\" and \"Sigmoidoscopy\" and \"Upper Endoscopy\" and \"Hemorrhoid\""
+      "line": 37,
+      "value": "#    Then validte journey background image as \"\""
     }
   ],
-  "line": 23,
-  "name": "validate awareness section as \"Lack of Awareness Impact on Delays and Cancellation\"",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 24,
-  "name": "validate awareness descone as \"Apprx. 30% of patient no- shows cost the healthcare industry $150 billion a year.\"",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 25,
-  "name": "validate awareness dessec as \"No-shows and late cancellations can have a greater impact on GI practices than in other medical specialties due to the prep time required for the GI procedures. For a primary care physician, each missed appointment equals roughly $150-$200 in lost revenue. For surgeons, this is closer to $500.\"",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 26,
-  "name": "validate awareness descThrid as \"Automatically triggering the right communication at the right time, Creda Health’s Patient Engagement Platform guides your patients through a premium care experience.\"",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 27,
-  "name": "validate awareness img as \"https://credahealth.com/wp-content/uploads/2023/04/Untitled-design-49-640x537.png\"",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 29,
-  "name": "validate reinforced education title as \"Studies show the impact of reinforced education by telephone or short message service (SMS) leads to:\"",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 30,
-  "name": "validate reinforced education secone as \"Reduction in same- day cancellations\"",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 31,
-  "name": "validate reinforced education secsecond as \"Reduction in no- shows\"",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 33,
-  "name": "validate end to end patient title as \"End-to-end patient engagement platform made for the enterprise.\"",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 34,
-  "name": "validate end to end patient img as \"https://credahealth.com/wp-content/uploads/2021/09/What-Are-the-Possible-Complications-of-Crohns-Disease.jpg\"",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 35,
-  "name": "click on more details button",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 36,
-  "name": "validate contact us page \"Contact Us - CredaHealth\"",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 37,
-  "name": "Back to home pageLogo",
-  "keyword": "And "
-});
-formatter.step({
   "line": 39,
-  "name": "validate interact with section as \"Let us transform the way you interact with and educate your patients\"",
+  "name": "validate approach section as \"Personalizing The Approach To You\"",
   "keyword": "Then "
 });
 formatter.step({
   "line": 40,
-  "name": "validate comprehensive section as \"Comprehensive platform of solutions\"",
+  "name": "validate approach sub section desc as \"We customize the app features to guide you to achieve your health goals.\"",
   "keyword": "Then "
 });
 formatter.step({
   "line": 41,
-  "name": "validate comprehensive subsection as \"Design patient engagement strategy.\"",
+  "name": "validate approach sub desc as \"You can start tracking vitals, medications, food, and exercise along with access to content like articles, factsheets and videos personalized to your concerns.\"",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 43,
-  "name": "validate Customizable section as \"Customizable content\"",
-  "keyword": "Then "
-});
-formatter.step({
+  "comments": [
+    {
+      "line": 42,
+      "value": "#    Then validate approach background image as \"\""
+    }
+  ],
   "line": 44,
-  "name": "validate Customizable subsection as \"Proven modules tailored to your patient needs.\"",
+  "name": "validate collaborative section title as \"Building Continuous, Coordinated, Collaborative Care\"",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 45,
+  "name": "validate collaborative section sub title as \"You are assigned a care team comprising of nutrition and health experts who help you set realistic and achievable health goals.\"",
   "keyword": "Then "
 });
 formatter.step({
   "line": 46,
-  "name": "validate Scalable section as \"Scalable platform\"",
+  "name": "validate collaborative section desc as \"They customize their support to your health needs, hand hold you, and tweak your program as they become more familiar with your lifestyle through continuous communication andmonitoring all the metrics you track in the app. The digital health assistant also provides mindful nudges and insights into your health and habits.\"",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 47,
-  "name": "validate Scalable subsection as \"Handle a growing no. of users. Quickly and easily provision additional computing and storage resources on demand.\"",
-  "keyword": "Then "
-});
-formatter.step({
+  "comments": [
+    {
+      "line": 47,
+      "value": "#    Then validate collaboractive background image as \"\""
+    }
+  ],
   "line": 49,
-  "name": "validate Actionable section as \"Actionable reporting\"",
+  "name": "validate progress section title as \"Evaluating Your Progress/Putting Together The Big Picture\"",
   "keyword": "Then "
 });
 formatter.step({
   "line": 50,
-  "name": "validate Actionable subsection as \"Identify areas for improvement and make data-driven decisions to optimize patient satisfaction.\"",
+  "name": "validate progress section desc as \"Through regular check-ins and health related questionnaires on your symptoms and disease we ensure that you stay on top of any onset of complications or disease progression. Weekly health reports that include metrics on your medication adherence, symptoms, food with macro and micro nutrients, vitals, and exercise along with a care team reviewing all of this in the backend, we enable you, your physician, and us to connect the dots so that you can take proactive steps to prevent complications.\"",
   "keyword": "Then "
 });
 formatter.step({
   "line": 52,
-  "name": "validate Wondering section \"Wondering if Creda is Fit for you\"",
+  "name": "validate what we care title as \"What We Care For\"",
   "keyword": "Then "
 });
 formatter.step({
   "line": 53,
-  "name": "validate Wondering sub section \"Learn How our flexible platform brings value to different types of the healthcare organization.\"",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 54,
-  "name": "click on See Who We Help button title as \"See Who We Help\"",
+  "name": "validate what we care sub title as \"Making professional therapy accessible\"",
   "keyword": "Then "
 });
 formatter.step({
   "line": 55,
-  "name": "validate contact us page \"Contact Us - CredaHealth\"",
+  "name": "validate Lupus section as \"Lupus\"",
   "keyword": "Then "
 });
 formatter.step({
   "line": 56,
-  "name": "Back to home pageLogo",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 58,
-  "name": "validate question title section as \"Do your patients have questions about their procedures?\"",
+  "name": "click on Enroll Today for Free button for lupus section and title as \"Enroll Today for Free\"",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 59,
-  "name": "validate question descriptionone as \"Our educational materials explain patient’s GI condition and how it can be managed.\"",
+  "line": 57,
+  "name": "validate get the app page as \"Get The App - CredaHealth\"",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 58,
+  "name": "back to home page",
   "keyword": "Then "
 });
 formatter.step({
   "line": 60,
-  "name": "validate question descriptiontwo as  \"Well-informed patient can significantly reduce your costs due to last minute cancellations.\"",
+  "name": "validate IBD section as \"IBD\"",
   "keyword": "Then "
 });
 formatter.step({
   "line": 61,
-  "name": "validate question descriptionthree as  \"We aim for easing the process involved in prepping \u0026 to achieve a successful procedure.\"",
+  "name": "click on Enroll Today for Free button for IBD section and title as \"Enroll Today for Free\"",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 62,
+  "name": "validate get the app page as \"Get The App - CredaHealth\"",
   "keyword": "Then "
 });
 formatter.step({
   "line": 63,
-  "name": "validate case study title as \"Case Study\"",
+  "name": "back to home page",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 64,
-  "name": "validate case study description as \"The “Center for Advanced GI” is a Group Gastroenterology Practice in Central Florida specializing in Gastrointestinal, Diseases and liver disease. The clinic provides GI Consultations and Diagnostic Procedures for the Upper and Lower Gastrointestinal. Tract and the liver, such as Colonoscopy, Colon Screening, Upper Endoscopy, Capsule Endoscopy, Destruction of Internal Hemorrhoids, and Liver Biopsy.\"",
+  "line": 65,
+  "name": "validate IBS section as \"IBS\"",
   "keyword": "Then "
 });
 formatter.step({
   "line": 66,
-  "name": "validate implement engagement title as \"Our Ready to Implement Engagement Modules\"",
+  "name": "click on Enroll Today for Free button for IBS section and title as \"Enroll Today for Free\"",
   "keyword": "Then "
 });
 formatter.step({
   "line": 67,
-  "name": "validate implement engagement desc as \"At Creda, we are changing patient-centered care outside of traditional settings by empowering your patients with the right information at the right time. We provide patient friendly and timely instructions and reminders.\"",
+  "name": "validate get the app page as \"Get The App - CredaHealth\"",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 69,
-  "name": "validate preprocedure title as \"PRE- PROCEDURE PREP\"",
+  "line": 68,
+  "name": "back to home page",
   "keyword": "Then "
 });
 formatter.step({
   "line": 70,
-  "name": "validate preprocedure desc as \"Improve the patient experience and ensure that patients are well-informed and prepared for their procedure with clear day-wise instructions.\"",
+  "name": "validate diabetesone section as \"Diabetes Type 1\"",
   "keyword": "Then "
 });
 formatter.step({
   "line": 71,
-  "name": "click on enqurire now demo button and title is \"Enquire For Demo\"",
+  "name": "click on Enroll Today for Free button for diabetesone section and title as \"Enroll Today for Free\"",
   "keyword": "Then "
 });
 formatter.step({
   "line": 72,
-  "name": "validate contact us page \"Contact Us - CredaHealth\"",
+  "name": "validate get the app page as \"Get The App - CredaHealth\"",
   "keyword": "Then "
 });
 formatter.step({
   "line": 73,
-  "name": "Back to home pageLogo",
-  "keyword": "And "
+  "name": "back to home page",
+  "keyword": "Then "
 });
 formatter.step({
   "line": 75,
-  "name": "validate postprocedure title as \"POST- PROCEDURE CARE\"",
+  "name": "validate diabetestwo section as \"Diabetes Type 2\"",
   "keyword": "Then "
 });
 formatter.step({
   "line": 76,
-  "name": "validate postprocedure desc as \"Designed to provide patients with the necessary information and support to ensure a smooth recovery and minimize the risk of complications following their procedure.\"",
+  "name": "click on Enroll Today for Free button for diabetestwo section and title as \"Enroll Today for Free\"",
   "keyword": "Then "
 });
 formatter.step({
   "line": 77,
-  "name": "click on enqurire now demo button and title is \"Enquire For Demo\"",
+  "name": "validate get the app page as \"Get The App - CredaHealth\"",
   "keyword": "Then "
 });
 formatter.step({
   "line": 78,
-  "name": "validate contact us page \"Contact Us - CredaHealth\"",
+  "name": "back to home page",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 79,
-  "name": "Back to home pageLogo",
-  "keyword": "And "
+  "line": 80,
+  "name": "validate hypertension section as \"Hypertension\"",
+  "keyword": "Then "
 });
 formatter.step({
   "line": 81,
-  "name": "validate healthcare landscape section title as \"We work hard to fill the gaps in your healthcare landscape.\"",
+  "name": "click on Enroll Today for Free button for hypertension section and title as \"Enroll Today for Free\"",
   "keyword": "Then "
 });
 formatter.step({
   "line": 82,
-  "name": "validate healthcare landscape sub title as \"90% Rattings\"",
+  "name": "validate get the app page as \"Get The App - CredaHealth\"",
   "keyword": "Then "
 });
 formatter.step({
   "line": 83,
-  "name": "validate healthcare landscape secone desc as \"90% of patients surveyed said they were pleased with our educational emails about their procedure.\"",
+  "name": "back to home page",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 84,
-  "name": "validate healthcare landscape secsecond as \"90% of clinic staff surveyed said they were pleased with the patient turnaround and their preparedness.\"",
+  "line": 85,
+  "name": "validate prediabetes section as \"Prediabetes\"",
   "keyword": "Then "
 });
 formatter.step({
   "line": 86,
-  "name": "validate work systems title as \"See How We Work With your Systems\"",
+  "name": "click on Enroll Today for Free button for prediabetes section and title as \"Enroll Today for Free\"",
   "keyword": "Then "
 });
 formatter.step({
   "line": 87,
-  "name": "validate work system desc as \"Looking to get started? Take the first steps towards discovering just how we can amplify the value of your existing technology.\"",
+  "name": "validate get the app page as \"Get The App - CredaHealth\"",
   "keyword": "Then "
 });
 formatter.step({
   "line": 88,
-  "name": "click on Talk To Experts btn and validate title as \"Talk To Experts\"",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 89,
-  "name": "validate contact us page \"Contact Us - CredaHealth\"",
+  "name": "back to home page",
   "keyword": "Then "
 });
 formatter.step({
   "line": 90,
-  "name": "Back to home pageLogo",
-  "keyword": "And "
+  "name": "validate overweight section as \"Overweight / Obesity\"",
+  "keyword": "Then "
 });
 formatter.step({
   "line": 91,
-  "name": "click on Become a Partner btn and validate title as \"Become a Partner\"",
+  "name": "click on Enroll Today for Free button for overweight section and title as \"Enroll Today for Free\"",
   "keyword": "Then "
 });
 formatter.step({
   "line": 92,
-  "name": "validate contact us page \"Contact Us - CredaHealth\"",
+  "name": "validate get the app page as \"Get The App - CredaHealth\"",
   "keyword": "Then "
 });
 formatter.step({
   "line": 93,
-  "name": "Back to home pageLogo",
-  "keyword": "And "
+  "name": "back to home page",
+  "keyword": "Then "
 });
 formatter.step({
   "line": 95,
-  "name": "validate creda clinice title as \"Creda for Clinics\"",
+  "name": "validate cholesterol section as \"High Cholesterol\"",
   "keyword": "Then "
 });
 formatter.step({
   "line": 96,
-  "name": "validate creda clinice sub title as \"Creda Health’s “Patient Engagement solution” provides GI clinics with a comprehensive solution for engaging patients throughout their healthcare journey.\"",
+  "name": "click on Enroll Today for Free button for cholesterol section and title as \"Enroll Today for Free\"",
   "keyword": "Then "
 });
 formatter.step({
   "line": 97,
-  "name": "validate creda clinics desc one as \"Creda offers a suite of services that include patient education, reminder notifications, and personalized communication modules. The ultimate goal is to improve patient outcomes by helping patients become more involved in their own care and treatment, leading to better adherence to treatment plans, improved health outcomes, reduced healthcare costs.\"",
+  "name": "validate get the app page as \"Get The App - CredaHealth\"",
   "keyword": "Then "
 });
 formatter.step({
   "line": 98,
-  "name": "validate creda clinics desc two as \"Creda also provides analytics and reports that allow healthcare organizations to track patient engagement and monitor their progress. These services help clinics build better relationships with their patients, leading to increased trust and satisfaction.\"",
+  "name": "back to home page",
   "keyword": "Then "
 });
-formatter.step({
-  "line": 99,
-  "name": "Click on contact us btn and validate text as \"Contact Us\"",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 100,
-  "name": "validate contact us page \"Contact Us - CredaHealth\"",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 101,
-  "name": "Back to home pageLogo",
-  "keyword": "And "
-});
 formatter.match({
-  "location": "ProviderStepDef.click_on_provider_menu()"
+  "location": "ChroniccareStepDef.click_on_chronic_care_menu()"
 });
 formatter.result({
-  "duration": 2914237200,
+  "duration": 2049216300,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "Clinics - CredaHealth",
-      "offset": 23
-    }
-  ],
-  "location": "HomeStepDef.validate_clinics_page(String)"
-});
-formatter.result({
-  "duration": 19219800,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "Powerful Patient Communication at Scale",
-      "offset": 43
-    }
-  ],
-  "location": "ProviderStepDef.validate_Patient_Communication_section_as(String)"
-});
-formatter.result({
-  "duration": 53241800,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "https://credahealth.com/wp-content/uploads/2023/04/B2B-CREDA-1.png",
-      "offset": 47
-    }
-  ],
-  "location": "ProviderStepDef.validate_Patient_Communication_section_img_as(String)"
-});
-formatter.result({
-  "duration": 70393400,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "Automate patient engagement so you can focus on patient care",
-      "offset": 40
-    }
-  ],
-  "location": "ProviderStepDef.validate_patient_engagement_section_as(String)"
-});
-formatter.result({
-  "duration": 756873800,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "Lack of Awareness Impact on Delays and Cancellation",
-      "offset": 31
-    }
-  ],
-  "location": "ProviderStepDef.validate_awareness_section_as(String)"
-});
-formatter.result({
-  "duration": 724762800,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "Apprx. 30% of patient no- shows cost the healthcare industry $150 billion a year.",
-      "offset": 31
-    }
-  ],
-  "location": "ProviderStepDef.validate_awareness_descone_as(String)"
-});
-formatter.result({
-  "duration": 32268400,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "No-shows and late cancellations can have a greater impact on GI practices than in other medical specialties due to the prep time required for the GI procedures. For a primary care physician, each missed appointment equals roughly $150-$200 in lost revenue. For surgeons, this is closer to $500.",
-      "offset": 30
-    }
-  ],
-  "location": "ProviderStepDef.validate_awareness_dessec_as(String)"
-});
-formatter.result({
-  "duration": 29612500,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "Automatically triggering the right communication at the right time, Creda Health’s Patient Engagement Platform guides your patients through a premium care experience.",
-      "offset": 33
-    }
-  ],
-  "location": "ProviderStepDef.validate_awareness_descThrid_as(String)"
-});
-formatter.result({
-  "duration": 30932600,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "https://credahealth.com/wp-content/uploads/2023/04/Untitled-design-49-640x537.png",
-      "offset": 27
-    }
-  ],
-  "location": "ProviderStepDef.validate_awareness_img_as(String)"
-});
-formatter.result({
-  "duration": 47959900,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "Studies show the impact of reinforced education by telephone or short message service (SMS) leads to:",
-      "offset": 40
-    }
-  ],
-  "location": "ProviderStepDef.validate_reinforced_education_title_as(String)"
-});
-formatter.result({
-  "duration": 1047326000,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "Reduction in same- day cancellations",
-      "offset": 41
-    }
-  ],
-  "location": "ProviderStepDef.validate_reinforced_education_secone_as(String)"
-});
-formatter.result({
-  "duration": 754107200,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "Reduction in no- shows",
-      "offset": 44
-    }
-  ],
-  "location": "ProviderStepDef.validate_reinforced_education_secsecond_as(String)"
-});
-formatter.result({
-  "duration": 35384700,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "End-to-end patient engagement platform made for the enterprise.",
-      "offset": 38
-    }
-  ],
-  "location": "ProviderStepDef.validate_end_to_end_patient_title_as(String)"
-});
-formatter.result({
-  "duration": 686425900,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "https://credahealth.com/wp-content/uploads/2021/09/What-Are-the-Possible-Complications-of-Crohns-Disease.jpg",
-      "offset": 36
-    }
-  ],
-  "location": "ProviderStepDef.validate_end_to_end_patient_img_as(String)"
-});
-formatter.result({
-  "duration": 49274700,
-  "status": "passed"
-});
-formatter.match({
-  "location": "ProviderStepDef.click_on_more_details_button()"
-});
-formatter.result({
-  "duration": 3362540400,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "Contact Us - CredaHealth",
-      "offset": 26
-    }
-  ],
-  "location": "HomeStepDef.validate_contact_us_page(String)"
-});
-formatter.result({
-  "duration": 12369100,
-  "status": "passed"
-});
-formatter.match({
-  "location": "ProviderStepDef.back_to_home_pageLogo()"
-});
-formatter.result({
-  "duration": 5285250600,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "Let us transform the way you interact with and educate your patients",
-      "offset": 35
-    }
-  ],
-  "location": "ProviderStepDef.validate_interact_with_section_as(String)"
-});
-formatter.result({
-  "duration": 773206000,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "Comprehensive platform of solutions",
-      "offset": 35
-    }
-  ],
-  "location": "ProviderStepDef.validate_comprehensive_section_as(String)"
-});
-formatter.result({
-  "duration": 770913100,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "Design patient engagement strategy.",
-      "offset": 38
-    }
-  ],
-  "location": "ProviderStepDef.validate_comprehensive_subsection_as(String)"
-});
-formatter.result({
-  "duration": 34134200,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "Customizable content",
-      "offset": 34
-    }
-  ],
-  "location": "ProviderStepDef.validate_Customizable_section_as(String)"
-});
-formatter.result({
-  "duration": 34376300,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "Proven modules tailored to your patient needs.",
+      "val": "Chronic Care - CredaHealth",
       "offset": 37
     }
   ],
-  "location": "ProviderStepDef.validate_Customizable_subsection_as(String)"
+  "location": "IndividualStepDef.validate_chronic_care_page_title_as(String)"
 });
 formatter.result({
-  "duration": 29727200,
+  "duration": 7551400,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "Scalable platform",
+      "val": "Creda App",
+      "offset": 38
+    }
+  ],
+  "location": "ChroniccareStepDef.validate_chronic_care_pages_title_as(String)"
+});
+formatter.result({
+  "duration": 61570700,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Take Back Your Life",
+      "offset": 36
+    }
+  ],
+  "location": "ChroniccareStepDef.validate_chronic_care_sub_title_as(String)"
+});
+formatter.result({
+  "duration": 51126400,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Download App",
+      "offset": 51
+    }
+  ],
+  "location": "ChroniccareStepDef.validate_download_app_button_and_display_title_as(String)"
+});
+formatter.result({
+  "duration": 1928356700,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Get The App - CredaHealth",
       "offset": 30
     }
   ],
-  "location": "ProviderStepDef.validate_Scalable_section_as(String)"
+  "location": "ChroniccareStepDef.validate_get_the_app_page_as(String)"
 });
 formatter.result({
-  "duration": 34496700,
+  "duration": 43287800,
+  "status": "passed"
+});
+formatter.match({
+  "location": "ChroniccareStepDef.back_to_home_page()"
+});
+formatter.result({
+  "duration": 213353300,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "Handle a growing no. of users. Quickly and easily provision additional computing and storage resources on demand.",
+      "val": "Chronic Condition Management",
       "offset": 33
     }
   ],
-  "location": "ProviderStepDef.validate_Scalable_subsection_as(String)"
+  "location": "ChroniccareStepDef.validate_condition_sec_title_as(String)"
 });
 formatter.result({
-  "duration": 45758400,
+  "duration": 781302200,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "Actionable reporting",
-      "offset": 32
+      "val": "Track vitals, diet, medications and symptoms easily on the go. Got questions? Your Creda Care Crew is waiting with answers.",
+      "offset": 37
     }
   ],
-  "location": "ProviderStepDef.validate_Actionable_section_as(String)"
+  "location": "ChroniccareStepDef.validate_condition_sec_sub_title_as(String)"
 });
 formatter.result({
-  "duration": 43737100,
+  "duration": 24747100,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "Identify areas for improvement and make data-driven decisions to optimize patient satisfaction.",
-      "offset": 35
+      "val": "The measure of who we are is what we do with what we have.”",
+      "offset": 33
     }
   ],
-  "location": "ProviderStepDef.validate_Actionable_subsection_as(String)"
+  "location": "ChroniccareStepDef.validate_condition_sec_quote_as(String)"
 });
 formatter.result({
-  "duration": 42319800,
+  "duration": 34564300,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "Wondering if Creda is Fit for you",
+      "val": "The Big Picture",
+      "offset": 26
+    }
+  ],
+  "location": "ChroniccareStepDef.valdate_big_pic_title_as(String)"
+});
+formatter.result({
+  "duration": 28376700,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "You deserve personalized care that is realistic, simplified, and holistic. At Creda, we offer next-level communication between patient and provider for a healthier you. Take control of your health and manage your condition like never before. It’s easier than ever to get started.",
+      "offset": 26
+    }
+  ],
+  "location": "ChroniccareStepDef.validate_big_pic_desc_as(String)"
+});
+formatter.result({
+  "duration": 31794000,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Real Support from Real Experts",
+      "offset": 31
+    }
+  ],
+  "location": "ChroniccareStepDef.validate_real_export_title_as(String)"
+});
+formatter.result({
+  "duration": 27989600,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Living with a chronic disease is overwhelming and   emotionally draining. Who has time to track symptoms and vitals, remember to take medications, plan diet and exercise, and take proactive steps to prevent progression? Well, we do. We make it easier to tackle day-to-day challenges. Learn the foundational behaviors critical for good health.",
+      "offset": 30
+    }
+  ],
+  "location": "ChroniccareStepDef.validate_real_export_desc_as(String)"
+});
+formatter.result({
+  "duration": 33672200,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Savor a Wholesome Solution",
+      "offset": 29
+    }
+  ],
+  "location": "ChroniccareStepDef.validate_wholesome_title_as(String)"
+});
+formatter.result({
+  "duration": 687533300,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "With our holistic approach combining science and technology, we help you live your best life, keeping your condition in check with a seamless continuum of care and real, measurable results.",
       "offset": 28
     }
   ],
-  "location": "ProviderStepDef.validate_Wondering_section(String)"
+  "location": "ChroniccareStepDef.validate_wholesome_desc_as(String)"
 });
 formatter.result({
-  "duration": 708400400,
+  "duration": 30882400,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "Learn How our flexible platform brings value to different types of the healthcare organization.",
-      "offset": 32
+      "val": "Understanding You And Your Journey:",
+      "offset": 35
     }
   ],
-  "location": "ProviderStepDef.validate_Wondering_sub_section(String)"
+  "location": "ChroniccareStepDef.validate_journey_section_title_as(String)"
 });
 formatter.result({
-  "duration": 35328300,
+  "duration": 701272400,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "See Who We Help",
-      "offset": 42
+      "val": "We understand your health profile, including all the modifiable risk factors you may ave that can increase your risk of health problems and complications.",
+      "offset": 34
     }
   ],
-  "location": "ProviderStepDef.click_on_See_Who_We_Help_button_title_as(String)"
+  "location": "ChroniccareStepDef.validate_journey_section_desc_as(String)"
 });
 formatter.result({
-  "duration": 843081700,
+  "duration": 34777200,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "Contact Us - CredaHealth",
-      "offset": 26
-    }
-  ],
-  "location": "HomeStepDef.validate_contact_us_page(String)"
-});
-formatter.result({
-  "duration": 14099600,
-  "status": "passed"
-});
-formatter.match({
-  "location": "ProviderStepDef.back_to_home_pageLogo()"
-});
-formatter.result({
-  "duration": 5264761200,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "Do your patients have questions about their procedures?",
-      "offset": 36
-    }
-  ],
-  "location": "ProviderStepDef.validate_question_title_section_as(String)"
-});
-formatter.result({
-  "duration": 810285400,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "Our educational materials explain patient’s GI condition and how it can be managed.",
-      "offset": 37
-    }
-  ],
-  "location": "ProviderStepDef.validate_question_descriptionone_as(String)"
-});
-formatter.result({
-  "duration": 56487300,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "Well-informed patient can significantly reduce your costs due to last minute cancellations.",
-      "offset": 38
-    }
-  ],
-  "location": "ProviderStepDef.validate_question_descriptiontwo_as(String)"
-});
-formatter.result({
-  "duration": 29233100,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "We aim for easing the process involved in prepping \u0026 to achieve a successful procedure.",
-      "offset": 40
-    }
-  ],
-  "location": "ProviderStepDef.validate_question_descriptionthree_as(String)"
-});
-formatter.result({
-  "duration": 29624800,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "Case Study",
+      "val": "Personalizing The Approach To You",
       "offset": 30
     }
   ],
-  "location": "ProviderStepDef.validate_case_study_title_as(String)"
+  "location": "ChroniccareStepDef.validate_approach_section_as(String)"
 });
 formatter.result({
-  "duration": 758793400,
+  "duration": 706060500,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "The “Center for Advanced GI” is a Group Gastroenterology Practice in Central Florida specializing in Gastrointestinal, Diseases and liver disease. The clinic provides GI Consultations and Diagnostic Procedures for the Upper and Lower Gastrointestinal. Tract and the liver, such as Colonoscopy, Colon Screening, Upper Endoscopy, Capsule Endoscopy, Destruction of Internal Hemorrhoids, and Liver Biopsy.",
-      "offset": 36
-    }
-  ],
-  "location": "ProviderStepDef.validate_case_study_description_as(String)"
-});
-formatter.result({
-  "duration": 1352800,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "Our Ready to Implement Engagement Modules",
-      "offset": 40
-    }
-  ],
-  "location": "ProviderStepDef.validate_implement_engagement_title_as(String)"
-});
-formatter.result({
-  "duration": 796766600,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "At Creda, we are changing patient-centered care outside of traditional settings by empowering your patients with the right information at the right time. We provide patient friendly and timely instructions and reminders.",
+      "val": "We customize the app features to guide you to achieve your health goals.",
       "offset": 39
     }
   ],
-  "location": "ProviderStepDef.validate_implement_engagement_desc_as(String)"
+  "location": "ChroniccareStepDef.validate_approach_sub_section_desc_as(String)"
 });
 formatter.result({
-  "duration": 85558400,
+  "duration": 29894300,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "PRE- PROCEDURE PREP",
-      "offset": 32
-    }
-  ],
-  "location": "ProviderStepDef.validate_preprocedure_title_as(String)"
-});
-formatter.result({
-  "duration": 741044800,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "Improve the patient experience and ensure that patients are well-informed and prepared for their procedure with clear day-wise instructions.",
+      "val": "You can start tracking vitals, medications, food, and exercise along with access to content like articles, factsheets and videos personalized to your concerns.",
       "offset": 31
     }
   ],
-  "location": "ProviderStepDef.validate_preprocedure_desc_as(String)"
+  "location": "ChroniccareStepDef.validate_approach_sub_desc_as(String)"
 });
 formatter.result({
-  "duration": 48147600,
+  "duration": 27232200,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "Enquire For Demo",
-      "offset": 48
+      "val": "Building Continuous, Coordinated, Collaborative Care",
+      "offset": 41
     }
   ],
-  "location": "ProviderStepDef.click_on_enqurire_now_demo_button_and_title_is(String)"
+  "location": "ChroniccareStepDef.validate_collaborative_section_title_as(String)"
 });
 formatter.result({
-  "duration": 1619857900,
+  "duration": 676536900,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "Contact Us - CredaHealth",
-      "offset": 26
+      "val": "You are assigned a care team comprising of nutrition and health experts who help you set realistic and achievable health goals.",
+      "offset": 45
     }
   ],
-  "location": "HomeStepDef.validate_contact_us_page(String)"
+  "location": "ChroniccareStepDef.validate_collaborative_section_sub_title_as(String)"
 });
 formatter.result({
-  "duration": 6205600,
-  "status": "passed"
-});
-formatter.match({
-  "location": "ProviderStepDef.back_to_home_pageLogo()"
-});
-formatter.result({
-  "duration": 5275069500,
+  "duration": 34934200,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "POST- PROCEDURE CARE",
-      "offset": 33
+      "val": "They customize their support to your health needs, hand hold you, and tweak your program as they become more familiar with your lifestyle through continuous communication andmonitoring all the metrics you track in the app. The digital health assistant also provides mindful nudges and insights into your health and habits.",
+      "offset": 40
     }
   ],
-  "location": "ProviderStepDef.validate_postprocedure_title_as(String)"
+  "location": "ChroniccareStepDef.validate_collaborative_section_desc_as(String)"
 });
 formatter.result({
-  "duration": 51847800,
+  "duration": 25513700,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "Designed to provide patients with the necessary information and support to ensure a smooth recovery and minimize the risk of complications following their procedure.",
+      "val": "Evaluating Your Progress/Putting Together The Big Picture",
+      "offset": 36
+    }
+  ],
+  "location": "ChroniccareStepDef.validate_progress_section_title_as(String)"
+});
+formatter.result({
+  "duration": 732656700,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Through regular check-ins and health related questionnaires on your symptoms and disease we ensure that you stay on top of any onset of complications or disease progression. Weekly health reports that include metrics on your medication adherence, symptoms, food with macro and micro nutrients, vitals, and exercise along with a care team reviewing all of this in the backend, we enable you, your physician, and us to connect the dots so that you can take proactive steps to prevent complications.",
+      "offset": 35
+    }
+  ],
+  "location": "ChroniccareStepDef.validate_progress_section_desc_as(String)"
+});
+formatter.result({
+  "duration": 33530600,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "What We Care For",
       "offset": 32
     }
   ],
-  "location": "ProviderStepDef.validate_postprocedure_desc_as(String)"
+  "location": "ChroniccareStepDef.validate_what_we_care_title_as(String)"
 });
 formatter.result({
-  "duration": 32155800,
+  "duration": 707506600,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "Enquire For Demo",
-      "offset": 48
+      "val": "Making professional therapy accessible",
+      "offset": 36
     }
   ],
-  "location": "ProviderStepDef.click_on_enqurire_now_demo_button_and_title_is(String)"
+  "location": "ChroniccareStepDef.validate_what_we_care_sub_title_as(String)"
 });
 formatter.result({
-  "duration": 1602363200,
+  "duration": 33634000,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "Contact Us - CredaHealth",
-      "offset": 26
+      "val": "Lupus",
+      "offset": 27
     }
   ],
-  "location": "HomeStepDef.validate_contact_us_page(String)"
+  "location": "ChroniccareStepDef.validate_Lupus_section_as(String)"
 });
 formatter.result({
-  "duration": 12727600,
-  "status": "passed"
-});
-formatter.match({
-  "location": "ProviderStepDef.back_to_home_pageLogo()"
-});
-formatter.result({
-  "duration": 5277498900,
+  "duration": 850895200,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "We work hard to fill the gaps in your healthcare landscape.",
-      "offset": 48
+      "val": "Enroll Today for Free",
+      "offset": 70
     }
   ],
-  "location": "ProviderStepDef.validate_healthcare_landscape_section_title_as(String)"
+  "location": "ChroniccareStepDef.click_on_Enroll_Today_for_Free_button_for_lupus_section_and_title_as(String)"
 });
 formatter.result({
-  "duration": 769275600,
+  "duration": 850550500,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "90% Rattings",
-      "offset": 44
-    }
-  ],
-  "location": "ProviderStepDef.validate_healthcare_landscape_sub_title_as(String)"
-});
-formatter.result({
-  "duration": 35697300,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "90% of patients surveyed said they were pleased with our educational emails about their procedure.",
-      "offset": 46
-    }
-  ],
-  "location": "ProviderStepDef.validate_healthcare_landscape_secone_desc_as(String)"
-});
-formatter.result({
-  "duration": 348300,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "90% of clinic staff surveyed said they were pleased with the patient turnaround and their preparedness.",
-      "offset": 44
-    }
-  ],
-  "location": "ProviderStepDef.validate_healthcare_landscape_secsecond_as(String)"
-});
-formatter.result({
-  "duration": 300100,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "See How We Work With your Systems",
-      "offset": 32
-    }
-  ],
-  "location": "ProviderStepDef.validate_work_systems_title_as(String)"
-});
-formatter.result({
-  "duration": 9815404500,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "Looking to get started? Take the first steps towards discovering just how we can amplify the value of your existing technology.",
+      "val": "Get The App - CredaHealth",
       "offset": 30
     }
   ],
-  "location": "ProviderStepDef.validate_work_system_desc_as(String)"
+  "location": "ChroniccareStepDef.validate_get_the_app_page_as(String)"
 });
 formatter.result({
-  "duration": 29888400,
+  "duration": 26793600,
+  "status": "passed"
+});
+formatter.match({
+  "location": "ChroniccareStepDef.back_to_home_page()"
+});
+formatter.result({
+  "duration": 215280000,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "Talk To Experts",
-      "offset": 52
+      "val": "IBD",
+      "offset": 25
     }
   ],
-  "location": "ProviderStepDef.click_on_Talk_To_Experts_btn_and_validate_title_as(String)"
+  "location": "ChroniccareStepDef.validate_IBD_section_as(String)"
 });
 formatter.result({
-  "duration": 881760100,
+  "duration": 304833200,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "Contact Us - CredaHealth",
-      "offset": 26
+      "val": "Enroll Today for Free",
+      "offset": 68
     }
   ],
-  "location": "HomeStepDef.validate_contact_us_page(String)"
+  "location": "ChroniccareStepDef.click_on_Enroll_Today_for_Free_button_for_IBD_section_and_title_as(String)"
 });
 formatter.result({
-  "duration": 14030000,
-  "status": "passed"
-});
-formatter.match({
-  "location": "ProviderStepDef.back_to_home_pageLogo()"
-});
-formatter.result({
-  "duration": 5222309100,
+  "duration": 894814800,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "Become a Partner",
-      "offset": 53
+      "val": "Get The App - CredaHealth",
+      "offset": 30
     }
   ],
-  "location": "ProviderStepDef.click_on_Become_a_Partner_btn_and_validate_title_as(String)"
+  "location": "ChroniccareStepDef.validate_get_the_app_page_as(String)"
 });
 formatter.result({
-  "duration": 936014200,
+  "duration": 31980600,
+  "status": "passed"
+});
+formatter.match({
+  "location": "ChroniccareStepDef.back_to_home_page()"
+});
+formatter.result({
+  "duration": 257588500,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "Contact Us - CredaHealth",
-      "offset": 26
+      "val": "IBS",
+      "offset": 25
     }
   ],
-  "location": "HomeStepDef.validate_contact_us_page(String)"
+  "location": "ChroniccareStepDef.validate_IBS_section_as(String)"
 });
 formatter.result({
-  "duration": 16959600,
-  "status": "passed"
-});
-formatter.match({
-  "location": "ProviderStepDef.back_to_home_pageLogo()"
-});
-formatter.result({
-  "duration": 5234736700,
+  "duration": 273921900,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "Creda for Clinics",
+      "val": "Enroll Today for Free",
+      "offset": 68
+    }
+  ],
+  "location": "ChroniccareStepDef.click_on_Enroll_Today_for_Free_button_for_IBS_section_and_title_as(String)"
+});
+formatter.result({
+  "duration": 863080100,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Get The App - CredaHealth",
+      "offset": 30
+    }
+  ],
+  "location": "ChroniccareStepDef.validate_get_the_app_page_as(String)"
+});
+formatter.result({
+  "duration": 29365000,
+  "status": "passed"
+});
+formatter.match({
+  "location": "ChroniccareStepDef.back_to_home_page()"
+});
+formatter.result({
+  "duration": 244541000,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Diabetes Type 1",
       "offset": 33
     }
   ],
-  "location": "ProviderStepDef.validate_creda_clinice_title_as(String)"
+  "location": "ChroniccareStepDef.validate_diabetesone_section_as(String)"
 });
 formatter.result({
-  "duration": 709525500,
+  "duration": 959968800,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "Creda Health’s “Patient Engagement solution” provides GI clinics with a comprehensive solution for engaging patients throughout their healthcare journey.",
-      "offset": 37
+      "val": "Enroll Today for Free",
+      "offset": 76
     }
   ],
-  "location": "ProviderStepDef.validate_creda_clinice_sub_title_as(String)"
+  "location": "ChroniccareStepDef.click_on_Enroll_Today_for_Free_button_for_diabetesone_section_and_title_as(String)"
 });
 formatter.result({
-  "duration": 29732000,
+  "duration": 802143800,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "Creda offers a suite of services that include patient education, reminder notifications, and personalized communication modules. The ultimate goal is to improve patient outcomes by helping patients become more involved in their own care and treatment, leading to better adherence to treatment plans, improved health outcomes, reduced healthcare costs.",
-      "offset": 36
+      "val": "Get The App - CredaHealth",
+      "offset": 30
     }
   ],
-  "location": "ProviderStepDef.validate_creda_clinics_desc_one_as(String)"
+  "location": "ChroniccareStepDef.validate_get_the_app_page_as(String)"
 });
 formatter.result({
-  "duration": 31553400,
+  "duration": 24625700,
+  "status": "passed"
+});
+formatter.match({
+  "location": "ChroniccareStepDef.back_to_home_page()"
+});
+formatter.result({
+  "duration": 193041900,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "Creda also provides analytics and reports that allow healthcare organizations to track patient engagement and monitor their progress. These services help clinics build better relationships with their patients, leading to increased trust and satisfaction.",
-      "offset": 36
+      "val": "Diabetes Type 2",
+      "offset": 33
     }
   ],
-  "location": "ProviderStepDef.validate_creda_clinics_desc_two_as(String)"
+  "location": "ChroniccareStepDef.validate_diabetestwo_section_as(String)"
 });
 formatter.result({
-  "duration": 30509800,
+  "duration": 232944400,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "Contact Us",
-      "offset": 46
+      "val": "Enroll Today for Free",
+      "offset": 76
     }
   ],
-  "location": "ProviderStepDef.click_on_contact_us_btn_and_validate_text_as(String)"
+  "location": "ChroniccareStepDef.click_on_Enroll_Today_for_Free_button_for_diabetestwo_section_and_title_as(String)"
 });
 formatter.result({
-  "duration": 854520000,
+  "duration": 806386600,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "Contact Us - CredaHealth",
-      "offset": 26
+      "val": "Get The App - CredaHealth",
+      "offset": 30
     }
   ],
-  "location": "HomeStepDef.validate_contact_us_page(String)"
+  "location": "ChroniccareStepDef.validate_get_the_app_page_as(String)"
 });
 formatter.result({
-  "duration": 14605000,
+  "duration": 29023300,
   "status": "passed"
 });
 formatter.match({
-  "location": "ProviderStepDef.back_to_home_pageLogo()"
+  "location": "ChroniccareStepDef.back_to_home_page()"
 });
 formatter.result({
-  "duration": 5233085500,
+  "duration": 210089700,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Hypertension",
+      "offset": 34
+    }
+  ],
+  "location": "ChroniccareStepDef.validate_hypertension_section_as(String)"
+});
+formatter.result({
+  "duration": 304818400,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Enroll Today for Free",
+      "offset": 77
+    }
+  ],
+  "location": "ChroniccareStepDef.click_on_Enroll_Today_for_Free_button_for_hypertension_section_and_title_as(String)"
+});
+formatter.result({
+  "duration": 961908000,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Get The App - CredaHealth",
+      "offset": 30
+    }
+  ],
+  "location": "ChroniccareStepDef.validate_get_the_app_page_as(String)"
+});
+formatter.result({
+  "duration": 16994400,
+  "status": "passed"
+});
+formatter.match({
+  "location": "ChroniccareStepDef.back_to_home_page()"
+});
+formatter.result({
+  "duration": 195591100,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Prediabetes",
+      "offset": 33
+    }
+  ],
+  "location": "ChroniccareStepDef.validate_prediabetes_section_as(String)"
+});
+formatter.result({
+  "duration": 1018636800,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Enroll Today for Free",
+      "offset": 76
+    }
+  ],
+  "location": "ChroniccareStepDef.click_on_Enroll_Today_for_Free_button_for_prediabetes_section_and_title_as(String)"
+});
+formatter.result({
+  "duration": 883587300,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Get The App - CredaHealth",
+      "offset": 30
+    }
+  ],
+  "location": "ChroniccareStepDef.validate_get_the_app_page_as(String)"
+});
+formatter.result({
+  "duration": 27962800,
+  "status": "passed"
+});
+formatter.match({
+  "location": "ChroniccareStepDef.back_to_home_page()"
+});
+formatter.result({
+  "duration": 236668400,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Overweight / Obesity",
+      "offset": 32
+    }
+  ],
+  "location": "ChroniccareStepDef.validate_overweight_section_as(String)"
+});
+formatter.result({
+  "duration": 282914100,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Enroll Today for Free",
+      "offset": 75
+    }
+  ],
+  "location": "ChroniccareStepDef.click_on_Enroll_Today_for_Free_button_for_overweight_section_and_title_as(String)"
+});
+formatter.result({
+  "duration": 911870100,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Get The App - CredaHealth",
+      "offset": 30
+    }
+  ],
+  "location": "ChroniccareStepDef.validate_get_the_app_page_as(String)"
+});
+formatter.result({
+  "duration": 21235200,
+  "status": "passed"
+});
+formatter.match({
+  "location": "ChroniccareStepDef.back_to_home_page()"
+});
+formatter.result({
+  "duration": 324782300,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "High Cholesterol",
+      "offset": 33
+    }
+  ],
+  "location": "ChroniccareStepDef.validate_cholesterol_section_as(String)"
+});
+formatter.result({
+  "duration": 246929500,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Enroll Today for Free",
+      "offset": 76
+    }
+  ],
+  "location": "ChroniccareStepDef.click_on_Enroll_Today_for_Free_button_for_cholesterol_section_and_title_as(String)"
+});
+formatter.result({
+  "duration": 861340900,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Get The App - CredaHealth",
+      "offset": 30
+    }
+  ],
+  "location": "ChroniccareStepDef.validate_get_the_app_page_as(String)"
+});
+formatter.result({
+  "duration": 27584300,
+  "status": "passed"
+});
+formatter.match({
+  "location": "ChroniccareStepDef.back_to_home_page()"
+});
+formatter.result({
+  "duration": 214078200,
   "status": "passed"
 });
 });

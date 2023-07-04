@@ -10,7 +10,7 @@ import org.testng.annotations.BeforeSuite;
 import java.io.IOException;
 
 @CucumberOptions(
-        features = "src/features",
+        features = "src/features/Chroniccare.feature",
         glue = {"stepDefinition"},
         tags = {},
         plugin = {"pretty",
@@ -26,6 +26,6 @@ public class TestRunner extends AbstractTestNGCucumberTests {
         }
         @AfterSuite
         public void closeSite(){
-               // objBaseClass.tearDown();
+                objBaseClass.tearDown();
         }
 }
