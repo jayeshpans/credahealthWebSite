@@ -207,22 +207,182 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.step({
-  "line": 54,
+  "line": 55,
   "name": "validate Lupus section as \"Lupus\"",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 55,
+  "line": 56,
   "name": "click on Enroll Today for Free button for lupus section and title as \"Enroll Today for Free\"",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 56,
+  "line": 57,
   "name": "validate get the app page as \"Get The App - CredaHealth\"",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 57,
+  "line": 58,
+  "name": "back to home page",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 60,
+  "name": "validate IBD section as \"IBD\"",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 61,
+  "name": "click on Enroll Today for Free button for IBD section and title as \"Enroll Today for Free\"",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 62,
+  "name": "validate get the app page as \"Get The App - CredaHealth\"",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 63,
+  "name": "back to home page",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 65,
+  "name": "validate IBS section as \"IBS\"",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 66,
+  "name": "click on Enroll Today for Free button for IBS section and title as \"Enroll Today for Free\"",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 67,
+  "name": "validate get the app page as \"Get The App - CredaHealth\"",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 68,
+  "name": "back to home page",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 70,
+  "name": "validate diabetesone section as \"Diabetes Type 1\"",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 71,
+  "name": "click on Enroll Today for Free button for diabetesone section and title as \"Enroll Today for Free\"",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 72,
+  "name": "validate get the app page as \"Get The App - CredaHealth\"",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 73,
+  "name": "back to home page",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 75,
+  "name": "validate diabetestwo section as \"Diabetes Type 2\"",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 76,
+  "name": "click on Enroll Today for Free button for diabetestwo section and title as \"Enroll Today for Free\"",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 77,
+  "name": "validate get the app page as \"Get The App - CredaHealth\"",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 78,
+  "name": "back to home page",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 80,
+  "name": "validate hypertension section as \"Hypertension\"",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 81,
+  "name": "click on Enroll Today for Free button for hypertension section and title as \"Enroll Today for Free\"",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 82,
+  "name": "validate get the app page as \"Get The App - CredaHealth\"",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 83,
+  "name": "back to home page",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 85,
+  "name": "validate prediabetes section as \"Prediabetes\"",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 86,
+  "name": "click on Enroll Today for Free button for prediabetes section and title as \"Enroll Today for Free\"",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 87,
+  "name": "validate get the app page as \"Get The App - CredaHealth\"",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 88,
+  "name": "back to home page",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 90,
+  "name": "validate overweight section as \"Overweight / Obesity\"",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 91,
+  "name": "click on Enroll Today for Free button for overweight section and title as \"Enroll Today for Free\"",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 92,
+  "name": "validate get the app page as \"Get The App - CredaHealth\"",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 93,
+  "name": "back to home page",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 95,
+  "name": "validate cholesterol section as \"High Cholesterol\"",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 96,
+  "name": "click on Enroll Today for Free button for cholesterol section and title as \"Enroll Today for Free\"",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 97,
+  "name": "validate get the app page as \"Get The App - CredaHealth\"",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 98,
   "name": "back to home page",
   "keyword": "Then "
 });
@@ -230,7 +390,7 @@ formatter.match({
   "location": "ChroniccareStepDef.click_on_chronic_care_menu()"
 });
 formatter.result({
-  "duration": 2196218700,
+  "duration": 2049216300,
   "status": "passed"
 });
 formatter.match({
@@ -243,7 +403,7 @@ formatter.match({
   "location": "IndividualStepDef.validate_chronic_care_page_title_as(String)"
 });
 formatter.result({
-  "duration": 13051800,
+  "duration": 7551400,
   "status": "passed"
 });
 formatter.match({
@@ -256,7 +416,7 @@ formatter.match({
   "location": "ChroniccareStepDef.validate_chronic_care_pages_title_as(String)"
 });
 formatter.result({
-  "duration": 82448900,
+  "duration": 61570700,
   "status": "passed"
 });
 formatter.match({
@@ -269,7 +429,7 @@ formatter.match({
   "location": "ChroniccareStepDef.validate_chronic_care_sub_title_as(String)"
 });
 formatter.result({
-  "duration": 42616000,
+  "duration": 51126400,
   "status": "passed"
 });
 formatter.match({
@@ -282,7 +442,7 @@ formatter.match({
   "location": "ChroniccareStepDef.validate_download_app_button_and_display_title_as(String)"
 });
 formatter.result({
-  "duration": 1986016500,
+  "duration": 1928356700,
   "status": "passed"
 });
 formatter.match({
@@ -295,14 +455,14 @@ formatter.match({
   "location": "ChroniccareStepDef.validate_get_the_app_page_as(String)"
 });
 formatter.result({
-  "duration": 52847500,
+  "duration": 43287800,
   "status": "passed"
 });
 formatter.match({
   "location": "ChroniccareStepDef.back_to_home_page()"
 });
 formatter.result({
-  "duration": 272785200,
+  "duration": 213353300,
   "status": "passed"
 });
 formatter.match({
@@ -315,7 +475,7 @@ formatter.match({
   "location": "ChroniccareStepDef.validate_condition_sec_title_as(String)"
 });
 formatter.result({
-  "duration": 806622400,
+  "duration": 781302200,
   "status": "passed"
 });
 formatter.match({
@@ -328,7 +488,7 @@ formatter.match({
   "location": "ChroniccareStepDef.validate_condition_sec_sub_title_as(String)"
 });
 formatter.result({
-  "duration": 31098600,
+  "duration": 24747100,
   "status": "passed"
 });
 formatter.match({
@@ -341,7 +501,7 @@ formatter.match({
   "location": "ChroniccareStepDef.validate_condition_sec_quote_as(String)"
 });
 formatter.result({
-  "duration": 29672000,
+  "duration": 34564300,
   "status": "passed"
 });
 formatter.match({
@@ -354,7 +514,7 @@ formatter.match({
   "location": "ChroniccareStepDef.valdate_big_pic_title_as(String)"
 });
 formatter.result({
-  "duration": 31154900,
+  "duration": 28376700,
   "status": "passed"
 });
 formatter.match({
@@ -367,7 +527,7 @@ formatter.match({
   "location": "ChroniccareStepDef.validate_big_pic_desc_as(String)"
 });
 formatter.result({
-  "duration": 31843300,
+  "duration": 31794000,
   "status": "passed"
 });
 formatter.match({
@@ -380,7 +540,7 @@ formatter.match({
   "location": "ChroniccareStepDef.validate_real_export_title_as(String)"
 });
 formatter.result({
-  "duration": 29129800,
+  "duration": 27989600,
   "status": "passed"
 });
 formatter.match({
@@ -393,7 +553,7 @@ formatter.match({
   "location": "ChroniccareStepDef.validate_real_export_desc_as(String)"
 });
 formatter.result({
-  "duration": 31031400,
+  "duration": 33672200,
   "status": "passed"
 });
 formatter.match({
@@ -406,7 +566,7 @@ formatter.match({
   "location": "ChroniccareStepDef.validate_wholesome_title_as(String)"
 });
 formatter.result({
-  "duration": 774614300,
+  "duration": 687533300,
   "status": "passed"
 });
 formatter.match({
@@ -419,7 +579,7 @@ formatter.match({
   "location": "ChroniccareStepDef.validate_wholesome_desc_as(String)"
 });
 formatter.result({
-  "duration": 76305000,
+  "duration": 30882400,
   "status": "passed"
 });
 formatter.match({
@@ -432,7 +592,7 @@ formatter.match({
   "location": "ChroniccareStepDef.validate_journey_section_title_as(String)"
 });
 formatter.result({
-  "duration": 751457800,
+  "duration": 701272400,
   "status": "passed"
 });
 formatter.match({
@@ -445,7 +605,7 @@ formatter.match({
   "location": "ChroniccareStepDef.validate_journey_section_desc_as(String)"
 });
 formatter.result({
-  "duration": 46090200,
+  "duration": 34777200,
   "status": "passed"
 });
 formatter.match({
@@ -458,7 +618,7 @@ formatter.match({
   "location": "ChroniccareStepDef.validate_approach_section_as(String)"
 });
 formatter.result({
-  "duration": 711896200,
+  "duration": 706060500,
   "status": "passed"
 });
 formatter.match({
@@ -471,7 +631,7 @@ formatter.match({
   "location": "ChroniccareStepDef.validate_approach_sub_section_desc_as(String)"
 });
 formatter.result({
-  "duration": 35255900,
+  "duration": 29894300,
   "status": "passed"
 });
 formatter.match({
@@ -484,7 +644,7 @@ formatter.match({
   "location": "ChroniccareStepDef.validate_approach_sub_desc_as(String)"
 });
 formatter.result({
-  "duration": 26717300,
+  "duration": 27232200,
   "status": "passed"
 });
 formatter.match({
@@ -497,7 +657,7 @@ formatter.match({
   "location": "ChroniccareStepDef.validate_collaborative_section_title_as(String)"
 });
 formatter.result({
-  "duration": 714918500,
+  "duration": 676536900,
   "status": "passed"
 });
 formatter.match({
@@ -510,7 +670,7 @@ formatter.match({
   "location": "ChroniccareStepDef.validate_collaborative_section_sub_title_as(String)"
 });
 formatter.result({
-  "duration": 35704400,
+  "duration": 34934200,
   "status": "passed"
 });
 formatter.match({
@@ -523,7 +683,7 @@ formatter.match({
   "location": "ChroniccareStepDef.validate_collaborative_section_desc_as(String)"
 });
 formatter.result({
-  "duration": 25287300,
+  "duration": 25513700,
   "status": "passed"
 });
 formatter.match({
@@ -536,7 +696,7 @@ formatter.match({
   "location": "ChroniccareStepDef.validate_progress_section_title_as(String)"
 });
 formatter.result({
-  "duration": 690919400,
+  "duration": 732656700,
   "status": "passed"
 });
 formatter.match({
@@ -549,7 +709,7 @@ formatter.match({
   "location": "ChroniccareStepDef.validate_progress_section_desc_as(String)"
 });
 formatter.result({
-  "duration": 33366000,
+  "duration": 33530600,
   "status": "passed"
 });
 formatter.match({
@@ -562,7 +722,7 @@ formatter.match({
   "location": "ChroniccareStepDef.validate_what_we_care_title_as(String)"
 });
 formatter.result({
-  "duration": 704047500,
+  "duration": 707506600,
   "status": "passed"
 });
 formatter.match({
@@ -575,7 +735,7 @@ formatter.match({
   "location": "ChroniccareStepDef.validate_what_we_care_sub_title_as(String)"
 });
 formatter.result({
-  "duration": 33184200,
+  "duration": 33634000,
   "status": "passed"
 });
 formatter.match({
@@ -588,7 +748,7 @@ formatter.match({
   "location": "ChroniccareStepDef.validate_Lupus_section_as(String)"
 });
 formatter.result({
-  "duration": 703620800,
+  "duration": 850895200,
   "status": "passed"
 });
 formatter.match({
@@ -601,7 +761,7 @@ formatter.match({
   "location": "ChroniccareStepDef.click_on_Enroll_Today_for_Free_button_for_lupus_section_and_title_as(String)"
 });
 formatter.result({
-  "duration": 858028400,
+  "duration": 850550500,
   "status": "passed"
 });
 formatter.match({
@@ -614,14 +774,382 @@ formatter.match({
   "location": "ChroniccareStepDef.validate_get_the_app_page_as(String)"
 });
 formatter.result({
-  "duration": 34829300,
+  "duration": 26793600,
   "status": "passed"
 });
 formatter.match({
   "location": "ChroniccareStepDef.back_to_home_page()"
 });
 formatter.result({
-  "duration": 217635700,
+  "duration": 215280000,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "IBD",
+      "offset": 25
+    }
+  ],
+  "location": "ChroniccareStepDef.validate_IBD_section_as(String)"
+});
+formatter.result({
+  "duration": 304833200,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Enroll Today for Free",
+      "offset": 68
+    }
+  ],
+  "location": "ChroniccareStepDef.click_on_Enroll_Today_for_Free_button_for_IBD_section_and_title_as(String)"
+});
+formatter.result({
+  "duration": 894814800,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Get The App - CredaHealth",
+      "offset": 30
+    }
+  ],
+  "location": "ChroniccareStepDef.validate_get_the_app_page_as(String)"
+});
+formatter.result({
+  "duration": 31980600,
+  "status": "passed"
+});
+formatter.match({
+  "location": "ChroniccareStepDef.back_to_home_page()"
+});
+formatter.result({
+  "duration": 257588500,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "IBS",
+      "offset": 25
+    }
+  ],
+  "location": "ChroniccareStepDef.validate_IBS_section_as(String)"
+});
+formatter.result({
+  "duration": 273921900,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Enroll Today for Free",
+      "offset": 68
+    }
+  ],
+  "location": "ChroniccareStepDef.click_on_Enroll_Today_for_Free_button_for_IBS_section_and_title_as(String)"
+});
+formatter.result({
+  "duration": 863080100,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Get The App - CredaHealth",
+      "offset": 30
+    }
+  ],
+  "location": "ChroniccareStepDef.validate_get_the_app_page_as(String)"
+});
+formatter.result({
+  "duration": 29365000,
+  "status": "passed"
+});
+formatter.match({
+  "location": "ChroniccareStepDef.back_to_home_page()"
+});
+formatter.result({
+  "duration": 244541000,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Diabetes Type 1",
+      "offset": 33
+    }
+  ],
+  "location": "ChroniccareStepDef.validate_diabetesone_section_as(String)"
+});
+formatter.result({
+  "duration": 959968800,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Enroll Today for Free",
+      "offset": 76
+    }
+  ],
+  "location": "ChroniccareStepDef.click_on_Enroll_Today_for_Free_button_for_diabetesone_section_and_title_as(String)"
+});
+formatter.result({
+  "duration": 802143800,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Get The App - CredaHealth",
+      "offset": 30
+    }
+  ],
+  "location": "ChroniccareStepDef.validate_get_the_app_page_as(String)"
+});
+formatter.result({
+  "duration": 24625700,
+  "status": "passed"
+});
+formatter.match({
+  "location": "ChroniccareStepDef.back_to_home_page()"
+});
+formatter.result({
+  "duration": 193041900,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Diabetes Type 2",
+      "offset": 33
+    }
+  ],
+  "location": "ChroniccareStepDef.validate_diabetestwo_section_as(String)"
+});
+formatter.result({
+  "duration": 232944400,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Enroll Today for Free",
+      "offset": 76
+    }
+  ],
+  "location": "ChroniccareStepDef.click_on_Enroll_Today_for_Free_button_for_diabetestwo_section_and_title_as(String)"
+});
+formatter.result({
+  "duration": 806386600,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Get The App - CredaHealth",
+      "offset": 30
+    }
+  ],
+  "location": "ChroniccareStepDef.validate_get_the_app_page_as(String)"
+});
+formatter.result({
+  "duration": 29023300,
+  "status": "passed"
+});
+formatter.match({
+  "location": "ChroniccareStepDef.back_to_home_page()"
+});
+formatter.result({
+  "duration": 210089700,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Hypertension",
+      "offset": 34
+    }
+  ],
+  "location": "ChroniccareStepDef.validate_hypertension_section_as(String)"
+});
+formatter.result({
+  "duration": 304818400,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Enroll Today for Free",
+      "offset": 77
+    }
+  ],
+  "location": "ChroniccareStepDef.click_on_Enroll_Today_for_Free_button_for_hypertension_section_and_title_as(String)"
+});
+formatter.result({
+  "duration": 961908000,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Get The App - CredaHealth",
+      "offset": 30
+    }
+  ],
+  "location": "ChroniccareStepDef.validate_get_the_app_page_as(String)"
+});
+formatter.result({
+  "duration": 16994400,
+  "status": "passed"
+});
+formatter.match({
+  "location": "ChroniccareStepDef.back_to_home_page()"
+});
+formatter.result({
+  "duration": 195591100,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Prediabetes",
+      "offset": 33
+    }
+  ],
+  "location": "ChroniccareStepDef.validate_prediabetes_section_as(String)"
+});
+formatter.result({
+  "duration": 1018636800,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Enroll Today for Free",
+      "offset": 76
+    }
+  ],
+  "location": "ChroniccareStepDef.click_on_Enroll_Today_for_Free_button_for_prediabetes_section_and_title_as(String)"
+});
+formatter.result({
+  "duration": 883587300,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Get The App - CredaHealth",
+      "offset": 30
+    }
+  ],
+  "location": "ChroniccareStepDef.validate_get_the_app_page_as(String)"
+});
+formatter.result({
+  "duration": 27962800,
+  "status": "passed"
+});
+formatter.match({
+  "location": "ChroniccareStepDef.back_to_home_page()"
+});
+formatter.result({
+  "duration": 236668400,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Overweight / Obesity",
+      "offset": 32
+    }
+  ],
+  "location": "ChroniccareStepDef.validate_overweight_section_as(String)"
+});
+formatter.result({
+  "duration": 282914100,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Enroll Today for Free",
+      "offset": 75
+    }
+  ],
+  "location": "ChroniccareStepDef.click_on_Enroll_Today_for_Free_button_for_overweight_section_and_title_as(String)"
+});
+formatter.result({
+  "duration": 911870100,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Get The App - CredaHealth",
+      "offset": 30
+    }
+  ],
+  "location": "ChroniccareStepDef.validate_get_the_app_page_as(String)"
+});
+formatter.result({
+  "duration": 21235200,
+  "status": "passed"
+});
+formatter.match({
+  "location": "ChroniccareStepDef.back_to_home_page()"
+});
+formatter.result({
+  "duration": 324782300,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "High Cholesterol",
+      "offset": 33
+    }
+  ],
+  "location": "ChroniccareStepDef.validate_cholesterol_section_as(String)"
+});
+formatter.result({
+  "duration": 246929500,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Enroll Today for Free",
+      "offset": 76
+    }
+  ],
+  "location": "ChroniccareStepDef.click_on_Enroll_Today_for_Free_button_for_cholesterol_section_and_title_as(String)"
+});
+formatter.result({
+  "duration": 861340900,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Get The App - CredaHealth",
+      "offset": 30
+    }
+  ],
+  "location": "ChroniccareStepDef.validate_get_the_app_page_as(String)"
+});
+formatter.result({
+  "duration": 27584300,
+  "status": "passed"
+});
+formatter.match({
+  "location": "ChroniccareStepDef.back_to_home_page()"
+});
+formatter.result({
+  "duration": 214078200,
   "status": "passed"
 });
 });

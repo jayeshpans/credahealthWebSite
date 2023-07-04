@@ -26,6 +26,6 @@ public class TestRunner extends AbstractTestNGCucumberTests {
         }
         @AfterSuite
         public void closeSite(){
-               // objBaseClass.tearDown();
+                objBaseClass.tearDown();
         }
 }
