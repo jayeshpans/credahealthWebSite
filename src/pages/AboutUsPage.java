@@ -54,11 +54,15 @@ public class AboutUsPage extends PageAction {
     }
     @FindBy(xpath = "//span[text()=\"Our team\"]")
     WebElement ourTeamTitle;
-    public String getOurTeamTitle() {
-        return ourTeamTitle.getText();
-    }
     @FindBy(xpath = "//span[text()=\"Dr. Venkat Srinivasan\"]")
     WebElement venkatTitle;
+    public String getOurTeamTitle() throws InterruptedException {
+        moveToElement(driver, ourTeamTitle);
+        moveToElement(driver, venkatTitle);
+        System.out.println(ourTeamTitle.getText());
+        return ourTeamTitle.getText();
+    }
+
     @FindBy(xpath = "//span[text()=\"Dr. Venkat Srinivasan\"]/parent::span/parent::h4/parent::header/parent::div/div/span/img")
     WebElement venkatImg;
     public String  getvenkatName() {
@@ -90,7 +94,8 @@ public class AboutUsPage extends PageAction {
     WebElement sanjivLuthraTitle;
     @FindBy(xpath = "//span[text()=\"Sanjiv Luthra\"]/parent::span/parent::h4/parent::header/parent::div/div/span/img")
     WebElement sanjivLuthraImg;
-    public String getsanjivName() {
+    public String getsanjivName() throws InterruptedException {
+        moveToElement(driver, sanjivLuthraTitle);
         return sanjivLuthraTitle.getText();
     }
 
@@ -114,14 +119,16 @@ public class AboutUsPage extends PageAction {
     }
     @FindBy(xpath = "/html/body/div[2]/div[2]/div/div/div/section[4]/div/div/div/div[1]/div/div/div/div/header/h3/span/span")
     WebElement mediacalAdversoryTitle;
-    public String getmedicalAdvisoryTitle() {
+    public String getmedicalAdvisoryTitle() throws InterruptedException {
+        moveToElement(driver, mediacalAdversoryTitle);
         return mediacalAdversoryTitle.getText();
     }
     @FindBy(xpath = "//span[text()=\"Dr. Sanjiv Chopra\"]/parent::span/parent::h4/parent::header/parent::div/div/span/img")
     WebElement sanjivChopraImg;
     @FindBy(xpath = "//span[text()=\"Dr. Sanjiv Chopra\"]")
     WebElement sanjivChopraTitle;
-    public String  getsanjivChopraName() {
+    public String  getsanjivChopraName() throws InterruptedException {
+        moveToElement(driver, sanjivChopraTitle);
         return sanjivChopraTitle.getText();
     }
 
@@ -129,51 +136,96 @@ public class AboutUsPage extends PageAction {
         return sanjivChopraImg.getAttribute("src");
     }
 
-    public void getjosephName() {
+    @FindBy(xpath = "//span[text()=\"Dr. Joseph Mikhael\"]/parent::span/parent::h4/parent::header/parent::div/div/span/img")
+    WebElement joephImg;
+    @FindBy(xpath = "//span[text()=\"Dr. Joseph Mikhael\"]")
+    WebElement josephTitle;
+
+    public String getjosephName() {
+        return josephTitle.getText();
     }
 
-    public void getjosephProfPicURL() {
+    public String getjosephProfPicURL() {
+        return joephImg.getAttribute("src");
+    }
+    @FindBy(xpath = "//span[text()=\"Dr. Duane S. Pinto\"]/parent::span/parent::h4/parent::header/parent::div/div/span/img")
+    WebElement duaneImg;
+    @FindBy(xpath = "//span[text()=\"Dr. Duane S. Pinto\"]")
+    WebElement duaneTitle;
+    public String getDuaneName() {
+        return duaneTitle.getText();
     }
 
-    public void getDuaneName() {
+    public String getDuanePrfilePicURL() {
+        return duaneImg.getAttribute("src");
+    }
+    @FindBy(xpath = "//span[text()=\"Dr. Frank J. Domino\"]/parent::span/parent::h4/parent::header/parent::div/div/span/img")
+    WebElement frankImg;
+    @FindBy(xpath = "//span[text()=\"Dr. Frank J. Domino\"]")
+    WebElement frankTitle;
+    public String getfrankName() throws InterruptedException {
+        moveToElement(driver, frankTitle);
+        return frankTitle.getText();
     }
 
-    public void getDuanePrfilePicURL() {
+    public String getFrankPrfilePicURL() {
+        return frankImg.getAttribute("src");
+    }
+    @FindBy(xpath = "//span[text()=\"Jay Gupta\"]/parent::span/parent::h4/parent::header/parent::div/div/span/img")
+    WebElement jayImg;
+    @FindBy(xpath = "//span[text()=\"Jay Gupta\"]")
+    WebElement jayTitle;
+    public String getJayGuptaName() {
+        return jayTitle.getText();
     }
 
-    public void getfrankName() {
+    public String  getJayGuptaPrfilePicURL() {
+        return jayImg.getAttribute("src");
+    }
+    @FindBy(xpath = "//span[text()=\"Dr. Martin J. Abrahamson\"]/parent::span/parent::h4/parent::header/parent::div/div/span/img")
+    WebElement martinImg;
+    @FindBy(xpath = "//span[text()=\"Dr. Martin J. Abrahamson\"]")
+    WebElement martinTitle;
+    public String getMartinName() {
+        return martinTitle.getText();
     }
 
-    public void getFrankPrfilePicURL() {
+    public String getMartinPrfilePicURL() {
+        return martinImg.getAttribute("src");
+    }
+    @FindBy(xpath = "//span[text()=\"Dr. Robert H. Shmerling\"]/parent::span/parent::h4/parent::header/parent::div/div/span/img")
+    WebElement robertImg;
+    @FindBy(xpath = "//span[text()=\"Dr. Robert H. Shmerling\"]")
+    WebElement robertTitle;
+    public String getRobertName() throws InterruptedException {
+        moveToElement(driver, robertTitle);
+        return robertTitle.getText();
     }
 
-    public void getJayGuptaName() {
+    public String getRobertPrfilePicURL() throws InterruptedException {
+        moveToElement(driver, robertImg);
+        return robertImg.getAttribute("src");
+    }
+    @FindBy(xpath = "//span[text()=\"Dr. Jill Grimes\"]/parent::span/parent::h4/parent::header/parent::div/div/span/img")
+    WebElement jillImg;
+    @FindBy(xpath = "//span[text()=\"Dr. Jill Grimes\"]")
+    WebElement jillTitle;
+    public String getJillName() {
+        return jillTitle.getText();
     }
 
-    public void getJayGuptaPrfilePicURL() {
+    public String  getJillPrfilePicURL() {
+        return jillImg.getAttribute("src");
+    }
+    @FindBy(xpath = "//span[text()=\"Dr. John Sharp\"]/parent::span/parent::h4/parent::header/parent::div/div/span/img")
+    WebElement johnImg;
+    @FindBy(xpath = "//span[text()=\"Dr. John Sharp\"]")
+    WebElement johnTitle;
+    public String getJohnName() {
+        return johnTitle.getText();
     }
 
-    public void getMartinName() {
-    }
-
-    public void getMartinPrfilePicURL() {
-    }
-
-    public void getRobertName() {
-    }
-
-    public void getRobertPrfilePicURL() {
-    }
-
-    public void getJillName() {
-    }
-
-    public void getJillPrfilePicURL() {
-    }
-
-    public void getJohnName() {
-    }
-
-    public void getJohnPrfilePicURL() {
+    public String getJohnPrfilePicURL() {
+        return johnImg.getAttribute("src");
     }
 }

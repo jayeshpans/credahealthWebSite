@@ -4,13 +4,12 @@ import cucumber.api.CucumberOptions;
 import cucumber.api.testng.AbstractTestNGCucumberTests;
 import lib.BaseClass;
 import org.testng.annotations.AfterSuite;
-import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeSuite;
 
 import java.io.IOException;
 
 @CucumberOptions(
-        features = "src/features/Chroniccare.feature",
+        features = "src/features/AboutUs.feature",
         glue = {"stepDefinition"},
         tags = {},
         plugin = {"pretty",
