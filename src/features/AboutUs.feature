@@ -50,19 +50,19 @@ Feature: Validate about us page
     Then validate duane profile pic as "https://credahealth.com/wp-content/uploads/2023/03/Dr.-Duane-S.-Pinto.png"
 
     Then validate frank title as "Dr. Frank J. Domino"
-    Then validate frank profile pic as ""
+    Then validate frank profile pic as "https://credahealth.com/wp-content/uploads/2023/03/Dr.-Frank-J.-Domino.png"
 
     Then validate jay gupta title as "Jay Gupta"
-    Then validate jay gupta profile pic as ""
+    Then validate jay gupta profile pic as "https://credahealth.com/wp-content/uploads/2023/03/Jay-Gupta.png"
 
     Then validate martin title as "Dr. Martin J. Abrahamson"
-    Then validate martin profile pic as ""
+    Then validate martin profile pic as "https://credahealth.com/wp-content/uploads/2023/03/Dr.-Martin-J.-Abrahamson.png"
 
     Then validate robert title as "Dr. Robert H. Shmerling"
-    Then validate robert profile pic as ""
+    Then validate robert profile pic as "https://credahealth.com/wp-content/uploads/2023/03/Dr.-Robert-H.-Shmerling.png"
 
     Then validate jill title as "Dr. Jill Grimes"
-    Then validate jill profile pic as ""
+    Then validate jill profile pic as "https://credahealth.com/wp-content/uploads/2023/03/Dr.-Jill-Grimes.png"
 
     Then validate john title as "Dr. John Sharp"
-    Then validate john profile pic as ""
+    Then validate john profile pic as "https://credahealth.com/wp-content/uploads/2023/03/Dr.-John-Sharp.png"
