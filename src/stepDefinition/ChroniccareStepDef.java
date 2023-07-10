@@ -3,8 +3,6 @@ package stepDefinition;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import lib.BaseClass;
-import net.bytebuddy.implementation.auxiliary.MethodCallProxy;
-import org.apache.velocity.runtime.parser.node.ASTAssignment;
 import org.testng.Assert;
 import pages.ChronicCarePage;
 
@@ -83,7 +81,6 @@ public class ChroniccareStepDef extends BaseClass {
     @Then("^validate get the app page as \"([^\"]*)\"$")
     public void validate_get_the_app_page_as(String arg1) {
         ChronicCarePage objChronicCarePage = new ChronicCarePage(getDriver());
-        System.out.println(objChronicCarePage.getTheAppPageTitle());
         Assert.assertEquals(objChronicCarePage.getTheAppPageTitle(), arg1);
     }
 
@@ -181,7 +178,7 @@ public class ChroniccareStepDef extends BaseClass {
     }
 
     @Then("^validate IBD section as \"([^\"]*)\"$")
-    public void validate_IBD_section_as(String arg1){
+    public void validate_IBD_section_as(String arg1) throws InterruptedException {
         ChronicCarePage objChronicCarePage = new ChronicCarePage(getDriver());
         Assert.assertEquals(objChronicCarePage.getIBDTitle(), arg1);
     }

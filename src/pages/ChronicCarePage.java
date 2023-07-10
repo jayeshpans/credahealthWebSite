@@ -1,14 +1,13 @@
 package pages;
 
+
 import lib.PageAction;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.interactions.Action;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-import javax.xml.soap.SAAJResult;
 
 public class ChronicCarePage extends PageAction {
     private final WebDriver driver;
@@ -69,8 +68,10 @@ public class ChronicCarePage extends PageAction {
     WebElement lupusTitle;
     @FindBy(xpath = "//span[text()=\"Lupus\"]/parent::span/parent::h4/parent::header/following-sibling::div[3]/a")
     WebElement lupusEnrollBtn;
-    @FindBy(xpath = "//span[text()=\" IBD \"]")
+    @FindBy(xpath = "/html/body/div[2]/div[2]/div/div/div/section[7]/div/div/div/div[2]/div/div[2]/div/div/div[1]/div/div/header/h4/span/span")
     WebElement ibdTitle;
+//    @FindBy(xpath = "//span[text()=\" IBD \"]")
+//    WebElement ibdTitle;
     @FindBy(xpath = "//span[text()=\" IBD \"]/parent::span/parent::h4/parent::header/following-sibling::div[3]/a")
     WebElement ibdEnrollBtn;
     @FindBy(xpath = "//span[text()=\" IBS\"]")
@@ -220,9 +221,10 @@ public class ChronicCarePage extends PageAction {
         lupusEnrollBtn.click();
     }
 
-    public String getIBDTitle() {
-        Actions action = new Actions(driver);
-        action.moveToElement(ibdTitle).build().perform();
+    public String getIBDTitle() throws InterruptedException {
+        Thread.sleep(200);
+//        Actions action = new Actions(driver);
+//        action.moveToElement(ibdTitle).build().perform();
         return ibdTitle.getText();
     }
 

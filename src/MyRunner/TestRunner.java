@@ -9,7 +9,7 @@ import org.testng.annotations.BeforeSuite;
 import java.io.IOException;
 
 @CucumberOptions(
-        features = "src/features/ContactUs.feature",
+        features = "src/features/Chroniccare.feature",
         glue = {"stepDefinition"},
         plugin = {"pretty",
                 "html:target/cucumber-reports/cucumber.html",
